@@ -145,17 +145,23 @@
 
 ### Lone Wolf
 
+| Name | Score | Description |
+| ---- | ----- | ----------- |
 | Yes No You Decide | 5 |	Halo: Reach: Find Data Pad 19 on Lone Wolf on Legendary difficulty |
 | Left Behind | 10 | Halo: Reach: Achieve a score of 30,000 points on Lone Wolf |
 | One Final Firefight | 20 |	Halo: Reach: Achieve a score of 150,000 points on Lone Wolf |
 
 ## Firefight
 
+| Name | Score | Description |
+| ---- | ----- | ----------- |
 | Enemies Everywhere! | 10 |	Halo: Reach: Complete a Firefight set on Normal or harder |
 | Workers' Compensation | 10 |	Halo: Reach: Splatter an enemy using the forklift |
 
 ## Multiplayer
 
+| Name | Score | Description |
+| ---- | ----- | ----------- |
 | Requiescat in Pace | 10 |	Halo: Reach: Complete 10 assassinations on enemy players |
 | Capacious Cartography | 10 |	Halo: Reach: Create a custom map using Forge World |
 | Negative, Ghostrider | 10 |	Halo: Reach: Get a Skullamanjaro in a matchmade Headhunter game |
