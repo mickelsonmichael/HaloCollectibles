@@ -1,4 +1,4 @@
 # Halo: Reach
 
-[Data Pads](/Datapads)
-[Achievements](/Achievements)
+- [Data Pads](/datapads.md)
+- [Achievements](/achievements.md)
