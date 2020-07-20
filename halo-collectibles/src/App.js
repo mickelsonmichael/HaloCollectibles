@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import NavMenu from "./common/NavMenu";
 import "./bootstrap.min.css";
 import Home from "./common/Home";
@@ -9,7 +9,7 @@ import { Container } from "reactstrap";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <header>
           <NavMenu />
@@ -25,7 +25,7 @@ function App() {
           </Switch>
         </Container>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
