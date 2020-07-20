@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HaloCollectibles/static/css/main.32b266a4.chunk.css",
-    "main.js": "/HaloCollectibles/static/js/main.d6267672.chunk.js",
-    "main.js.map": "/HaloCollectibles/static/js/main.d6267672.chunk.js.map",
+    "main.js": "/HaloCollectibles/static/js/main.e9b8b5fa.chunk.js",
+    "main.js.map": "/HaloCollectibles/static/js/main.e9b8b5fa.chunk.js.map",
     "runtime-main.js": "/HaloCollectibles/static/js/runtime-main.199a2d41.js",
     "runtime-main.js.map": "/HaloCollectibles/static/js/runtime-main.199a2d41.js.map",
     "static/js/2.56dbfabe.chunk.js": "/HaloCollectibles/static/js/2.56dbfabe.chunk.js",
     "static/js/2.56dbfabe.chunk.js.map": "/HaloCollectibles/static/js/2.56dbfabe.chunk.js.map",
     "index.html": "/HaloCollectibles/index.html",
-    "precache-manifest.857d756e7ae385bc8f3d1dd5afceb20e.js": "/HaloCollectibles/precache-manifest.857d756e7ae385bc8f3d1dd5afceb20e.js",
+    "precache-manifest.a0c3cbb5bb12fcfb0402f61cd8f98bce.js": "/HaloCollectibles/precache-manifest.a0c3cbb5bb12fcfb0402f61cd8f98bce.js",
     "service-worker.js": "/HaloCollectibles/service-worker.js",
     "static/css/main.32b266a4.chunk.css.map": "/HaloCollectibles/static/css/main.32b266a4.chunk.css.map",
     "static/js/2.56dbfabe.chunk.js.LICENSE.txt": "/HaloCollectibles/static/js/2.56dbfabe.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.199a2d41.js",
     "static/js/2.56dbfabe.chunk.js",
     "static/css/main.32b266a4.chunk.css",
-    "static/js/main.d6267672.chunk.js"
+    "static/js/main.e9b8b5fa.chunk.js"
   ]
 }
