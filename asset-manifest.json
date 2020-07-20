@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mickelsonmichael/HaloCollectibles/static/css/main.5f361e03.chunk.css",
+    "main.js": "/mickelsonmichael/HaloCollectibles/static/js/main.0746be4e.chunk.js",
+    "main.js.map": "/mickelsonmichael/HaloCollectibles/static/js/main.0746be4e.chunk.js.map",
+    "runtime-main.js": "/mickelsonmichael/HaloCollectibles/static/js/runtime-main.3187faa5.js",
+    "runtime-main.js.map": "/mickelsonmichael/HaloCollectibles/static/js/runtime-main.3187faa5.js.map",
+    "static/js/2.1f3d1551.chunk.js": "/mickelsonmichael/HaloCollectibles/static/js/2.1f3d1551.chunk.js",
+    "static/js/2.1f3d1551.chunk.js.map": "/mickelsonmichael/HaloCollectibles/static/js/2.1f3d1551.chunk.js.map",
+    "index.html": "/mickelsonmichael/HaloCollectibles/index.html",
+    "precache-manifest.1acb361c95a735e3fdafab6deeeb3bf1.js": "/mickelsonmichael/HaloCollectibles/precache-manifest.1acb361c95a735e3fdafab6deeeb3bf1.js",
+    "service-worker.js": "/mickelsonmichael/HaloCollectibles/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/mickelsonmichael/HaloCollectibles/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1f3d1551.chunk.js.LICENSE.txt": "/mickelsonmichael/HaloCollectibles/static/js/2.1f3d1551.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mickelsonmichael/HaloCollectibles/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3187faa5.js",
+    "static/js/2.1f3d1551.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0746be4e.chunk.js"
+  ]
+}
