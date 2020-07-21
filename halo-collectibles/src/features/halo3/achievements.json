@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "title": "General",
+      "achievements": [
+        {
+          "name": "Achievement 1",
+          "score": 10,
+          "description": "Description 1"
+        }
+      ]
+    }
+  ]
+}
