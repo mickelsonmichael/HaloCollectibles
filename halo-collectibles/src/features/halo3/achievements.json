@@ -4,9 +4,439 @@
       "title": "General",
       "achievements": [
         {
-          "name": "Achievement 1",
+          "name": "Speed Demon",
+          "score": 20,
+          "description": "Beat the par time on all Halo 3 levels"
+        },
+        {
+          "name": "Better With Age",
+          "score": 20,
+          "description": "Beat the par score on every Halo 3 level"
+        },
+        {
+          "name": "Training Wheels",
           "score": 10,
-          "description": "Description 1"
+          "description": "Complete every level of the game on Easy difficulty"
+        },
+        {
+          "name": "Prophet's Bane",
+          "score": 10,
+          "description": "Complete every level of the game on Normal difficulty"
+        },
+        {
+          "name": "With Your Shield or On It",
+          "score": 20,
+          "description": "Complete every level of the game on Heroic difficulty"
+        },
+        {
+          "name": "Finished the Fight",
+          "score": 30,
+          "description": "Complete every level of the game on Legendary difficulty"
+        },
+        {
+          "name": "Witch Doctor",
+          "score": 20,
+          "description": "Find and claim all Skulls in Halo 3"
+        },
+        {
+          "name": "Can't Keep Him Down",
+          "score": 5,
+          "description": "Fight alongside and listen to The Man. The Legend. Chips Dubbo."
+        },
+        {
+          "name": "Flipyap",
+          "score": 5,
+          "description": "Listen to the tale of a young Grunt named Flipyap"
+        },
+        {
+          "name": "Third Time's A Charm",
+          "score": 5,
+          "description": "Play a game of Halo 3 on the 25th of any month"
+        },
+        {
+          "name": "A Preference for Pain",
+          "score": 30,
+          "description": "Complete the Halo 3 LASO Campaign playlist"
+        },
+        {
+          "name": "Boot Camp Hero",
+          "score": 10,
+          "description": "Complete a Halo 3 playlist"
+        },
+        {
+          "name": "Afficiando",
+          "score": 20,
+          "description": "Complete three Halo 3 playlists"
+        },
+        {
+          "name": "No Stone Unturned",
+          "score": 20,
+          "description": "Activate all Halo 3 Terminals"
+        }
+      ]
+    },
+    {
+      "title": "Multiplayer",
+      "achievements": [
+        {
+          "name": "Sounds Familiar",
+          "score": 5,
+          "description": "This stuff is your history!"
+        }
+      ]
+    },
+    {
+      "title": "Sierra 117",
+      "achievements": [
+        {
+          "name": "Landfall",
+          "score": 10,
+          "description": "Complete Sierra 117"
+        },
+        {
+          "name": "Speedy One One Seven",
+          "score": 10,
+          "description": "Beat the par time on Sierra 117"
+        },
+        {
+          "name": "Guerilla",
+          "score": 10,
+          "description": "Beat the par score on Sierra 117"
+        },
+        {
+          "name": "Skulltaker Halo 3: Iron",
+          "score": 5,
+          "description": "Find and claim the Iron Skull"
+        },
+        {
+          "name": "Skulltaker Halo 3: Blind",
+          "score": 5,
+          "description": "Find and claim the Blind Skull"
+        },
+        {
+          "name": "Primate",
+          "score": 5,
+          "description": "Find your first missing links"
+        },
+        {
+          "name": "Haplorrhini",
+          "score": 5,
+          "description": "Find a lonely missing link"
+        },
+        {
+          "name": "Missing Link",
+          "score": 5,
+          "description": "Watching. Waiting. Plotting."
+        }
+      ]
+    },
+    {
+      "title": "Crow's Nest",
+      "achievements": [
+        {
+          "name": "Holdout",
+          "score": 10,
+          "description": "Complete Crow's Nest"
+        },
+        {
+          "name": "Time Shift",
+          "score": 10,
+          "description": "Beat the par time on on Crow's Nest"
+        },
+        {
+          "name": "King of the Crows",
+          "score": 10,
+          "description": "Beat the par score on Crow's Nest"
+        },
+        {
+          "name": "Skulltaker Halo 3: Black Eye",
+          "score": 5,
+          "description": "Find and claim the Black Eye Skull"
+        },
+        {
+          "name": "Skulltaker Halo 3: Grunt Birthday Party",
+          "score": 5,
+          "description": "Find and claim the Grunt Birthday Party Skull"
+        }
+      ]
+    },
+    {
+      "title": "Tsavo Highway",
+      "achievements": [
+        {
+          "name": "The Road",
+          "score": 10,
+          "description": "Complete Tsavo Highway"
+        },
+        {
+          "name": "Highway Robbery",
+          "score": 10,
+          "description": "Beat the par time on Tsavo Highway"
+        },
+        {
+          "name": "Cavalier",
+          "score": 10,
+          "description": "Beat the par score on Tsavo Highway"
+        },
+        {
+          "name": "Skulltaker Halo 3: Tough Luck",
+          "score": 5,
+          "description": "Find and claim the Tough Luck Skull"
+        },
+        {
+          "name": "Begins with a Single Step",
+          "score": 10,
+          "description": "On Tsavo Highway, complete the level without entering a vehicle"
+        },
+        {
+          "name": "Mind the Gap",
+          "score": 10,
+          "description": "4 vehicles, 1 gap on Legendary using Cowbell, Catch, Thunderstorm, Mythic, and Tough Luck"
+        }
+      ]
+    },
+    {
+      "title": "The Storm",
+      "achievements": [
+        {
+          "name": "Assault",
+          "score": 10,
+          "description": "Complete The Storm"
+        },
+        {
+          "name": "Lightning Strike",
+          "score": 10,
+          "description": "Beat the par time on The Storm"
+        },
+        {
+          "name": "Askar",
+          "score": 10,
+          "description": "Beat the par score on The Storm"
+        },
+        {
+          "name": "Skulltaker Halo 3: Catch",
+          "score": 5,
+          "description": "Find and claim the Catch Skull"
+        },
+        {
+          "name": "Milk Carton",
+          "score": 5,
+          "description": "Find the poster of the missing man"
+        }
+      ]
+    },
+    {
+      "title": "Floodgate",
+      "achievements": [
+        {
+          "name": "Cleansing",
+          "score": 10,
+          "description": "Complete Floodgate"
+        },
+        {
+          "name": "Dambuster",
+          "score": 10,
+          "description": "Beat the par time on Floodgate"
+        },
+        {
+          "name": "Exterminator",
+          "score": 10,
+          "description": "Beat the par score on Floodgate"
+        },
+        {
+          "name": "Skulltaker Halo 3: Fog",
+          "score": 5,
+          "description": "Find and claim the Fog Skull"
+        }
+      ]
+    },
+    {
+      "title": "The Ark",
+      "achievements": [
+        {
+          "name": "Refuge",
+          "score": 10,
+          "description": "Complete The Ark"
+        },
+        {
+          "name": "Waypoint",
+          "score": 10,
+          "description": "Beat the par time on The Ark"
+        },
+        {
+          "name": "Ranger",
+          "score": 10,
+          "description": "Beat the par score on The Ark"
+        },
+        {
+          "name": "Rising Waters",
+          "score": 5,
+          "description": "Activate Terminal 1 on The Ark"
+        },
+        {
+          "name": "Inundation",
+          "score": 5,
+          "description": "Activate Terminal 2 on The Ark"
+        },
+        {
+          "name": "Before the Fire",
+          "score": 5,
+          "description": "Activate Terminal 3 on The Ark"
+        },
+        {
+          "name": "Skulltaker Halo 3: Famine",
+          "score": 5,
+          "description": "Find and claim the Famine Skull"
+        },
+        {
+          "name": "Skulltaker Halo 3: Cowbell",
+          "score": 5,
+          "description": "Find and claim the Cowbell Skull"
+        },
+        {
+          "name": "Who Needs Them?",
+          "score": 10,
+          "description": "On The Ark, complete the level without entering a vehicle on Legendary"
+        }
+      ]
+    },
+    {
+      "title": "The Covenant",
+      "achievements": [
+        {
+          "name": "Last Stand",
+          "score": 10,
+          "description": "Complete The Covenant"
+        },
+        {
+          "name": "Scarab Slide",
+          "score": 10,
+          "description": "Beat the par time on The Covenant"
+        },
+        {
+          "name": "Vanguard",
+          "score": 10,
+          "description": "Beat the par score on The Covenant"
+        },
+        {
+          "name": "Tipping Point",
+          "score": 5,
+          "description": "Activate Terminal 4 on The Covenant"
+        },
+        {
+          "name": "Unto Dust",
+          "score": 5,
+          "description": "Activate Terminal 5 on The Covenant"
+        },
+        {
+          "name": "Babbling Dead",
+          "score": 5,
+          "description": "Activate Terminal 6 on The Covenant"
+        },
+        {
+          "name": "Skulltaker Halo 3: Thunderstorm",
+          "score": 5,
+          "description": "Find and claim the Thunderstorm Skull"
+        },
+        {
+          "name": "Skulltaker Halo 3: IWHBYD",
+          "score": 5,
+          "description": "Find and claim the IWHBYD Skull"
+        },
+        {
+          "name": "Phantom Hunter",
+          "score": 10,
+          "description": "Destroy 3 total Phantoms on The Covenant"
+        },
+        {
+          "name": "Dirge of Madrigal",
+          "score": 5,
+          "description": "Trigger the hidden music cue in Halo 3"
+        }
+      ]
+    },
+    {
+      "title": "Cortana",
+      "achievements": [
+        {
+          "name": "The Key",
+          "score": 10,
+          "description": "Complete Cortana"
+        },
+        {
+          "name": "Making History",
+          "score": 10,
+          "description": "Beat the par time on Cortana"
+        },
+        {
+          "name": "Orpheus",
+          "score": 10,
+          "description": "Beat the par score on Cortana"
+        },
+        {
+          "name": "The Coin's Fault",
+          "score": 5,
+          "description": "Activate Cortana's Terminal on Cortana"
+        },
+        {
+          "name": "Skulltaker Halo 3: Tilt",
+          "score": 5,
+          "description": "Find and claim the Tilt Skull"
+        }
+      ]
+    },
+    {
+      "title": "Halo",
+      "achievements": [
+        {
+          "name": "Return",
+          "score": 10,
+          "description": "Complete Halo"
+        },
+        {
+          "name": "Go, Chief! Gun It!",
+          "score": 10,
+          "description": "Beat the par time on Halo"
+        },
+        {
+          "name": "Torchbearer",
+          "score": 10,
+          "description": "Beat the par score on Halo"
+        },
+        {
+          "name": "Babbling Dead",
+          "score": 5,
+          "description": "Activate Terminal 6 on The Covenant"
+        },
+        {
+          "name": "Sword and Shield",
+          "score": 5,
+          "description": "Activate Terminal 7 on Halo"
+        },
+        {
+          "name": "Whispers Across the Galaxy",
+          "score": 5,
+          "description": "View the communique from Mendicant Bias"
+        },
+        {
+          "name": "Skulltaker Halo 3: Mythic",
+          "score": 5,
+          "description": "Find and claim the Mythic Skull"
+        },
+        {
+          "name": "Annual",
+          "score": 10,
+          "description": "Complete Halo on 4-player Legendary co-op, with Iron Skull, and everyone in Ghosts"
+        },
+        {
+          "name": "Heading to his Destiny",
+          "score": 5,
+          "description": "Destined for greatness"
+        },
+        {
+          "name": "Cool Story Bro",
+          "score": 5,
+          "description": "Listen to the story of the Final Grunt"
         }
       ]
     }
