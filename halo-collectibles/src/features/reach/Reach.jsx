@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Data from "../reach/achievements.json";
 import Achievements from "../../common/Achievements";
 
