@@ -6,6 +6,7 @@ import "./bootstrap.min.css";
 import Home from "./common/Home";
 import Reach from "./features/reach/Reach.jsx";
 import { Container } from "reactstrap";
+import Halo3 from "./features/halo3/Halo3";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/halo3" exact>
+              <Halo3 />
             </Route>
             <Route path="/reach" exact>
               <Reach />
