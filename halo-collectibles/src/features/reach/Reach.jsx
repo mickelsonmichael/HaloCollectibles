@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../reach/data.json";
+import Data from "../reach/achievements.json";
 import Achievements from "../../common/Achievements";
 import TabSection from "../../common/TabSection";
 
