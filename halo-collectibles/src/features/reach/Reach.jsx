@@ -1,21 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Data from "../reach/achievements.json";
 import Achievements from "../../common/Achievements";
-import TabSection from "../../common/TabSection";
 
 const Reach = () => {
-  const tabs = Data.categories.map(({ achievements, title }) => {
-    return {
-      title,
-      content: <Achievements achievements={achievements} title={title} />,
-    };
-  });
+  const categories = Data.categories;
 
   return (
     <div>
       <h2>Halo: Reach</h2>
 
-      <TabSection tabs={tabs} />
+      <Achievements categories={categories} />
     </div>
   );
 };
