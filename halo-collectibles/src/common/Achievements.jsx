@@ -15,6 +15,11 @@ const Achievements = ({ categories }) => {
     );
   }
 
+  const numberOfAchievements = categories.reduce(
+    (sum, cat) => cat.achievements.length + sum,
+    0
+  );
+
   return (
     <div>
       <Row>
@@ -26,7 +31,9 @@ const Achievements = ({ categories }) => {
           >
             <option value="">- All -</option>
             {categories.map((cat) => (
-              <option value={cat.title}>{cat.title}</option>
+              <option value={cat.title}>
+                {cat.title} ({cat.achievements.length})
+              </option>
             ))}
           </Input>
         </Col>
