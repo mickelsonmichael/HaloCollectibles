@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Table, Input, Row, Col } from "reactstrap";
+import { Table, Input, Row, Col, Alert } from "reactstrap";
+import { getAchievements } from "../utilities/storage";
 
 const Achievements = ({ categories }) => {
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
+
   let achievements = currentCategory
     ? categories.find((cat) => cat.title === currentCategory).achievements
     : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
@@ -15,10 +17,15 @@ const Achievements = ({ categories }) => {
     );
   }
 
-  const numberOfAchievements = categories.reduce(
-    (sum, cat) => cat.achievements.length + sum,
-    0
-  );
+  const userAchievements = getAchievements()
+    .filter((ach) => ach.isComplete)
+    .map((ach) => ach.name);
+
+  if (userAchievements.length > 0) {
+    achievements = achievements.filter(
+      (ach) => !userAchievements.includes(ach.name)
+    );
+  }
 
   return (
     <div>
@@ -31,9 +38,7 @@ const Achievements = ({ categories }) => {
           >
             <option value="">- All -</option>
             {categories.map((cat) => (
-              <option value={cat.title}>
-                {cat.title} ({cat.achievements.length})
-              </option>
+              <option value={cat.title}>{cat.title}</option>
             ))}
           </Input>
         </Col>
@@ -49,24 +54,32 @@ const Achievements = ({ categories }) => {
 
       <br />
 
-      <Table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Gamerscore</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          {achievements.map((ach) => (
+      {achievements.length === 0 && (
+        <Alert color="info">
+          You have all the achievements in this category!
+        </Alert>
+      )}
+
+      {achievements.length > 0 && (
+        <Table>
+          <thead>
             <tr>
-              <td>{ach.name}</td>
-              <td>{ach.score}</td>
-              <td>{ach.description}</td>
+              <th>Name</th>
+              <th>Gamerscore</th>
+              <th>Description</th>
             </tr>
-          ))}
-        </tbody>
-      </Table>
+          </thead>
+          <tbody>
+            {achievements.map((ach) => (
+              <tr>
+                <td>{ach.name}</td>
+                <td>{ach.score}</td>
+                <td>{ach.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+      )}
     </div>
   );
 };
