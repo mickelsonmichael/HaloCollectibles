@@ -8,7 +8,9 @@ import {
   Nav,
   NavItem,
   NavLink,
+  NavbarText,
 } from "reactstrap";
+import UserLogin from "./UserLogin";
 
 const NavMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,6 +41,9 @@ const NavMenu = (props) => {
               </Link>
             </NavItem>
           </Nav>
+          <NavbarText>
+            <UserLogin />
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
