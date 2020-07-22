@@ -61,7 +61,7 @@ const Achievements = ({ categories }) => {
       )}
 
       {achievements.length > 0 && (
-        <Table>
+        <Table striped>
           <thead>
             <tr>
               <th>Name</th>
