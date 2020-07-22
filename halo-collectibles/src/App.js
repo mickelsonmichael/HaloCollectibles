@@ -1,12 +1,14 @@
 import React from "react";
-import "./App.css";
-import { Switch, Route, HashRouter } from "react-router-dom";
-import NavMenu from "./common/NavMenu";
-import "./bootstrap.min.css";
-import Home from "./common/Home";
-import Reach from "./features/reach/Reach.jsx";
 import { Container } from "reactstrap";
+import { Switch, Route, HashRouter } from "react-router-dom";
+import Home from "./common/Home";
+import NavMenu from "./common/NavMenu";
+import Reach from "./features/reach/Reach.jsx";
 import Halo3 from "./features/halo3/Halo3";
+import Halo2 from "./features/halo2/Halo2";
+
+import "./bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/halo2" exact>
+              <Halo2 />
             </Route>
             <Route path="/halo3" exact>
               <Halo3 />

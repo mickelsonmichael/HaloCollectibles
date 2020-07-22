@@ -24,6 +24,11 @@ const NavMenu = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
+              <Link component={NavLink} to="/halo2">
+                Halo 2
+              </Link>
+            </NavItem>
+            <NavItem>
               <Link component={NavLink} to="/halo3">
                 Halo 3
               </Link>
