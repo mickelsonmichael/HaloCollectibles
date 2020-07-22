@@ -28,11 +28,14 @@ export default () => {
 
     getUser()
       .then((xuid) => getProgress(xuid))
-      .then((achievements) => {
-        setAchievements(gamertag, achievements);
-        setIsLoading(false);
-        setCurrentGamertag(gamertag);
-      });
+      .then(
+        (achievements) => {
+          setAchievements(gamertag, achievements);
+          setIsLoading(false);
+          setCurrentGamertag(gamertag);
+        },
+        (error) => setIsLoading(false)
+      );
   };
 
   const clearAchievements = () => {
