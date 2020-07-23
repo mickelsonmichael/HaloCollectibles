@@ -29,6 +29,15 @@ const NavMenu = (props) => {
             <NavItem>
               <Link
                 component={NavLink}
+                to="/haloce"
+                className={location.pathname === "/haloce" ? "active" : ""}
+              >
+                Halo: CE
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+                component={NavLink}
                 to="/halo2"
                 className={location.pathname === "/halo2" ? "active" : ""}
               >

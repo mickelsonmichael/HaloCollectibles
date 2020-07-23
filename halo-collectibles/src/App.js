@@ -9,6 +9,7 @@ import Halo2 from "./features/halo2/Halo2";
 
 import "./bootstrap.min.css";
 import "./App.css";
+import HaloCE from "./features/haloce/HaloCE";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/haloce" exact>
+              <HaloCE />
             </Route>
             <Route path="/halo2" exact>
               <Halo2 />
