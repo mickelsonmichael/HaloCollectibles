@@ -1,22 +1,20 @@
 import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   NavbarBrand,
   NavbarToggler,
   Collapse,
   Nav,
-  NavItem,
-  NavLink,
   NavbarText,
 } from "reactstrap";
 import UserLogin from "./UserLogin";
 import { getGamertag } from "../utilities/storage";
+import NavLink from "./NavLink";
 
 const NavMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const location = useLocation();
   const gamertag = getGamertag();
 
   return (
@@ -28,54 +26,12 @@ const NavMenu = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <Link
-                component={NavLink}
-                to="/haloce"
-                className={location.pathname === "/haloce" ? "active" : ""}
-              >
-                Halo: CE
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link
-                component={NavLink}
-                to="/halo2"
-                className={location.pathname === "/halo2" ? "active" : ""}
-              >
-                Halo 2
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link
-                component={NavLink}
-                to="/halo3"
-                className={location.pathname === "/halo3" ? "active" : ""}
-              >
-                Halo 3
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link
-                component={NavLink}
-                to="/reach"
-                className={location.pathname === "/reach" ? "active" : ""}
-              >
-                Reach
-              </Link>
-            </NavItem>
+            <NavLink url="/haloce" text="Halo: CE" />
+            <NavLink url="/halo2" text="Halo 2" />
+            <NavLink url="/halo3" text="Halo 3" />
+            <NavLink url="/reach" text="Halo: Reach" />
 
-            {gamertag && (
-              <NavItem>
-                <Link
-                  component={NavLink}
-                  to="/user"
-                  className={location.pathname === "/user" ? "active" : ""}
-                >
-                  My Completed
-                </Link>
-              </NavItem>
-            )}
+            {gamertag && <NavLink url="/user" text={gamertag} />}
           </Nav>
           <NavbarText>
             <UserLogin />
