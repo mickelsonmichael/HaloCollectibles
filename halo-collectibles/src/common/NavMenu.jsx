@@ -62,12 +62,22 @@ const NavMenu = (props) => {
                 Reach
               </Link>
             </NavItem>
+            <NavItem>
+              <Link
+                component={NavLink}
+                to="/ODST"
+                className={location.pathname === "/ODST" ? "active" : ""}
+              >
+                ODST
+              </Link>
+            </NavItem>
           </Nav>
           <NavbarText>
             <UserLogin />
           </NavbarText>
         </Collapse>
       </Navbar>
+    
     </div>
   );
 };

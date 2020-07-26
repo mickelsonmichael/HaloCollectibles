@@ -10,6 +10,7 @@ import Halo2 from "./features/halo2/Halo2";
 import "./bootstrap.min.css";
 import "./App.css";
 import HaloCE from "./features/haloce/HaloCE";
+import ODST from "./features/ODST/ODST"
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/reach" exact>
               <Reach />
+            </Route>
+            <Route path="/ODST" exact>
+              <ODST/>
             </Route>
           </Switch>
         </Container>
