@@ -5,6 +5,7 @@ import {
   clearSession,
 } from "../utilities/storage";
 import { Input, Button, InputGroup, InputGroupAddon } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export default () => {
   const [gamertag, setGamertag] = React.useState("");
@@ -46,7 +47,9 @@ export default () => {
   if (currentGamertag) {
     return (
       <div>
-        <span className="mr-2">{currentGamertag}</span>
+        <Link to="/user" className="mr-2">
+          {currentGamertag}
+        </Link>
         <Button
           size="sm"
           color="outline-danger"

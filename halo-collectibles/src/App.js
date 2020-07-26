@@ -10,6 +10,7 @@ import Halo2 from "./features/halo2/Halo2";
 import "./bootstrap.min.css";
 import "./App.css";
 import HaloCE from "./features/haloce/HaloCE";
+import UserAchievements from "./features/user/UserAchievements";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/user" exact>
+              <UserAchievements />
             </Route>
             <Route path="/haloce" exact>
               <HaloCE />

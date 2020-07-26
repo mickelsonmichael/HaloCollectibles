@@ -11,11 +11,13 @@ import {
   NavbarText,
 } from "reactstrap";
 import UserLogin from "./UserLogin";
+import { getGamertag } from "../utilities/storage";
 
 const NavMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const location = useLocation();
+  const gamertag = getGamertag();
 
   return (
     <div>
@@ -62,6 +64,18 @@ const NavMenu = (props) => {
                 Reach
               </Link>
             </NavItem>
+
+            {gamertag && (
+              <NavItem>
+                <Link
+                  component={NavLink}
+                  to="/user"
+                  className={location.pathname === "/user" ? "active" : ""}
+                >
+                  My Completed
+                </Link>
+              </NavItem>
+            )}
           </Nav>
           <NavbarText>
             <UserLogin />
