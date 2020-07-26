@@ -2,10 +2,10 @@ import React from "react";
 import { getAchievements, getGamertag } from "../../utilities/storage";
 import { Alert } from "reactstrap";
 import Achievements from "../../common/Achievements";
+import AchievementCount from "../../common/AchievementCount";
 
 export default () => {
   const gamertag = getGamertag();
-  const achievements = getAchievements();
 
   if (!gamertag) {
     return (
@@ -15,21 +15,30 @@ export default () => {
     );
   }
 
+  const achievements = getAchievements().filter((x) => x.isComplete);
+
   if (achievements.length === 0) {
     return (
-      <Alert color="warning">You have no achievements yet! Get started!</Alert>
+      <Alert color="warning">
+        You have no achievements complete yet! Get started!
+      </Alert>
     );
   }
 
+  const categories = [
+    {
+      title: "all",
+      achievements: achievements,
+    },
+  ];
+
   return (
-    <Achievements
-      categories={[
-        {
-          title: "all",
-          achievements: achievements.filter((x) => x.isComplete),
-        },
-      ]}
-      hideCompleted={false}
-    />
+    <div>
+      <h2>
+        Unlocked Achievements for: {gamertag}
+        <AchievementCount categories={categories} className="float-right" />
+      </h2>
+      <Achievements categories={categories} hideCompleted={false} />
+    </div>
   );
 };
