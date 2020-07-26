@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3baf93c35ebc542e01801f22d36b5d2a",
+    "revision": "f37bcb61cc1d16b0b2b21f00e2962f46",
     "url": "/HaloCollectibles/index.html"
   },
   {
-    "revision": "90ec00771db9f53a9b3d",
+    "revision": "d297a756ab05bc34b48e",
     "url": "/HaloCollectibles/static/css/main.78e14194.chunk.css"
   },
   {
-    "revision": "7f8a90a224eddd4a1aab",
-    "url": "/HaloCollectibles/static/js/2.336650c5.chunk.js"
+    "revision": "3c43f70df52cd10b17f4",
+    "url": "/HaloCollectibles/static/js/2.22654232.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/HaloCollectibles/static/js/2.336650c5.chunk.js.LICENSE.txt"
+    "url": "/HaloCollectibles/static/js/2.22654232.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90ec00771db9f53a9b3d",
-    "url": "/HaloCollectibles/static/js/main.2a5c9d87.chunk.js"
+    "revision": "d297a756ab05bc34b48e",
+    "url": "/HaloCollectibles/static/js/main.5410225b.chunk.js"
   },
   {
     "revision": "e38ef36a149353e76347",
