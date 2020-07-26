@@ -1,16 +1,20 @@
 import React from "react";
+import { clearSession } from "../utilities/storage";
 import {
-  setAchievements,
-  getGamertag,
-  clearSession,
-} from "../utilities/storage";
-import { Input, Button, InputGroup, InputGroupAddon } from "reactstrap";
+  Input,
+  Button,
+  InputGroup,
+  InputGroupAddon,
+  Spinner,
+  Label,
+} from "reactstrap";
 import { Link } from "react-router-dom";
+import UserContext from "../UserContext";
 
 export default () => {
+  const { user, setUser } = React.useContext(UserContext);
   const [gamertag, setGamertag] = React.useState("");
   const [isLoading, setIsLoading] = React.useState(false);
-  const [currentGamertag, setCurrentGamertag] = React.useState(getGamertag());
 
   const getUser = () => {
     return fetch(
@@ -31,24 +35,45 @@ export default () => {
       .then((xuid) => getProgress(xuid))
       .then(
         (achievements) => {
-          setAchievements(gamertag, achievements);
+          setUser((_) => ({
+            gamertag: gamertag,
+            achievements: achievements,
+            showComplete: false,
+          }));
+
           setIsLoading(false);
-          setCurrentGamertag(gamertag);
         },
-        (error) => setIsLoading(false)
+        (_) => setIsLoading(false)
       );
   };
 
   const clearAchievements = () => {
     clearSession();
-    setCurrentGamertag("");
+    setUser({ gamertag: "", achievements: [], showComplete: false });
   };
 
-  if (currentGamertag) {
+  const toggleShowComplete = () => {
+    setUser({
+      ...user,
+      showComplete: !user.showComplete,
+    });
+  };
+
+  if (user.gamertag) {
     return (
       <div>
+        <Label className="mr-2">
+          <Input
+            type="checkbox"
+            checked={user.showComplete}
+            onChange={(e) => {
+              toggleShowComplete(e.target.checked);
+            }}
+          />
+          Show Complete
+        </Label>
         <Link to="/user" className="mr-2">
-          {currentGamertag}
+          {user.gamertag}
         </Link>
         <Button
           size="sm"
@@ -78,7 +103,7 @@ export default () => {
           onClick={() => getAchievements()}
           disabled={isLoading}
         >
-          {isLoading && "Going"}
+          {isLoading && <Spinner color="light" size="sm" />}
           {!isLoading && "Go"}
         </Button>
       </InputGroupAddon>

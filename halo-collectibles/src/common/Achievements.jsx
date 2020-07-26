@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Table, Input, Row, Col } from "reactstrap";
-import { getAchievements } from "../utilities/storage";
 import AlertMessage from "../common/AlertMessage";
 import Categories from "./Categories";
+import UserContext from "../UserContext";
+import AchievementCategory from "./AchievementCategory";
 
-const removeComplete = (achievements) => {
-  const userAchievements = getAchievements()
+const removeComplete = (achievements, user) => {
+  const userAchievements = user.achievements
     .filter((a) => a.isComplete)
     .map((a) => a.name);
 
@@ -26,7 +27,8 @@ const filterAchievements = (achievements, filter) => {
   return achievements;
 };
 
-const Achievements = ({ categories, hideCompleted = true }) => {
+const Achievements = ({ categories }) => {
+  const { user } = React.useContext(UserContext);
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
@@ -36,8 +38,16 @@ const Achievements = ({ categories, hideCompleted = true }) => {
 
   achievements = filterAchievements(achievements, filter);
 
-  if (hideCompleted) {
-    achievements = removeComplete(achievements);
+  if (!user.showComplete) {
+    achievements = removeComplete(achievements, user);
+  }
+
+  if (user.achievements.length > 0) {
+    achievements = achievements.map((ach) => {
+      let userProgress = user.achievements.find((x) => x.name === ach.name);
+
+      return userProgress ?? { ...ach, isComplete: false };
+    });
   }
 
   return (
@@ -67,26 +77,7 @@ const Achievements = ({ categories, hideCompleted = true }) => {
         You have all the achievements in this category!
       </AlertMessage>
 
-      {achievements.length > 0 && (
-        <Table striped>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Gamerscore</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            {achievements.map((ach) => (
-              <tr key={ach.name}>
-                <td>{ach.name}</td>
-                <td>{ach.score}</td>
-                <td>{ach.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      )}
+      <AchievementCategory achievements={achievements} />
     </div>
   );
 };
