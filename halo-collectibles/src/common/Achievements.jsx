@@ -3,7 +3,28 @@ import PropTypes from "prop-types";
 import { Table, Input, Row, Col, Alert } from "reactstrap";
 import { getAchievements } from "../utilities/storage";
 
-const Achievements = ({ categories }) => {
+const removeComplete = (achievements) => {
+  const userAchievements = getAchievements()
+    .filter((a) => a.isComplete)
+    .map((a) => a.name);
+
+  if (userAchievements.length > 0) {
+    return achievements.filter((a) => !userAchievements.includes(a.name));
+  }
+
+  return achievements;
+};
+
+const filterAchievements = (achievements, filter) => {
+  if (filter) {
+    return achievements.filter(
+      (a) => a.name.includes(filter) || a.description.includes(filter)
+    );
+  }
+  return achievements;
+};
+
+const Achievements = ({ categories, hideCompleted = true }) => {
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
@@ -11,42 +32,36 @@ const Achievements = ({ categories }) => {
     ? categories.find((cat) => cat.title === currentCategory).achievements
     : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
 
-  if (filter) {
-    achievements = achievements.filter(
-      (ach) => ach.name.includes(filter) || ach.description.includes(filter)
-    );
-  }
+  achievements = filterAchievements(achievements, filter);
 
-  const userAchievements = getAchievements()
-    .filter((ach) => ach.isComplete)
-    .map((ach) => ach.name);
-
-  if (userAchievements.length > 0) {
-    achievements = achievements.filter(
-      (ach) => !userAchievements.includes(ach.name)
-    );
+  if (hideCompleted) {
+    achievements = removeComplete(achievements);
   }
 
   return (
     <div>
       <Row>
         <Col md="4" sm="12">
-          <Input
-            type="select"
-            onChange={(e) => setCategory(e.target.value)}
-            size="sm"
-          >
-            <option value="">- All -</option>
-            {categories.map((cat) => (
-              <option value={cat.title}>{cat.title}</option>
-            ))}
-          </Input>
+          {categories.length > 1 && (
+            <Input
+              type="select"
+              onChange={(e) => setCategory(e.target.value)}
+              size="sm"
+            >
+              <option value="">- All -</option>
+              {categories.map((cat) => (
+                <option key={cat.title} value={cat.title}>
+                  {cat.title}
+                </option>
+              ))}
+            </Input>
+          )}
         </Col>
         <Col md={{ size: 2, offset: 6 }} sm="12">
           <Input
             type="text"
             onChange={(e) => setFilter(e.target.value)}
-            placeholder="Search"
+            placeholder={"Search " + achievements.length + " achievements"}
             size="sm"
           />
         </Col>
@@ -71,7 +86,7 @@ const Achievements = ({ categories }) => {
           </thead>
           <tbody>
             {achievements.map((ach) => (
-              <tr>
+              <tr key={ach.name}>
                 <td>{ach.name}</td>
                 <td>{ach.score}</td>
                 <td>{ach.description}</td>
