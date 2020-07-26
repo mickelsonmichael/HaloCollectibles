@@ -6,11 +6,7 @@ const AchievementCount = ({ categories, className }) => {
     0
   );
 
-  return (
-    <span className={className}>
-      {numberOfAchievements} Possible Achievements
-    </span>
-  );
+  return <span className={className}>{numberOfAchievements} Achievements</span>;
 };
 
 export default AchievementCount;
