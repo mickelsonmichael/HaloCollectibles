@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Table, Input, Row, Col, Alert } from "reactstrap";
+import { Table, Input, Row, Col } from "reactstrap";
 import { getAchievements } from "../utilities/storage";
+import AlertMessage from "../common/AlertMessage";
+import Categories from "./Categories";
 
 const removeComplete = (achievements) => {
   const userAchievements = getAchievements()
@@ -43,18 +45,10 @@ const Achievements = ({ categories, hideCompleted = true }) => {
       <Row>
         <Col md="4" sm="12">
           {categories.length > 1 && (
-            <Input
-              type="select"
-              onChange={(e) => setCategory(e.target.value)}
-              size="sm"
-            >
-              <option value="">- All -</option>
-              {categories.map((cat) => (
-                <option key={cat.title} value={cat.title}>
-                  {cat.title}
-                </option>
-              ))}
-            </Input>
+            <Categories
+              categories={categories}
+              onOptionChange={(val) => setCategory(val)}
+            />
           )}
         </Col>
         <Col md={{ size: 2, offset: 6 }} sm="12">
@@ -69,11 +63,9 @@ const Achievements = ({ categories, hideCompleted = true }) => {
 
       <br />
 
-      {achievements.length === 0 && (
-        <Alert color="info">
-          You have all the achievements in this category!
-        </Alert>
-      )}
+      <AlertMessage isVisible={achievements.length === 0} color="info">
+        You have all the achievements in this category!
+      </AlertMessage>
 
       {achievements.length > 0 && (
         <Table striped>
