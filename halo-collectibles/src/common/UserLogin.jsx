@@ -109,7 +109,7 @@ export default () => {
         onChange={(e) => setGamertag(e.target.value)}
         disabled={isLoading}
       />
-      <InputGroupAddon>
+      <InputGroupAddon addonType="append">
         <Button
           type="button"
           color="outline-info"
