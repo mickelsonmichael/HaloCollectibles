@@ -17,7 +17,8 @@ export default ({ achievement }) => {
   if (
     userAchievement === undefined ||
     userAchievement.target === undefined ||
-    userAchievement.target === 1
+    userAchievement.target === 1 ||
+    userAchievement.progress >= 1
   ) {
     return null;
   }
