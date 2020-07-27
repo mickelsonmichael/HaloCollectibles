@@ -1,0 +1,314 @@
+[
+  {
+    "title": "General",
+    "achievements": [
+      {
+        "name": "Heal Up",
+        "score": "5",
+        "description": "Find the first Medical Kiosk and heal yourself" 
+      },
+      {
+        "name": "Tourist",
+        "score": "5",
+        "description": "Access and download the city map to your VISR" 
+      },
+      {
+        "name": "Dark Times",
+        "score": "5",
+        "description": "Kill 5 enemies whole using VISR mode" 
+      },
+      {
+        "name": "Boom, Headshot",
+        "score": "5",
+        "description": "Get 10 automag headshot kills in any level." 
+      },
+      {
+        "name": "Stunning!",
+        "score": "5",
+        "description": "Stun a vehicle with an overcharged plasma pistol and quickly kill the driver." 
+      },
+      {
+        "name": "Ewww, Sticky",
+        "score": "5",
+        "description": "Get 5 sticky grenade kills in any level." 
+      },
+      {
+        "name": "My Clothes!",
+        "score": "5",
+        "description": "Plasma Pistol Overcharge and quickly kill 10 Brutes." 
+      },
+      {
+        "name": "Pink and Deadly",
+        "score": "5",
+        "description": "Get 10 Needler supercombine kills on any covenant." 
+      },
+      {
+        "name": "Trading Down",
+        "score": "5",
+        "description": "Trade weapons with a fellow character." 
+      },
+      {
+        "name": "Headcase",
+        "score": "5",
+        "description": "Finish any level with at least one Skull activated."
+      },
+      {
+        "name": "Good Samaritan",
+        "score": "20",
+        "description": "Killing things that are new and different is bad, alone or with another ODST." 
+      },
+      {
+        "name": "Naughty Naughty",
+        "score": "5",
+        "description": "Killing things that are new and different is good, alone or with another ODST." 
+      }
+    ]
+  },
+  {
+    "title": "Tayari Plaza",
+    "achievements":[
+
+      {
+        "name": "Tayari Plaza",
+        "score": "30",
+        "description": "Complete Tayari Plaza on Normal, Heroic, or Legendary to unlock a new Firefight character." 
+      }
+    ]
+  },
+  {
+    "title": "Uplift Reserve",
+    "achievements": [
+      {
+        "name": "Uplift Reserve",
+        "score": "30",
+        "description": "Complete Uplift Reserve on Normal, Heroic, or Legendary to unlock a new Firefight character." 
+      },
+      {
+        "name": "Wraith Killer",
+        "score": "5",
+        "description": "Kill all Wraiths in Uplift Reserve." 
+      }
+    ]
+  },
+  {
+
+    "title": "Kizingo Bouldevard",
+    "achievements" : [
+      {
+        "name": "Kizingo Boulevard",
+        "score": "30",
+        "description": "Complete Kizingo Blvd. on Normal, Heroic, or Legendary to unlock a new Firefight character." 
+      },
+      {
+        "name": "Both Tubes",
+        "score": "5",
+        "description": "Get 10 Rocket kills on Kizingo Boulevard." 
+      }
+    ]
+  },
+  {
+
+    "title" : "ONI Alpha Site",
+    "achievements": [
+      {
+        "name": "ONI Alpha Site",
+        "score": "30",
+        "description": "Complete ONI Alpha Site on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
+      },
+      {
+        "name": "Laser Blaster",
+        "score": "5",
+        "description": "Get 10 Spartan Laser kills on ONI Alpha Site." 
+      }
+    ]
+  },
+  {
+
+    "title" : "NMPD HQ",
+    "achievements": [
+      {
+        "name": "NMPD HQ",
+        "score": "30",
+        "description": "Complete NMPD HQ on Normal, Heroic, or Legendary to unlock a new Firefight character." 
+      },
+      {
+        "name": "Dome Inspector",
+        "score": "5",
+        "description": "Get 15 headshot kills on NMPD HQ. " 
+      }
+    ]
+  },
+  {
+    "title" : "Kikowani Station",
+    "achievements": [
+      {
+        "name": "Kikowani Station",
+        "score": "30",
+        "description": "Complete Kikowani Station on Normal, Heroic, or Legendary." 
+      } 
+    ]
+  },
+  {
+    "title": "Data Hive",
+    "achievements" : [
+      {
+        "name": "Data Hive",
+        "score": "50",
+        "description": "Complete Data Hive on Normal, Heroic, or Legendary to unlock a new Firefight mission. " 
+      },
+      {
+        "name": "I Like Fire",
+        "score": "5",
+        "description": "Kill 10 enemies with the Flamethrower on Data Hive." 
+      }
+    ]
+  },
+  {
+    "title":"Coastal Highway",
+    "achievements": [
+      {
+        "name": "Coastal Highway",
+        "score": "50",
+        "description": "Complete Coastal Highway on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
+      }
+    ]
+  },
+  {
+    "title": "Campaign",
+    "achievements": [
+      {
+        "name": "Campaign Complete: Normal",
+        "score": "100",
+        "description": "Complete the Campaign on Normal difficulty." 
+      },
+      {
+        "name": "Campaign Complete: Heroic",
+        "score": "100",
+        "description": "Complete the Campaign on Heroic difficulty." 
+      },
+      {
+        "name": "Campaign Complete: Legendary",
+        "score": "100",
+        "description": "Complete the Campaign on Legendary to unlock a new Firefight character. " 
+      }
+    ]
+  },
+  {
+    "title": "Collectables",
+    "achievements": [
+      {
+        "name": "Junior Detective",
+        "score": "10",
+        "description": "Find the first clue unraveling the mystery." 
+      },
+      {
+        "name": "Gumshoe",
+        "score": "10",
+        "description": "Find the 3rd clue unraveling the mystery, alone or with another ODST." 
+      },
+      {
+        "name": "Super Sleuth",
+        "score": "10",
+        "description": "Find the final clue unraveling the mystery, alone or with another ODST." 
+      },
+      {
+        "name": "Listener",
+        "score": "5",
+        "description": "Find the first Audio Log." 
+      },
+      {
+        "name": "Tuned In",
+        "score": "15",
+        "description": "Find 3 Audio Logs, alone or with another ODST." 
+      },
+      {
+        "name": "All Ears",
+        "score": "30",
+        "description": "Find 15 Audio Logs, alone or with another ODST." 
+      },
+      {
+        "name": "Audiophile",
+        "score": "75",
+        "description": "Find all Audio Logs, alone or with another ODST." 
+      }
+    ]
+  },
+  {
+    "title": "Firefight",
+    "achievements": [
+      {
+        "name": "Be Like Marty",
+        "score": "10",
+        "description": "In Firefight, finish a full round without killing a single enemy." 
+      },
+      {
+        "name": "Firefight: Crater",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Crater." 
+      },
+      {
+        "name": "Firefight: Lost Platoon",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Lost Platoon." 
+      },
+      {
+        "name": "Firefight: Rally Point",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Rally Point." 
+      },
+      {
+        "name": "Firefight: Security Zone",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Security Zone." 
+      },
+      {
+        "name": "Firefight: Alpha Site",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Alpha Site." 
+      },
+      {
+        "name": "Firefight: Windward",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Windward." 
+      },
+      {
+        "name": "Firefight: Chasm Ten",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Chasm Ten." 
+      },
+      {
+        "name": "Firefight: Last Exit",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Last Exit." 
+      }
+    ]
+  },
+  {
+    "title": "Vidmaster",
+    "achievements": [
+      {
+        "name": "Vidmaster Challenge: Classic",
+        "score": "25",
+        "description": "Finish any level solo on Legendary, on LIVE, with no shots fired or grenades thrown." 
+      },
+      {
+        "name": "Vidmaster Challenge: Endure",
+        "score": "25",
+        "description": "In Firefight, on any mission, pass the 4th Set on 4-player Heroic LIVE co-op." 
+      },
+      {
+        "name": "Vidmaster Challenge: Déjà Vu",
+        "score": "25",
+        "description": "Complete Highway on 4-player Legendary LIVE co-op, with Iron, and no 'Hog or Scorpion." 
+      }
+    ]
+
+
+  }
+
+
+
+]
+
+
+

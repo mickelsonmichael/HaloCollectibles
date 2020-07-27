@@ -30,6 +30,7 @@ const NavMenu = (props) => {
             <NavLink url="/halo2" text="Halo 2" />
             <NavLink url="/halo3" text="Halo 3" />
             <NavLink url="/reach" text="Halo: Reach" />
+            <NavLink url="/ODST" text="Halo 3: ODST" />
 
             {gamertag && <NavLink url="/user" text={gamertag} />}
           </Nav>
@@ -38,6 +39,7 @@ const NavMenu = (props) => {
           </NavbarText>
         </Collapse>
       </Navbar>
+    
     </div>
   );
 };
