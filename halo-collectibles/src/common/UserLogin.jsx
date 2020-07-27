@@ -24,9 +24,17 @@ export default () => {
   };
 
   const getProgress = (xuid) => {
+    console.log(xuid);
     return fetch(
-      "https://halocollectiblesapi.azurewebsites.net/api/GetHalo?xuid=" + xuid
-    ).then((response) => response.json());
+      "https://halocollectiblesapi.azurewebsites.net/api/GetHal?xuid=" + xuid
+    ).then((response) => {
+      if (response.ok) {
+        return response.json();
+      }
+
+      console.error("API Error: " + response.statusText);
+      throw new Error("Issue contacting Api");
+    });
   };
 
   const getAchievements = () => {
@@ -42,10 +50,12 @@ export default () => {
             showComplete: false,
           }));
 
-          console.log(user);
           setIsLoading(false);
         },
-        (_) => setIsLoading(false)
+        (error) => {
+          console.error(error);
+          setIsLoading(false);
+        }
       );
   };
 
