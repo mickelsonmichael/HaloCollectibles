@@ -33,7 +33,7 @@
         "description": "Beat the par score on all Halo: CE levels"
       },
       {
-        "name": "Dear Diary",
+        "name": "Dear Diary...",
         "score": 20,
         "description": "Activate all Halo: CE Terminals",
         "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93716-Dear-Diary---.html"
@@ -107,7 +107,7 @@
     "title": "The Pillar of Autumn",
     "achievements": [
       {
-        "name": "The Pillar of Autumn",
+        "name": "Pillar of Autumn",
         "score": 10,
         "description": "Complete The Pillar of Autumn"
       },
@@ -235,7 +235,7 @@
         "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93981-Close-Quarters-Combat.html"
       },
       {
-        "name": "All According to Play...",
+        "name": "All According to Plan...",
         "score": 10,
         "description": "Kill the first group of enemies on The Truth and Reconciliation without being detected",
         "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93984-All-According-to-Plan---.html"
@@ -272,9 +272,9 @@
         "link": "http://www.youtube.com/watch?v=hf3W9NRtS7w"
       },
       {
-        "name": "Skulltaker Halo: CE: Bandanna Skull",
+        "name": "Skulltaker Halo: CE: Bandana Skull",
         "score": 5,
-        "description": "Find and claim the Bandanna skull in remastered mode on The Silent Cartographer",
+        "description": "Find and claim the Bandana skull in remastered mode on The Silent Cartographer",
         "link": "http://www.youtube.com/watch?v=oMlJA8_E1vk"
       },
       {
@@ -300,7 +300,7 @@
         "description": "Complete Assault on the Control Room"
       },
       {
-        "name": "Would It've Killed You to Take the Elevator",
+        "name": "Would It've Killed You to Take the Lift",
         "score": 10,
         "description": "Beat the par time on Assault on the Control Room"
       },
