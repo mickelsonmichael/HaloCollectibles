@@ -50,7 +50,7 @@ const Achievements = ({ categories }) => {
             />
           )}
         </Col>
-        <Col md={{ size: 2, offset: 6 }} sm="12">
+        <Col md={{ size: 3, offset: 5 }} sm="12">
           <Input
             type="text"
             onChange={(e) => setFilter(e.target.value)}
