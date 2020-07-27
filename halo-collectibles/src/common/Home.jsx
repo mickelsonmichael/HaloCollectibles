@@ -25,6 +25,12 @@ export default () => {
           a more curated experience, use the textbox to enter your Xbox Live
           Gamertag and filter out the achievements you already have completed.
         </p>
+        <p>
+          If you see an achievement you have recently unlocked still on the
+          list, you will need to log out and log back in. Each login request
+          accesses the Xbox API, which isn't a free process, so in the interest
+          of saving money the achievements are not updated automatically.
+        </p>
       </Jumbotron>
     </div>
   );
