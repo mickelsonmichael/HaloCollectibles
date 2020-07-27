@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import UserContext from "../UserContext";
+import Switch from "react-switch";
 
 export default () => {
   const { user, setUser } = React.useContext(UserContext);
@@ -41,6 +42,7 @@ export default () => {
             showComplete: false,
           }));
 
+          console.log(user);
           setIsLoading(false);
         },
         (_) => setIsLoading(false)
@@ -63,18 +65,19 @@ export default () => {
     return (
       <div>
         <Label className="mr-2">
-          <Input
-            type="checkbox"
+          <Switch
+            onChange={(checked) => toggleShowComplete(checked)}
             checked={user.showComplete}
-            onChange={(e) => {
-              toggleShowComplete(e.target.checked);
-            }}
+            height={17}
+            width={34}
+            className="mr-2 align-text-bottom"
           />
-          Show Complete
+          Show Complete for{" "}
+          <Link to="/user" className="mr-2">
+            {user.gamertag}
+          </Link>
         </Label>
-        <Link to="/user" className="mr-2">
-          {user.gamertag}
-        </Link>
+
         <Button
           size="sm"
           color="outline-danger"
@@ -94,6 +97,7 @@ export default () => {
         size="sm"
         placeholder="Gamertag"
         onChange={(e) => setGamertag(e.target.value)}
+        disabled={isLoading}
       />
       <InputGroupAddon>
         <Button
