@@ -3,550 +3,312 @@
     "title": "General",
     "achievements": [
       {
-        "name": "Greenhorn",
-        "score": 10,
-        "description": "Complete every level of the game on Easy difficulty"
+        "name": "Heal Up",
+        "score": "5",
+        "description": "Find the first Medical Kiosk and heal yourself" 
       },
       {
-        "name": "Birth of a Spartan",
-        "score": 10,
-        "description": "Complete every level of the game on Normal difficulty"
+        "name": "Tourist",
+        "score": "5",
+        "description": "Access and download the city map to your VISR" 
       },
       {
-        "name": "Believe in a Hero",
-        "score": 20,
-        "description": "Complete every level of the game on Heroic difficulty"
+        "name": "Dark Times",
+        "score": "5",
+        "description": "Kill 5 enemies whole using VISR mode" 
       },
       {
-        "name": "Living Legend",
-        "score": 30,
-        "description": "Complete every level of the game on Legendary difficulty"
+        "name": "Boom, Headshot",
+        "score": "5",
+        "description": "Get 10 automag headshot kills in any level." 
       },
       {
-        "name": "Did Somebody Say...",
-        "score": 20,
-        "description": "Beat the par time on all Halo: CE levels"
+        "name": "Stunning!",
+        "score": "5",
+        "description": "Stun a vehicle with an overcharged plasma pistol and quickly kill the driver." 
       },
       {
-        "name": "Overachiever",
-        "score": 20,
-        "description": "Beat the par score on all Halo: CE levels"
+        "name": "Ewww, Sticky",
+        "score": "5",
+        "description": "Get 5 sticky grenade kills in any level." 
       },
       {
-        "name": "Deary Diary",
-        "score": 20,
-        "description": "Activate all Halo: CE Terminals",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93716-Dear-Diary---.html"
+        "name": "My Clothes!",
+        "score": "5",
+        "description": "Plasma Pistol Overcharge and quickly kill 10 Brutes." 
       },
       {
-        "name": "Headhunter",
-        "score": 20,
-        "description": "Find and claim all Skulls in Halo: CE",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93730-Headhunter.html"
+        "name": "Pink and Deadly",
+        "score": "5",
+        "description": "Get 10 Needler supercombine kills on any covenant." 
       },
       {
-        "name": "A Fine Choice",
-        "score": 10,
-        "description": "Complete a Halo: CE playlist"
+        "name": "Trading Down",
+        "score": "5",
+        "description": "Trade weapons with a fellow character." 
       },
       {
-        "name": "Excellent Taste",
-        "score": 20,
-        "description": "Complete three Halo: CE playlists"
+        "name": "Headcase",
+        "score": "5",
+        "description": "Finish any level with at least one Skull activated."
       },
       {
-        "name": "Like a Fine Wine",
-        "score": 30,
-        "description": "Complete the Halo: CE LASO Campaign playlist"
+        "name": "Good Samaritan",
+        "score": "20",
+        "description": "Killing things that are new and different is bad, alone or with another ODST." 
       },
       {
-        "name": "You Are the Weapon",
-        "score": 5,
-        "description": "Kill a Hunter with one pistol round",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93744-You-Are-The-Weapon.html"
-      },
-      {
-        "name": "My Buddy Chips",
-        "score": 5,
-        "description": "Fight alongside Chips Dubbo and listen to his words of wisdom",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93746-My-Buddy-Chips.html"
-      },
-      {
-        "name": "Feet Firmly Planted",
-        "score": 10,
-        "description": "Complete a level without jumping",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93752-Feet-Firmly-Planted.html"
-      },
-      {
-        "name": "Before and After",
-        "score": 10,
-        "description": "Complete every level of the game having seen it in both classic and remastered mode",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93753-Before-and-After.html"
-      },
-      {
-        "name": "He's Unstoppable",
-        "score": 10,
-        "description": "Complete any level on Heroic difficulty or higher without taking health damage",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93756-He-s-Unstoppable.html"
-      },
-      {
-        "name": "A Day to Remember",
-        "score": 5,
-        "description": "Play Halo: CE on the 15th of any month",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93758-A-Day-To-Remember.html"
-      },
-      {
-        "name": "Back in the Day",
-        "score": 5,
-        "description": "Play a CTF custom game on Blood Gulch with 4 players on the same console. Tri-tip optional.",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93978-Back-In-The-Day.html"
+        "name": "Naughty Naughty",
+        "score": "5",
+        "description": "Killing things that are new and different is good, alone or with another ODST." 
       }
     ]
   },
   {
-    "title": "The Pillar of Autumn",
-    "achievements": [
+    "title": "Tayari Plaza",
+    "achievements":[
+
       {
-        "name": "The Pillar of Autumn",
-        "score": 10,
-        "description": "Complete The Pillar of Autumn"
-      },
-      {
-        "name": "Didn't Like This Ship Anyways",
-        "score": 10,
-        "description": "Beat the par time on The Pillar of Autumn"
-      },
-      {
-        "name": "Pillar of Awesome",
-        "score": 10,
-        "description": "Beat the par score on The Pillar of Autumn"
-      },
-      {
-        "name": "Arrival",
-        "score": 5,
-        "description": "Activate Terminal 1 on The Pillar of Autumn"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Iron",
-        "score": 5,
-        "description": "Find and claim the Iron skull in remastered mode",
-        "link": "http://www.youtube.com/watch?v=H3Nofk2Wmj8"
-      },
-      {
-        "name": "Overshields are for Sissies",
-        "score": 10,
-        "description": "Complete the level The Pillar of Autumn on Legendary without picking up an overshield"
-      },
-      {
-        "name": "Walk It Off",
-        "score": 10,
-        "description": "Complete The Pillar of Autumn on Legendary without picking up a health kit"
-      },
-      {
-        "name": "Megg",
-        "score": 10,
-        "description": "It's a sign",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93750-Megg.html"
+        "name": "Tayari Plaza",
+        "score": "30",
+        "description": "Complete Tayari Plaza on Normal, Heroic, or Legendary to unlock a new Firefight character." 
       }
     ]
   },
   {
-    "title": "Halo",
+    "title": "Uplift Reserve",
     "achievements": [
       {
-        "name": "Halo",
-        "score": 10,
-        "description": "Complete Halo"
+        "name": "Uplift Reserve",
+        "score": "30",
+        "description": "Complete Uplift Reserve on Normal, Heroic, or Legendary to unlock a new Firefight character." 
       },
       {
-        "name": "Flyover Country",
-        "score": 10,
-        "description": "Beat the par time on Halo"
-      },
-      {
-        "name": "Giant Hula Hoop",
-        "score": 10,
-        "description": "Beat the par score on Halo"
-      },
-      {
-        "name": "Sacrifice",
-        "score": 5,
-        "description": "Activate Terminal 2 on Halo"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Mythic",
-        "score": 5,
-        "description": "Find and claim the Mythic skull in remastered mode",
-        "link": "http://www.youtube.com/watch?v=gL6eETWESZo"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Boom",
-        "score": 5,
-        "description": "Find and claim the Boom skull in remastered mode",
-        "link": "http://www.youtube.com/watch?v=jLkZggDCu10"
-      },
-      {
-        "name": "How Pedestrian",
-        "score": 10,
-        "description": "Complete Halo without entering a vehicle",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93736-How-Pedestrian.html"
-      },
-      {
-        "name": "No-Fly Zone",
-        "score": 10,
-        "description": "Destroy three of the four Banshees on Halo during a single play-through",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93987-No-Fly-Zone.html"
+        "name": "Wraith Killer",
+        "score": "5",
+        "description": "Kill all Wraiths in Uplift Reserve." 
       }
     ]
   },
   {
-    "title": "Truth and Reconciliation",
-    "achievements": [
+
+    "title": "Kizingo Bouldevard",
+    "achievements" : [
       {
-        "name": "Truth and Reconciliation",
-        "score": 10,
-        "description": "Complete Truth and Reconciliation"
+        "name": "Kizingo Boulevard",
+        "score": "30",
+        "description": "Complete Kizingo Blvd. on Normal, Heroic, or Legendary to unlock a new Firefight character." 
       },
       {
-        "name": "You Can't Handle the Truth",
-        "score": 10,
-        "description": "Beat the par time on The Truth and Reconciliation"
-      },
-      {
-        "name": "You Really Can't Handle the Truth",
-        "score": 10,
-        "description": "Beat the par score on The Truth and Reconciliation"
-      },
-      {
-        "name": "Splinters",
-        "score": 5,
-        "description": "Activate Terminal 3 on The Truth and Reconciliation"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Foreign",
-        "score": 5,
-        "description": "Find and claim the Foreign skull in remastered mode on Truth and Reconciliation",
-        "link": "http://www.youtube.com/watch?v=JJ5qylr_Xbg"
-      },
-      {
-        "name": "Close Quarters Combat",
-        "score": 10,
-        "description": "Complete The Truth and Reconciliation with at least four rounds left in your Sniper Rifle",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93981-Close-Quarters-Combat.html"
-      },
-      {
-        "name": "All According to Play...",
-        "score": 10,
-        "description": "Kill the first group of enemies on The Truth and Reconciliation without being detected",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93984-All-According-to-Plan---.html"
+        "name": "Both Tubes",
+        "score": "5",
+        "description": "Get 10 Rocket kills on Kizingo Boulevard." 
       }
     ]
   },
   {
-    "title": "The Silent Cartographer",
+
+    "title" : "ONI Alpha Site",
     "achievements": [
       {
-        "name": "The Silent Cartographer",
-        "score": 10,
-        "description": "Complete The Silent Cartographer"
+        "name": "ONI Alpha Site",
+        "score": "30",
+        "description": "Complete ONI Alpha Site on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
       },
       {
-        "name": "Hit The Beach",
-        "score": 10,
-        "description": "Beat the par time on The Silent Cartographer"
-      },
-      {
-        "name": "Charted",
-        "score": 10,
-        "description": "Beat the par score on The Silent Cartographer"
-      },
-      {
-        "name": "Idle Hands",
-        "score": 5,
-        "description": "Activate Terminal 4 on The Silent Cartographer"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Famine",
-        "score": 5,
-        "description": "Find and claim the Famine skull in remastered mode on The Silent Cartographer",
-        "link": "http://www.youtube.com/watch?v=hf3W9NRtS7w"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Bandanna Skull",
-        "score": 5,
-        "description": "Find and claim the Bandanna skull in remastered mode on The Silent Cartographer",
-        "link": "http://www.youtube.com/watch?v=oMlJA8_E1vk"
-      },
-      {
-        "name": "Pacifist",
-        "score": 10,
-        "description": "Finish The Silent Cartographer without shooting, grenades, melee, dying or restarting",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93979-Pacifist.html"
-      },
-      {
-        "name": "Beachhead",
-        "score": 10,
-        "description": "Storm The Silent Cartographer beacch with no Marine casualties on Heroic or Legendary",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93985-Beachhead.html"
+        "name": "Laser Blaster",
+        "score": "5",
+        "description": "Get 10 Spartan Laser kills on ONI Alpha Site." 
       }
     ]
   },
   {
-    "title": "Assault on the Control Room",
+
+    "title" : "NMPD HQ",
     "achievements": [
       {
-        "name": "Assault on the Control Room",
-        "score": 10,
-        "description": "Complete Assault on the Control Room"
+        "name": "NMPD HQ",
+        "score": "30",
+        "description": "Complete NMPD HQ on Normal, Heroic, or Legendary to unlock a new Firefight character." 
       },
       {
-        "name": "Would It've Killed You to Take the Elevator",
-        "score": 10,
-        "description": "Beat the par time on Assault on the Control Room"
-      },
-      {
-        "name": "Vetro Strike",
-        "score": 10,
-        "description": "Beat the par score on Assault on the Control Room"
-      },
-      {
-        "name": "Hitchhikers May Be Escaping Convicts",
-        "score": 5,
-        "description": "Activate Terminal 5 on Assault on the Control Room"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Fog",
-        "score": 5,
-        "description": "Find and claim the Fog skull in remastered mode on Assult on the Control Room",
-        "link": "http://www.youtube.com/watch?v=yLFmTcCpvlE"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Malfunction",
-        "score": 5,
-        "description": "Find and claim the Malfunction skull in remastered mode on Assault on the Control Room",
-        "link": "http://www.youtube.com/watch?v=GsE3ZvNKCxQ"
-      },
-      {
-        "name": "Madrigal Debut",
-        "score": 5,
-        "description": "Trigger a hidden music cue in Halo: CE",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93745-Madrigal-Debut.html"
-      },
-      {
-        "name": "Wraith Hunter",
-        "score": 10,
-        "description": "Destroy four Wraith tanks in Assault on the Control Room with the Scorpion tank",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93980-Wraith-Hunter.html"
+        "name": "Dome Inspector",
+        "score": "5",
+        "description": "Get 15 headshot kills on NMPD HQ. " 
       }
     ]
   },
   {
-    "title": "343 Guilty Spark",
+    "title" : "Kikowani Station",
     "achievements": [
       {
-        "name": "343 Guilty Spark",
-        "score": 10,
-        "description": "Complete 343 Guilty Spark"
+        "name": "Kikowani Station",
+        "score": "30",
+        "description": "Complete Kikowani Station on Normal, Heroic, or Legendary." 
+      } 
+    ]
+  },
+  {
+    "title": "Data Hive",
+    "achievements" : [
+      {
+        "name": "Data Hive",
+        "score": "50",
+        "description": "Complete Data Hive on Normal, Heroic, or Legendary to unlock a new Firefight mission. " 
       },
       {
-        "name": "Lightning in a Bottle",
-        "score": 10,
-        "description": "Beat the par time on 343 Guilty Spark"
-      },
-      {
-        "name": "Circuit Breaker",
-        "score": 10,
-        "description": "Beat the par score on 343 Guilty Spark"
-      },
-      {
-        "name": "Bearly Contained",
-        "score": 5,
-        "description": "Activate Terminal 6 on 343 Guilty Spark"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Recession",
-        "score": 5,
-        "description": "Find and claim the Recession skull in remastered mode on 343 Guilty Spark",
-        "link": "http://www.youtube.com/watch?v=1KDlZWGDYng"
-      },
-      {
-        "name": "Get Me Out of Here!",
-        "score": 5,
-        "description": "Ride in a Pelican for several seconds on the level 343 Guilty Spark",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93751-Get-Me-Out-of-Here-.html"
+        "name": "I Like Fire",
+        "score": "5",
+        "description": "Kill 10 enemies with the Flamethrower on Data Hive." 
       }
     ]
   },
   {
-    "title": "The Library",
+    "title":"Coastal Highway",
     "achievements": [
       {
-        "name": "The Library",
-        "score": 10,
-        "description": "Complete The Library"
-      },
-      {
-        "name": "TLLDR",
-        "score": 10,
-        "description": "Beat the par time on The Library"
-      },
-      {
-        "name": "Reading Room",
-        "score": 10,
-        "description": "Beat the par score on The Library"
-      },
-      {
-        "name": "Quis custodiet ipsos custodes?",
-        "score": 5,
-        "description": "Activate Terminal 7 on The Library"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Black Eye",
-        "score": 5,
-        "description": "Find and claim the Black Eye skull in remastered mode on The Library",
-        "link": "http://www.youtube.com/watch?v=Qpj7Umztq_c"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Eye Patch",
-        "score": 5,
-        "description": "Find and claim the Eye Patch skull in remastered mode on The Library",
-        "link": "http://www.youtube.com/watch?v=Fi_8Yk9W0m8"
-      },
-      {
-        "name": "That Just Happened",
-        "score": 10,
-        "description": "Complete The Library on Heroic or Legendary difficulty without dying",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93737-That-Just-Happened.html"
+        "name": "Coastal Highway",
+        "score": "50",
+        "description": "Complete Coastal Highway on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
       }
     ]
   },
   {
-    "title": "Two Betrayals",
+    "title": "Campaign",
     "achievements": [
       {
-        "name": "Two Betrayals",
-        "score": 10,
-        "description": "Complete Two Betrayals"
+        "name": "Campaign Complete: Normal",
+        "score": "100",
+        "description": "Complete the Campaign on Normal difficulty." 
       },
       {
-        "name": "Whistle Stop Tour",
-        "score": 10,
-        "description": "Beat the par time on Two Betrayals"
+        "name": "Campaign Complete: Heroic",
+        "score": "100",
+        "description": "Complete the Campaign on Heroic difficulty." 
       },
       {
-        "name": "It Was Inevitable",
-        "score": 10,
-        "description": "Beat the par score on Two Betrayals"
-      },
-      {
-        "name": "Memories",
-        "score": 5,
-        "description": "Activate Terminal 8 on Two Betrayals"
-      },
-      {
-        "name": "Skulltaker Halo: CE: Pinata",
-        "score": 5,
-        "description": "Find and claim the Pinata skull in remastered mode on Two Betrayals",
-        "link": "http://www.youtube.com/watch?v=mNI1yYpi5kU"
-      },
-      {
-        "name": "Look Out for the Little Guys",
-        "score": 10,
-        "description": "Complete Two Betrayals on Legendary difficulty without killing any Grunts",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93738-Look-Out-for-the-Little-Guys.html"
-      },
-      {
-        "name": "Leave It Where It Lay",
-        "score": 10,
-        "description": "Complete Two Betrayals on Legendary difficulty without picking up a new weapon",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93739-Leave-It-Where-It-Lay.html"
+        "name": "Campaign Complete: Legendary",
+        "score": "100",
+        "description": "Complete the Campaign on Legendary to unlock a new Firefight character. " 
       }
     ]
   },
   {
-    "title": "Keyes",
+    "title": "Collectables",
     "achievements": [
       {
-        "name": "Keyes",
-        "score": 10,
-        "description": "Complete Keyes"
+        "name": "Junior Detective",
+        "score": "10",
+        "description": "Find the first clue unraveling the mystery." 
       },
       {
-        "name": "Scurty Bump",
-        "score": 10,
-        "description": "Beat the par time on Keyes"
+        "name": "Gumshoe",
+        "score": "10",
+        "description": "Find the 3rd clue unraveling the mystery, alone or with another ODST." 
       },
       {
-        "name": "Headstrong",
-        "score": 10,
-        "description": "Beat the par score on Keyes"
+        "name": "Super Sleuth",
+        "score": "10",
+        "description": "Find the final clue unraveling the mystery, alone or with another ODST." 
       },
       {
-        "name": "Mind Games",
-        "score": 5,
-        "description": "Activate Terminal 9 on Keyes"
+        "name": "Listener",
+        "score": "5",
+        "description": "Find the first Audio Log." 
       },
       {
-        "name": "Tying Up Loose Ends",
-        "score": 10,
-        "description": "Kill every Elite on the level Keyes on Heroic or Legendary difficulty",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93740-Tying-Up-Loose-Ends.html"
+        "name": "Tuned In",
+        "score": "15",
+        "description": "Find 3 Audio Logs, alone or with another ODST." 
       },
       {
-        "name": "No Smoking",
-        "score": 5,
-        "description": "Disapprovingly look at Captain Keyes' abandoned pipe",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93747-No-Smoking.html"
+        "name": "All Ears",
+        "score": "30",
+        "description": "Find 15 Audio Logs, alone or with another ODST." 
+      },
+      {
+        "name": "Audiophile",
+        "score": "75",
+        "description": "Find all Audio Logs, alone or with another ODST." 
       }
     ]
   },
   {
-    "title": "The Maw",
+    "title": "Firefight",
     "achievements": [
       {
-        "name": "The Maw",
-        "score": 10,
-        "description": "Complete The Maw"
+        "name": "Be Like Marty",
+        "score": "10",
+        "description": "In Firefight, finish a full round without killing a single enemy." 
       },
       {
-        "name": "All You Can Eat",
-        "score": 10,
-        "description": "Beat the par time on The Maw"
+        "name": "Firefight: Crater",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Crater." 
       },
       {
-        "name": "Consumption Junction",
-        "score": 10,
-        "description": "Beat the par score on The Maw"
+        "name": "Firefight: Lost Platoon",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Lost Platoon." 
       },
       {
-        "name": "Kilotons of Fun",
-        "score": 5,
-        "description": "Activate Terminal 10 on The Maw"
+        "name": "Firefight: Rally Point",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Rally Point." 
       },
       {
-        "name": "Skulltaker Halo: CE: Grunt Birthday Party",
-        "score": 5,
-        "description": "Find and claim the Grunt Birthday Party skull in remastered mode on The Maw",
-        "link": "http://www.youtube.com/watch?v=-pnSmZq3GJ4"
+        "name": "Firefight: Security Zone",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Security Zone." 
       },
       {
-        "name": "T-Rex",
-        "score": 10,
-        "description": "Find the hidden Rex sign on The Maw",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93748-T-Rex.html"
+        "name": "Firefight: Alpha Site",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Alpha Site." 
       },
       {
-        "name": "Thirsty Grunt",
-        "score": 5,
-        "description": "Listen to the Thirsty Grunt talk about his eating habits",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93749-Thirsty-Grunt.html"
+        "name": "Firefight: Windward",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Windward." 
       },
       {
-        "name": "This Side Up",
-        "score": 10,
-        "description": "Complete the Warthog ride of The Maw without being forcibly ejected from your vehicle",
-        "link": "https://www.xboxachievements.com/game/halo-the-master-chief-collection/achievement/93982-This-Side-Up.html"
+        "name": "Firefight: Chasm Ten",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Chasm Ten." 
+      },
+      {
+        "name": "Firefight: Last Exit",
+        "score": "10",
+        "description": "Score over 200,000 points in Firefight on Last Exit." 
       }
     ]
+  },
+  {
+    "title": "Vidmaster",
+    "achievements": [
+      {
+        "name": "Vidmaster Challenge: Classic",
+        "score": "25",
+        "description": "Finish any level solo on Legendary, on LIVE, with no shots fired or grenades thrown." 
+      },
+      {
+        "name": "Vidmaster Challenge: Endure",
+        "score": "25",
+        "description": "In Firefight, on any mission, pass the 4th Set on 4-player Heroic LIVE co-op." 
+      },
+      {
+        "name": "Vidmaster Challenge: Déjà Vu",
+        "score": "25",
+        "description": "Complete Highway on 4-player Legendary LIVE co-op, with Iron, and no 'Hog or Scorpion." 
+      }
+    ]
+
+
   }
+
+
+
 ]
+
+
+
