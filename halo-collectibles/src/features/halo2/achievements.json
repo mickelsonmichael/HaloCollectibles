@@ -1,639 +1,637 @@
-{
-  "categories": [
-    {
-      "title": "General",
-      "achievements": [
-        {
-          "name": "Big Green Style",
-          "score": 10,
-          "description": "Complete every level of the game on Easy difficulty"
-        },
-        {
-          "name": "Warrior",
-          "score": 10,
-          "description": "Complete every level of the game on Normal difficulty"
-        },
-        {
-          "name": "Hero",
-          "score": 20,
-          "description": "Complete every level of the game on Heroic difficulty"
-        },
-        {
-          "name": "Legendary Anniversary",
-          "score": 30,
-          "description": "Complete every level of the game on Legendary difficulty"
-        },
-        {
-          "name": "Back for More",
-          "score": 30,
-          "description": "Complete the LASO campaign playlist"
-        },
-        {
-          "name": "Seconds",
-          "score": 10,
-          "description": "Complete a Halo 2 playlist"
-        },
-        {
-          "name": "Connoisseur",
-          "score": 20,
-          "description": "Complete three Halo 2 playlists"
-        },
-        {
-          "name": "Going Nowhere Fast",
-          "score": 20,
-          "description": "Beat the par time on all Halo 2 levels"
-        },
-        {
-          "name": "Arcade Owner",
-          "score": 20,
-          "description": "Beat the par score on every Halo 2 level"
-        },
-        {
-          "name": "Walking Encyclopedia",
-          "score": 20,
-          "description": "Activate all Halo 2 Terminals"
-        },
-        {
-          "name": "Trophy Collector",
-          "score": 20,
-          "description": "Find and claim all Skulls in Halo 2"
-        },
-        {
-          "name": "Toybox",
-          "score": 20,
-          "description": "Collect all eight Halo toys"
-        },
-        {
-          "name": "THE Chips Dubbo?",
-          "score": 5,
-          "description": "Fight alongside the legendary Chips Dubbo and listen to his words"
-        },
-        {
-          "name": "Like Peanut Butter and Chocolate",
-          "score": 10,
-          "description": "Complete a level in co-op on Heroic or Legendary with the Masterblaster skull active"
-        },
-        {
-          "name": "Starved for Shields",
-          "score": 10,
-          "description": "Complete a level with only the Streaking Skull active on Heroic or Legendary"
-        },
-        {
-          "name": "Silent but Deadly",
-          "score": 10,
-          "description": "Kill 7 opponents form behind in a row without being spotted"
-        },
-        {
-          "name": "Demon",
-          "score": 10,
-          "description": "Complete any campaign level without dying on Normal or harder"
-        },
-        {
-          "name": "Go Ape Shiv",
-          "score": 5,
-          "description": "Kill an enraged, berserk Brute using melee"
-        },
-        {
-          "name": "Back At It",
-          "score": 5,
-          "description": "Play a game of Halo 2 Anniversary on the 9th of any month"
-        },
-        {
-          "name": "Tighten Up The Graphics",
-          "score": 10,
-          "description": "Complete every level of Halo 2 having seen it in both classic and remastered mode"
-        }
-      ]
-    },
-    {
-      "title": "Multiplayer",
-      "achievements": [
-        {
-          "name": "Siege of Ivory Tower",
-          "score": 5,
-          "description": "Listen to a hidden music cue in Halo 2"
-        }
-      ]
-    },
-    {
-      "title": "Armory",
-      "achievements": [
-        {
-          "name": "Skulltaker Halo 2: That's Just…Wrong",
-          "score": 5,
-          "description": "Find and claim the That's Just...Wrong Skull"
-        }
-      ]
-    },
-    {
-      "title": "Cairo Station",
-      "achievements": [
-        {
-          "name": "Cairo Station",
-          "score": 10,
-          "description": "Complete Cairo Station"
-        },
-        {
-          "name": "Don't Hangar Around",
-          "score": 10,
-          "description": "Beat the par time on Cairo Station"
-        },
-        {
-          "name": "Bomb Squad",
-          "score": 10,
-          "description": "Beat the par score on Cairo Station"
-        },
-        {
-          "name": "Curious",
-          "score": 5,
-          "description": "Activate Terminal 1 on Cairo Station"
-        },
-        {
-          "name": "Skulltaker Halo 2: Thunderstorm",
-          "score": 5,
-          "description": "Find and claim the Thunderstorm Skull"
-        },
-        {
-          "name": "The Return of Megg",
-          "score": 20,
-          "description": "She's not picking up"
-        }
-      ]
-    },
-    {
-      "title": "Outskirts",
-      "achievements": [
-        {
-          "name": "Outskirts",
-          "score": 10,
-          "description": "Complete Outskirts"
-        },
-        {
-          "name": "Rooftop Runner",
-          "score": 10,
-          "description": "Beat the par time on Outskirts"
-        },
-        {
-          "name": "Objective Secured",
-          "score": 10,
-          "description": "Beat the par score on Outskirts"
-        },
-        {
-          "name": "Inquisitive",
-          "score": 5,
-          "description": "Activate Terminal 2 on Outskirts"
-        },
-        {
-          "name": "Skulltaker Halo 2: Blind",
-          "score": 5,
-          "description": "Find and claim the Blind Skull"
-        },
-        {
-          "name": "Skulltaker Halo 2: IWHBYD",
-          "score": 5,
-          "description": "Find and claim the IWHBYD Skull"
-        },
-        {
-          "name": "Betcha can't stick it...",
-          "score": 10,
-          "description": "Stick a Plasma Grenade to a Stealth Elite on Outskirts"
-        },
-        {
-          "name": "Rex Sword",
-          "score": 10,
-          "description": "Grab the energy sword on the level Outskirts"
-        }
-      ]
-    },
-    {
-      "title": "Metropolis",
-      "achievements": [
-        {
-          "name": "Metropolis",
-          "score": 10,
-          "description": "Complete Metropolis"
-        },
-        {
-          "name": "Speeding Ticket",
-          "score": 10,
-          "description": "Beat the par time on Metropolis"
-        },
-        {
-          "name": "Ripple Fire",
-          "score": 10,
-          "description": "Beat the par score on Metropolis"
-        },
-        {
-          "name": "Examiner",
-          "score": 5,
-          "description": "Activate Terminal 3 on Metropolis"
-        },
-        {
-          "name": "Skulltaker Halo 2: Catch",
-          "score": 5,
-          "description": "Find and claim the Catch Skull"
-        },
-        {
-          "name": "E E E",
-          "score": 5,
-          "description": "View both signs in the level Metropolis"
-        },
-        {
-          "name": "GOOOAAAAALLLL!",
-          "score": 10,
-          "description": "Shoot the soccer ball in the level Metropolis"
-        },
-        {
-          "name": "Commuter",
-          "score": 10,
-          "description": "Complete Metropolis without entering a vehicle on Heroic or Legendary"
-        },
-        {
-          "name": "Scarab Lord",
-          "score": 20,
-          "description": "Acquire the Scarab Gun"
-        }
-      ]
-    },
-    {
-      "title": "The Arbiter",
-      "achievements": [
-        {
-          "name": "The Arbiter",
-          "score": 10,
-          "description": "Complete The Arbiter"
-        },
-        {
-          "name": "YOLO Strats",
-          "score": 10,
-          "description": "Beat the par time on The Arbiter"
-        },
-        {
-          "name": "Heresy Will Not Stay My Feet",
-          "score": 10,
-          "description": "Beat the par score on The Arbiter"
-        },
-        {
-          "name": "Inspector",
-          "score": 5,
-          "description": "Activate Terminal 4 on The Arbiter"
-        },
-        {
-          "name": "Skulltaker Halo 2: Grunt Birthday Party",
-          "score": 5,
-          "description": "Find and claim the Grunt Birthday Party Skull"
-        },
-        {
-          "name": "Dirty Bird",
-          "score": 5,
-          "description": "Fly the Heretic Banshee"
-        }
-      ]
-    },
-    {
-      "title": "Oracle",
-      "achievements": [
-        {
-          "name": "Oracle",
-          "score": 10,
-          "description": "Complete The Oracle"
-        },
-        {
-          "name": "Reed the Strategy",
-          "score": 10,
-          "description": "Beat the par time on The Oracle"
-        },
-        {
-          "name": "Leave None Alive",
-          "score": 10,
-          "description": "Beat the par score on The Oracle"
-        },
-        {
-          "name": "Fascinated",
-          "score": 5,
-          "description": "Activate Terminal 5 on The Oracle"
-        },
-        {
-          "name": "Skulltaker Halo 2: Famine",
-          "score": 5,
-          "description": "Find and claim the Famine Skull"
-        },
-        {
-          "name": "10 Minutes Too Early",
-          "score": 5,
-          "description": "In The Oracle, find the holo-drone before the Heretic Leader activates it"
-        }
-      ]
-    },
-    {
-      "title": "Delta Halo",
-      "achievements": [
-        {
-          "name": "Delta Halo",
-          "score": 10,
-          "description": "Complete Delta Halo"
-        },
-        {
-          "name": "So You Don't Want the Tank?",
-          "score": 10,
-          "description": "Beat the par time on Delta Halo"
-        },
-        {
-          "name": "Boundless",
-          "score": 10,
-          "description": "Beat the par score on Delta Halo"
-        },
-        {
-          "name": "Enchanted",
-          "score": 5,
-          "description": "Activate Terminal 6 on Delta Halo"
-        },
-        {
-          "name": "Skulltaker Halo 2: Envy",
-          "score": 5,
-          "description": "Find and claim the Envy Skull"
-        },
-        {
-          "name": "And So It Begins...",
-          "score": 5,
-          "description": "Collect the Master Chief toy in Delta Halo"
-        },
-        {
-          "name": "He Never Gets Me Anything",
-          "score": 10,
-          "description": "Complete Delta Halo without entering a vehicle on Heroic or Legendary"
-        }
-      ]
-    },
-    {
-      "title": "Regret",
-      "achievements": [
-        {
-          "name": "Regret",
-          "score": 10,
-          "description": "Complete Regret"
-        },
-        {
-          "name": "I Regret Nothing",
-          "score": 10,
-          "description": "Beat the par time on Regret"
-        },
-        {
-          "name": "Fists of Fury",
-          "score": 10,
-          "description": "Beat the par score on Regret"
-        },
-        {
-          "name": "Enamoured",
-          "score": 5,
-          "description": "Activate Terminal 7 on Regret"
-        },
-        {
-          "name": "Skulltaker Halo 2: Assassins",
-          "score": 5,
-          "description": "Find and claim the Assassins Skull"
-        },
-        {
-          "name": "Regrettable Turn of Events",
-          "score": 5,
-          "description": "Collect the Prophet of Regret toy in Regret"
-        },
-        {
-          "name": "HI BEN",
-          "score": 5,
-          "description": "Oh, hi!"
-        },
-        {
-          "name": "Needs More Whammy Bar",
-          "score": 5,
-          "description": "Complete the level Regret with the Prophet Birthday Skull activated"
-        }
-      ]
-    },
-    {
-      "title": "Sacred Icon",
-      "achievements": [
-        {
-          "name": "Sacred Icon",
-          "score": 10,
-          "description": "Complete Sacred Icon"
-        },
-        {
-          "name": "Terminal Velocity",
-          "score": 10,
-          "description": "Beat the par time on Sacred Icon"
-        },
-        {
-          "name": "Guided Tour",
-          "score": 10,
-          "description": "Beat the par score on Sacred Icon"
-        },
-        {
-          "name": "Determined",
-          "score": 5,
-          "description": "Activate Terminal 8 on Sacred Icon"
-        },
-        {
-          "name": "Skulltaker Halo 2: Mythic",
-          "score": 5,
-          "description": "Find and claim the Mythic Skull"
-        },
-        {
-          "name": "The Will of the Prophets",
-          "score": 5,
-          "description": "Collect the Arbiter toy in Sacred Icon"
-        }
-      ]
-    },
-    {
-      "title": "Quarantine Zone",
-      "achievements": [
-        {
-          "name": "Quarantine Zone",
-          "score": 10,
-          "description": "Complete Quarantine Zone"
-        },
-        {
-          "name": "Hot Zone",
-          "score": 10,
-          "description": "Beat the par time on Quarantine Zone"
-        },
-        {
-          "name": "The Doctor Is In",
-          "score": 10,
-          "description": "Beat the par score on Quarantine Zone"
-        },
-        {
-          "name": "Delighted",
-          "score": 5,
-          "description": "Activate Terminal 9 on Quarantine Zone"
-        },
-        {
-          "name": "Skulltaker Halo 2: Sputnik",
-          "score": 5,
-          "description": "Find and claim the Sputnik Skull"
-        },
-        {
-          "name": "Chieftain of the Brutes",
-          "score": 5,
-          "description": "Collect the Tartarus toy in Quarantine Zone"
-        },
-        {
-          "name": "Six Pedals, Four Directions",
-          "score": 10,
-          "description": "Drive a Scorpion while playing as the Arbiter"
-        }
-      ]
-    },
-    {
-      "title": "Gravemind",
-      "achievements": [
-        {
-          "name": "Gravemind",
-          "score": 10,
-          "description": "Complete Gravemind"
-        },
-        {
-          "name": "Force of Will",
-          "score": 10,
-          "description": "Beat the par time on Gravemind"
-        },
-        {
-          "name": "Official Business",
-          "score": 10,
-          "description": "Beat the par score on Gravemind"
-        },
-        {
-          "name": "Knowledgeable",
-          "score": 5,
-          "description": "Activate Terminal 10 on Gravemind"
-        },
-        {
-          "name": "Skulltaker Halo 2: Anger",
-          "score": 5,
-          "description": "Find and claim the Anger Skull"
-        },
-        {
-          "name": "Don't Make a Girl a Promise",
-          "score": 5,
-          "description": "Collect the Cortana toy in Gravemind"
-        },
-        {
-          "name": "He's Running a Marathon...",
-          "score": 5,
-          "description": "Spot the developer in the opening cutscene of Gravemind on Legendary in Classic Mode"
-        }
-      ]
-    },
-    {
-      "title": "Uprising",
-      "achievements": [
-        {
-          "name": "Uprising",
-          "score": 10,
-          "description": "Complete Uprising"
-        },
-        {
-          "name": "No Man's Land",
-          "score": 10,
-          "description": "Beat the par time on Uprising"
-        },
-        {
-          "name": "The Hype Is Real",
-          "score": 10,
-          "description": "Beat the par score on Uprising"
-        },
-        {
-          "name": "Scholar",
-          "score": 5,
-          "description": "Activate Terminal 11 on Uprising"
-        },
-        {
-          "name": "Skulltaker Halo 2: Ghost",
-          "score": 5,
-          "description": "Find and claim the Ghost Skull"
-        },
-        {
-          "name": "My Work is Done",
-          "score": 5,
-          "description": "Collect the Librarian toy in Uprising"
-        },
-        {
-          "name": "Cowardly Grunt",
-          "score": 5,
-          "description": "Listen to the Cowardly Grunt's woes"
-        }
-      ]
-    },
-    {
-      "title": "High Charity",
-      "achievements": [
-        {
-          "name": "High Charity",
-          "score": 10,
-          "description": "Complete High Charity"
-        },
-        {
-          "name": "Feeling Charitable",
-          "score": 10,
-          "description": "Beat the par time on High Charity"
-        },
-        {
-          "name": "Scorched Earth",
-          "score": 10,
-          "description": "Beat the par score on High Charity"
-        },
-        {
-          "name": "Reviewer",
-          "score": 5,
-          "description": "Activate Terminal 12 on High Charity"
-        },
-        {
-          "name": "Skulltaker Halo 2: Iron",
-          "score": 5,
-          "description": "Find and claim the Iron Skull"
-        },
-        {
-          "name": "I Like Crazy",
-          "score": 5,
-          "description": "Collect the Rampant Cortana toy in High Charity"
-        }
-      ]
-    },
-    {
-      "title": "The Great Journey",
-      "achievements": [
-        {
-          "name": "The Great Journey",
-          "score": 10,
-          "description": "Complete The Great Journey"
-        },
-        {
-          "name": "Are We There Yet?",
-          "score": 10,
-          "description": "Beat the par time on The Great Journey"
-        },
-        {
-          "name": "Frequent Flyer Miles",
-          "score": 10,
-          "description": "Beat the par score on The Great Journey"
-        },
-        {
-          "name": "Obsessed",
-          "score": 5,
-          "description": "Activate Terminal 13 on The Great Journey"
-        },
-        {
-          "name": "Skulltaker Halo 2: Black Eye",
-          "score": 5,
-          "description": "Find and claim the Black Eye Skull"
-        },
-        {
-          "name": "Pyrrhic Solution",
-          "score": 5,
-          "description": "Collect the Didact toy in The Great Journey"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "title": "General",
+    "achievements": [
+      {
+        "name": "Big Green Style",
+        "score": 10,
+        "description": "Complete every level of the game on Easy difficulty"
+      },
+      {
+        "name": "Warrior",
+        "score": 10,
+        "description": "Complete every level of the game on Normal difficulty"
+      },
+      {
+        "name": "Hero",
+        "score": 20,
+        "description": "Complete every level of the game on Heroic difficulty"
+      },
+      {
+        "name": "Legendary Anniversary",
+        "score": 30,
+        "description": "Complete every level of the game on Legendary difficulty"
+      },
+      {
+        "name": "Back for More",
+        "score": 30,
+        "description": "Complete the LASO campaign playlist"
+      },
+      {
+        "name": "Seconds",
+        "score": 10,
+        "description": "Complete a Halo 2 playlist"
+      },
+      {
+        "name": "Connoisseur",
+        "score": 20,
+        "description": "Complete three Halo 2 playlists"
+      },
+      {
+        "name": "Going Nowhere Fast",
+        "score": 20,
+        "description": "Beat the par time on all Halo 2 levels"
+      },
+      {
+        "name": "Arcade Owner",
+        "score": 20,
+        "description": "Beat the par score on every Halo 2 level"
+      },
+      {
+        "name": "Walking Encyclopedia",
+        "score": 20,
+        "description": "Activate all Halo 2 Terminals"
+      },
+      {
+        "name": "Trophy Collector",
+        "score": 20,
+        "description": "Find and claim all Skulls in Halo 2"
+      },
+      {
+        "name": "Toybox",
+        "score": 20,
+        "description": "Collect all eight Halo toys"
+      },
+      {
+        "name": "THE Chips Dubbo?",
+        "score": 5,
+        "description": "Fight alongside the legendary Chips Dubbo and listen to his words"
+      },
+      {
+        "name": "Like Peanut Butter and Chocolate",
+        "score": 10,
+        "description": "Complete a level in co-op on Heroic or Legendary with the Masterblaster skull active"
+      },
+      {
+        "name": "Starved for Shields",
+        "score": 10,
+        "description": "Complete a level with only the Streaking Skull active on Heroic or Legendary"
+      },
+      {
+        "name": "Silent but Deadly",
+        "score": 10,
+        "description": "Kill 7 opponents form behind in a row without being spotted"
+      },
+      {
+        "name": "Demon",
+        "score": 10,
+        "description": "Complete any campaign level without dying on Normal or harder"
+      },
+      {
+        "name": "Go Ape Shiv",
+        "score": 5,
+        "description": "Kill an enraged, berserk Brute using melee"
+      },
+      {
+        "name": "Back At It",
+        "score": 5,
+        "description": "Play a game of Halo 2 Anniversary on the 9th of any month"
+      },
+      {
+        "name": "Tighten Up The Graphics",
+        "score": 10,
+        "description": "Complete every level of Halo 2 having seen it in both classic and remastered mode"
+      }
+    ]
+  },
+  {
+    "title": "Multiplayer",
+    "achievements": [
+      {
+        "name": "Siege of Ivory Tower",
+        "score": 5,
+        "description": "Listen to a hidden music cue in Halo 2"
+      }
+    ]
+  },
+  {
+    "title": "Armory",
+    "achievements": [
+      {
+        "name": "Skulltaker Halo 2: That's Just…Wrong",
+        "score": 5,
+        "description": "Find and claim the That's Just...Wrong Skull"
+      }
+    ]
+  },
+  {
+    "title": "Cairo Station",
+    "achievements": [
+      {
+        "name": "Cairo Station",
+        "score": 10,
+        "description": "Complete Cairo Station"
+      },
+      {
+        "name": "Don't Hangar Around",
+        "score": 10,
+        "description": "Beat the par time on Cairo Station"
+      },
+      {
+        "name": "Bomb Squad",
+        "score": 10,
+        "description": "Beat the par score on Cairo Station"
+      },
+      {
+        "name": "Curious",
+        "score": 5,
+        "description": "Activate Terminal 1 on Cairo Station"
+      },
+      {
+        "name": "Skulltaker Halo 2: Thunderstorm",
+        "score": 5,
+        "description": "Find and claim the Thunderstorm Skull"
+      },
+      {
+        "name": "The Return of Megg",
+        "score": 20,
+        "description": "She's not picking up"
+      }
+    ]
+  },
+  {
+    "title": "Outskirts",
+    "achievements": [
+      {
+        "name": "Outskirts",
+        "score": 10,
+        "description": "Complete Outskirts"
+      },
+      {
+        "name": "Rooftop Runner",
+        "score": 10,
+        "description": "Beat the par time on Outskirts"
+      },
+      {
+        "name": "Objective Secured",
+        "score": 10,
+        "description": "Beat the par score on Outskirts"
+      },
+      {
+        "name": "Inquisitive",
+        "score": 5,
+        "description": "Activate Terminal 2 on Outskirts"
+      },
+      {
+        "name": "Skulltaker Halo 2: Blind",
+        "score": 5,
+        "description": "Find and claim the Blind Skull"
+      },
+      {
+        "name": "Skulltaker Halo 2: IWHBYD",
+        "score": 5,
+        "description": "Find and claim the IWHBYD Skull"
+      },
+      {
+        "name": "Betcha can't stick it...",
+        "score": 10,
+        "description": "Stick a Plasma Grenade to a Stealth Elite on Outskirts"
+      },
+      {
+        "name": "Rex Sword",
+        "score": 10,
+        "description": "Grab the energy sword on the level Outskirts"
+      }
+    ]
+  },
+  {
+    "title": "Metropolis",
+    "achievements": [
+      {
+        "name": "Metropolis",
+        "score": 10,
+        "description": "Complete Metropolis"
+      },
+      {
+        "name": "Speeding Ticket",
+        "score": 10,
+        "description": "Beat the par time on Metropolis"
+      },
+      {
+        "name": "Ripple Fire",
+        "score": 10,
+        "description": "Beat the par score on Metropolis"
+      },
+      {
+        "name": "Examiner",
+        "score": 5,
+        "description": "Activate Terminal 3 on Metropolis"
+      },
+      {
+        "name": "Skulltaker Halo 2: Catch",
+        "score": 5,
+        "description": "Find and claim the Catch Skull"
+      },
+      {
+        "name": "E E E",
+        "score": 5,
+        "description": "View both signs in the level Metropolis"
+      },
+      {
+        "name": "GOOOAAAAALLLL!",
+        "score": 10,
+        "description": "Shoot the soccer ball in the level Metropolis"
+      },
+      {
+        "name": "Commuter",
+        "score": 10,
+        "description": "Complete Metropolis without entering a vehicle on Heroic or Legendary"
+      },
+      {
+        "name": "Scarab Lord",
+        "score": 20,
+        "description": "Acquire the Scarab Gun"
+      }
+    ]
+  },
+  {
+    "title": "The Arbiter",
+    "achievements": [
+      {
+        "name": "The Arbiter",
+        "score": 10,
+        "description": "Complete The Arbiter"
+      },
+      {
+        "name": "YOLO Strats",
+        "score": 10,
+        "description": "Beat the par time on The Arbiter"
+      },
+      {
+        "name": "Heresy Will Not Stay My Feet",
+        "score": 10,
+        "description": "Beat the par score on The Arbiter"
+      },
+      {
+        "name": "Inspector",
+        "score": 5,
+        "description": "Activate Terminal 4 on The Arbiter"
+      },
+      {
+        "name": "Skulltaker Halo 2: Grunt Birthday Party",
+        "score": 5,
+        "description": "Find and claim the Grunt Birthday Party Skull"
+      },
+      {
+        "name": "Dirty Bird",
+        "score": 5,
+        "description": "Fly the Heretic Banshee"
+      }
+    ]
+  },
+  {
+    "title": "Oracle",
+    "achievements": [
+      {
+        "name": "Oracle",
+        "score": 10,
+        "description": "Complete The Oracle"
+      },
+      {
+        "name": "Reed the Strategy",
+        "score": 10,
+        "description": "Beat the par time on The Oracle"
+      },
+      {
+        "name": "Leave None Alive",
+        "score": 10,
+        "description": "Beat the par score on The Oracle"
+      },
+      {
+        "name": "Fascinated",
+        "score": 5,
+        "description": "Activate Terminal 5 on The Oracle"
+      },
+      {
+        "name": "Skulltaker Halo 2: Famine",
+        "score": 5,
+        "description": "Find and claim the Famine Skull"
+      },
+      {
+        "name": "10 Minutes Too Early",
+        "score": 5,
+        "description": "In The Oracle, find the holo-drone before the Heretic Leader activates it"
+      }
+    ]
+  },
+  {
+    "title": "Delta Halo",
+    "achievements": [
+      {
+        "name": "Delta Halo",
+        "score": 10,
+        "description": "Complete Delta Halo"
+      },
+      {
+        "name": "So You Don't Want the Tank?",
+        "score": 10,
+        "description": "Beat the par time on Delta Halo"
+      },
+      {
+        "name": "Boundless",
+        "score": 10,
+        "description": "Beat the par score on Delta Halo"
+      },
+      {
+        "name": "Enchanted",
+        "score": 5,
+        "description": "Activate Terminal 6 on Delta Halo"
+      },
+      {
+        "name": "Skulltaker Halo 2: Envy",
+        "score": 5,
+        "description": "Find and claim the Envy Skull"
+      },
+      {
+        "name": "And So It Begins...",
+        "score": 5,
+        "description": "Collect the Master Chief toy in Delta Halo"
+      },
+      {
+        "name": "He Never Gets Me Anything",
+        "score": 10,
+        "description": "Complete Delta Halo without entering a vehicle on Heroic or Legendary"
+      }
+    ]
+  },
+  {
+    "title": "Regret",
+    "achievements": [
+      {
+        "name": "Regret",
+        "score": 10,
+        "description": "Complete Regret"
+      },
+      {
+        "name": "I Regret Nothing",
+        "score": 10,
+        "description": "Beat the par time on Regret"
+      },
+      {
+        "name": "Fists of Fury",
+        "score": 10,
+        "description": "Beat the par score on Regret"
+      },
+      {
+        "name": "Enamoured",
+        "score": 5,
+        "description": "Activate Terminal 7 on Regret"
+      },
+      {
+        "name": "Skulltaker Halo 2: Assassins",
+        "score": 5,
+        "description": "Find and claim the Assassins Skull"
+      },
+      {
+        "name": "Regrettable Turn of Events",
+        "score": 5,
+        "description": "Collect the Prophet of Regret toy in Regret"
+      },
+      {
+        "name": "HI BEN",
+        "score": 5,
+        "description": "Oh, hi!"
+      },
+      {
+        "name": "Needs More Whammy Bar",
+        "score": 5,
+        "description": "Complete the level Regret with the Prophet Birthday Skull activated"
+      }
+    ]
+  },
+  {
+    "title": "Sacred Icon",
+    "achievements": [
+      {
+        "name": "Sacred Icon",
+        "score": 10,
+        "description": "Complete Sacred Icon"
+      },
+      {
+        "name": "Terminal Velocity",
+        "score": 10,
+        "description": "Beat the par time on Sacred Icon"
+      },
+      {
+        "name": "Guided Tour",
+        "score": 10,
+        "description": "Beat the par score on Sacred Icon"
+      },
+      {
+        "name": "Determined",
+        "score": 5,
+        "description": "Activate Terminal 8 on Sacred Icon"
+      },
+      {
+        "name": "Skulltaker Halo 2: Mythic",
+        "score": 5,
+        "description": "Find and claim the Mythic Skull"
+      },
+      {
+        "name": "The Will of the Prophets",
+        "score": 5,
+        "description": "Collect the Arbiter toy in Sacred Icon"
+      }
+    ]
+  },
+  {
+    "title": "Quarantine Zone",
+    "achievements": [
+      {
+        "name": "Quarantine Zone",
+        "score": 10,
+        "description": "Complete Quarantine Zone"
+      },
+      {
+        "name": "Hot Zone",
+        "score": 10,
+        "description": "Beat the par time on Quarantine Zone"
+      },
+      {
+        "name": "The Doctor Is In",
+        "score": 10,
+        "description": "Beat the par score on Quarantine Zone"
+      },
+      {
+        "name": "Delighted",
+        "score": 5,
+        "description": "Activate Terminal 9 on Quarantine Zone"
+      },
+      {
+        "name": "Skulltaker Halo 2: Sputnik",
+        "score": 5,
+        "description": "Find and claim the Sputnik Skull"
+      },
+      {
+        "name": "Chieftain of the Brutes",
+        "score": 5,
+        "description": "Collect the Tartarus toy in Quarantine Zone"
+      },
+      {
+        "name": "Six Pedals, Four Directions",
+        "score": 10,
+        "description": "Drive a Scorpion while playing as the Arbiter"
+      }
+    ]
+  },
+  {
+    "title": "Gravemind",
+    "achievements": [
+      {
+        "name": "Gravemind",
+        "score": 10,
+        "description": "Complete Gravemind"
+      },
+      {
+        "name": "Force of Will",
+        "score": 10,
+        "description": "Beat the par time on Gravemind"
+      },
+      {
+        "name": "Official Business",
+        "score": 10,
+        "description": "Beat the par score on Gravemind"
+      },
+      {
+        "name": "Knowledgeable",
+        "score": 5,
+        "description": "Activate Terminal 10 on Gravemind"
+      },
+      {
+        "name": "Skulltaker Halo 2: Anger",
+        "score": 5,
+        "description": "Find and claim the Anger Skull"
+      },
+      {
+        "name": "Don't Make a Girl a Promise",
+        "score": 5,
+        "description": "Collect the Cortana toy in Gravemind"
+      },
+      {
+        "name": "He's Running a Marathon...",
+        "score": 5,
+        "description": "Spot the developer in the opening cutscene of Gravemind on Legendary in Classic Mode"
+      }
+    ]
+  },
+  {
+    "title": "Uprising",
+    "achievements": [
+      {
+        "name": "Uprising",
+        "score": 10,
+        "description": "Complete Uprising"
+      },
+      {
+        "name": "No Man's Land",
+        "score": 10,
+        "description": "Beat the par time on Uprising"
+      },
+      {
+        "name": "The Hype Is Real",
+        "score": 10,
+        "description": "Beat the par score on Uprising"
+      },
+      {
+        "name": "Scholar",
+        "score": 5,
+        "description": "Activate Terminal 11 on Uprising"
+      },
+      {
+        "name": "Skulltaker Halo 2: Ghost",
+        "score": 5,
+        "description": "Find and claim the Ghost Skull"
+      },
+      {
+        "name": "My Work is Done",
+        "score": 5,
+        "description": "Collect the Librarian toy in Uprising"
+      },
+      {
+        "name": "Cowardly Grunt",
+        "score": 5,
+        "description": "Listen to the Cowardly Grunt's woes"
+      }
+    ]
+  },
+  {
+    "title": "High Charity",
+    "achievements": [
+      {
+        "name": "High Charity",
+        "score": 10,
+        "description": "Complete High Charity"
+      },
+      {
+        "name": "Feeling Charitable",
+        "score": 10,
+        "description": "Beat the par time on High Charity"
+      },
+      {
+        "name": "Scorched Earth",
+        "score": 10,
+        "description": "Beat the par score on High Charity"
+      },
+      {
+        "name": "Reviewer",
+        "score": 5,
+        "description": "Activate Terminal 12 on High Charity"
+      },
+      {
+        "name": "Skulltaker Halo 2: Iron",
+        "score": 5,
+        "description": "Find and claim the Iron Skull"
+      },
+      {
+        "name": "I Like Crazy",
+        "score": 5,
+        "description": "Collect the Rampant Cortana toy in High Charity"
+      }
+    ]
+  },
+  {
+    "title": "The Great Journey",
+    "achievements": [
+      {
+        "name": "The Great Journey",
+        "score": 10,
+        "description": "Complete The Great Journey"
+      },
+      {
+        "name": "Are We There Yet?",
+        "score": 10,
+        "description": "Beat the par time on The Great Journey"
+      },
+      {
+        "name": "Frequent Flyer Miles",
+        "score": 10,
+        "description": "Beat the par score on The Great Journey"
+      },
+      {
+        "name": "Obsessed",
+        "score": 5,
+        "description": "Activate Terminal 13 on The Great Journey"
+      },
+      {
+        "name": "Skulltaker Halo 2: Black Eye",
+        "score": 5,
+        "description": "Find and claim the Black Eye Skull"
+      },
+      {
+        "name": "Pyrrhic Solution",
+        "score": 5,
+        "description": "Collect the Didact toy in The Great Journey"
+      }
+    ]
+  }
+]
