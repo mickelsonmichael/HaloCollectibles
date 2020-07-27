@@ -1,45 +1,25 @@
 import React from "react";
 import AlertMessage from "./AlertMessage";
-import { Table } from "reactstrap";
-import { MdCheckCircle } from "react-icons/md";
+import { Col, Row } from "reactstrap";
+import AchievementCard from "./achievements/AchievementCard";
 
 const AchievementCategory = ({ achievements }) => {
   if (achievements.length === 0) {
     return (
       <AlertMessage color="info" isVisible>
-        No Achievements to Display
+        No Achievements found!
       </AlertMessage>
     );
   }
 
   return (
-    <Table striped hover>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Gamerscore</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        {achievements.map((ach) => (
-          <tr key={ach.name}>
-            <td>
-              {ach?.isComplete && (
-                <MdCheckCircle
-                  className="mr-2"
-                  style={{ verticalAlign: "sub" }}
-                  size={17}
-                />
-              )}
-              {ach.name}
-            </td>
-            <td>{ach.score}</td>
-            <td>{ach.description}</td>
-          </tr>
-        ))}
-      </tbody>
-    </Table>
+    <Row noGutters>
+      {achievements.map((ach) => (
+        <Col lg={4} md={6} xs={12}>
+          <AchievementCard achievement={ach} key={ach.name} />
+        </Col>
+      ))}
+    </Row>
   );
 };
 
