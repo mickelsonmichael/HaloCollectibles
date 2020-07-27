@@ -75,11 +75,13 @@ Achievements.propTypes = {
   categories: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
-      achievements: PropTypes.shape({
-        name: PropTypes.string,
-        description: PropTypes.string,
-        score: PropTypes.number,
-      }),
+      achievements: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+          description: PropTypes.string,
+          score: PropTypes.number,
+        })
+      ),
     })
   ),
 };
