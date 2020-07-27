@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ae8a7d77d19a0523324ef15906f0702",
+    "revision": "1a61c300a3645a0dc453db2e271b1c7a",
     "url": "/HaloCollectibles/index.html"
   },
   {
