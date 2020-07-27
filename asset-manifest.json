@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/HaloCollectibles/static/css/main.78e14194.chunk.css",
-    "main.js": "/HaloCollectibles/static/js/main.9711c937.chunk.js",
-    "main.js.map": "/HaloCollectibles/static/js/main.9711c937.chunk.js.map",
+    "main.js": "/HaloCollectibles/static/js/main.cc6fa951.chunk.js",
+    "main.js.map": "/HaloCollectibles/static/js/main.cc6fa951.chunk.js.map",
     "runtime-main.js": "/HaloCollectibles/static/js/runtime-main.199a2d41.js",
     "runtime-main.js.map": "/HaloCollectibles/static/js/runtime-main.199a2d41.js.map",
-    "static/js/2.22da731d.chunk.js": "/HaloCollectibles/static/js/2.22da731d.chunk.js",
-    "static/js/2.22da731d.chunk.js.map": "/HaloCollectibles/static/js/2.22da731d.chunk.js.map",
+    "static/js/2.b29f7bd8.chunk.js": "/HaloCollectibles/static/js/2.b29f7bd8.chunk.js",
+    "static/js/2.b29f7bd8.chunk.js.map": "/HaloCollectibles/static/js/2.b29f7bd8.chunk.js.map",
     "index.html": "/HaloCollectibles/index.html",
-    "precache-manifest.1e2541a475a751b6a64e540bb4c4d47a.js": "/HaloCollectibles/precache-manifest.1e2541a475a751b6a64e540bb4c4d47a.js",
+    "precache-manifest.871277d4d8fd70ea1ca0dad64d664061.js": "/HaloCollectibles/precache-manifest.871277d4d8fd70ea1ca0dad64d664061.js",
     "service-worker.js": "/HaloCollectibles/service-worker.js",
     "static/css/main.78e14194.chunk.css.map": "/HaloCollectibles/static/css/main.78e14194.chunk.css.map",
-    "static/js/2.22da731d.chunk.js.LICENSE.txt": "/HaloCollectibles/static/js/2.22da731d.chunk.js.LICENSE.txt"
+    "static/js/2.b29f7bd8.chunk.js.LICENSE.txt": "/HaloCollectibles/static/js/2.b29f7bd8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.199a2d41.js",
-    "static/js/2.22da731d.chunk.js",
+    "static/js/2.b29f7bd8.chunk.js",
     "static/css/main.78e14194.chunk.css",
-    "static/js/main.9711c937.chunk.js"
+    "static/js/main.cc6fa951.chunk.js"
   ]
 }
