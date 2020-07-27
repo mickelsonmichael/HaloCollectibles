@@ -9,7 +9,9 @@ import AchievementCategory from "./AchievementCategory";
 const filterAchievements = (achievements, filter) => {
   if (filter) {
     return achievements.filter(
-      (a) => a.name.includes(filter) || a.description.includes(filter)
+      (a) =>
+        a.name.toLowerCase().includes(filter) ||
+        a.description.toLowerCase().includes(filter)
     );
   }
   return achievements;
