@@ -15,8 +15,8 @@ const AchievementCategory = ({ achievements }) => {
   return (
     <Row noGutters>
       {achievements.map((ach) => (
-        <Col lg={4} md={6} xs={12}>
-          <AchievementCard achievement={ach} key={ach.name} />
+        <Col lg={4} md={6} xs={12} key={ach.name}>
+          <AchievementCard achievement={ach} />
         </Col>
       ))}
     </Row>
