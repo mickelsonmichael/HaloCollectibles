@@ -1,44 +1,38 @@
 import React from "react";
-import { getAchievements, getGamertag } from "../../utilities/storage";
-import { Alert } from "reactstrap";
-import Achievements from "../../common/Achievements";
 import AchievementCount from "../../common/AchievementCount";
+import AchievementCategory from "../../common/AchievementCategory";
+import UserContext from "../../UserContext";
+import AlertMessage from "../../common/AlertMessage";
 
 export default () => {
-  const gamertag = getGamertag();
+  const { gamertag, achievements } = React.useContext(UserContext);
 
   if (!gamertag) {
     return (
-      <Alert color="info">
+      <AlertMessage color="info">
         You are not logged in. Use the login form in the header
-      </Alert>
+      </AlertMessage>
     );
   }
 
-  const achievements = getAchievements().filter((x) => x.isComplete);
-
-  if (achievements.length === 0) {
+  if (!achievements || achievements?.length === 0) {
     return (
-      <Alert color="warning">
+      <AlertMessage color="warning">
         You have no achievements complete yet! Get started!
-      </Alert>
+      </AlertMessage>
     );
   }
-
-  const categories = [
-    {
-      title: "all",
-      achievements: achievements,
-    },
-  ];
 
   return (
     <div>
       <h2>
         Unlocked Achievements for: {gamertag}
-        <AchievementCount categories={categories} className="float-right" />
+        <AchievementCount
+          categories={{ title: "all", achievements }}
+          className="float-right"
+        />
       </h2>
-      <Achievements categories={categories} hideCompleted={false} />
+      <AchievementCategory achievements={achievements} />
     </div>
   );
 };
