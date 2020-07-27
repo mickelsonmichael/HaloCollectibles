@@ -1,17 +1,15 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { NavLink, NavItem } from "reactstrap";
+import { NavItem } from "reactstrap";
 
 export default ({ url, text }) => {
   const location = useLocation();
+  const cssClass =
+    "nav-link " + (location.pathname === { url } ? "active" : "");
 
   return (
     <NavItem>
-      <Link
-        component={NavLink}
-        to={url}
-        className={location.pathname === { url } ? "active" : ""}
-      >
+      <Link to={url} className={cssClass}>
         {text}
       </Link>
     </NavItem>

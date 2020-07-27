@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  Collapse,
-  Nav,
-  NavbarText,
-} from "reactstrap";
+import { Navbar, NavbarToggler, Collapse, Nav, NavbarText } from "reactstrap";
 import UserLogin from "./UserLogin";
 import { getGamertag } from "../utilities/storage";
 import NavLink from "./NavLink";
@@ -20,7 +13,7 @@ const NavMenu = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md">
-        <Link component={NavbarBrand} to="/">
+        <Link className="navbar-brand" to="/">
           Halo Collectibles
         </Link>
         <NavbarToggler onClick={toggle} />
@@ -39,7 +32,6 @@ const NavMenu = (props) => {
           </NavbarText>
         </Collapse>
       </Navbar>
-    
     </div>
   );
 };
