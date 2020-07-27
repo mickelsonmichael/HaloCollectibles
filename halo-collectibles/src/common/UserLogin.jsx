@@ -24,7 +24,6 @@ export default () => {
   };
 
   const getProgress = (xuid) => {
-    console.log(xuid);
     return fetch(
       "https://halocollectiblesapi.azurewebsites.net/api/GetHalo?xuid=" + xuid
     ).then((response) => {
@@ -104,7 +103,7 @@ export default () => {
     <InputGroup>
       <Input
         type="text"
-        size="sm"
+        bsSize="sm"
         placeholder="Gamertag"
         onChange={(e) => setGamertag(e.target.value)}
         disabled={isLoading}
@@ -113,6 +112,7 @@ export default () => {
         <Button
           type="button"
           color="outline-info"
+          className="btn-sm"
           size="sm"
           onClick={() => getAchievements()}
           disabled={isLoading}

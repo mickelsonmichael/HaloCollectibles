@@ -5,7 +5,7 @@ export default ({ onOptionChange, categories }) => (
   <Input
     type="select"
     onChange={(e) => onOptionChange(e.target.value)}
-    size="sm"
+    bsSize="sm"
   >
     <option value="">- All -</option>
     {categories.map((cat) => (

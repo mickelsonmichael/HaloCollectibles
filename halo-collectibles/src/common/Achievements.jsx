@@ -57,7 +57,7 @@ const Achievements = ({ categories }) => {
             type="text"
             onChange={(e) => setFilter(e.target.value)}
             placeholder={"Search " + achievements.length + " achievements"}
-            size="sm"
+            bsSize="sm"
           />
         </Col>
       </Row>
