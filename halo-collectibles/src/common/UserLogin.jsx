@@ -9,7 +9,7 @@ import {
   Label,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import UserContext from "../UserContext";
+import { UserContext } from "../UserContext";
 import Switch from "react-switch";
 
 export default () => {
@@ -43,11 +43,11 @@ export default () => {
       .then((xuid) => getProgress(xuid))
       .then(
         (achievements) => {
-          setUser((_) => ({
+          setUser({
             gamertag: gamertag,
             achievements: achievements,
             showComplete: false,
-          }));
+          });
 
           setIsLoading(false);
         },

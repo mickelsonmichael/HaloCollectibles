@@ -1,7 +1,7 @@
 import React from "react";
 import AchievementCount from "../../common/AchievementCount";
 import AchievementCategory from "../../common/AchievementCategory";
-import UserContext from "../../UserContext";
+import { UserContext } from "../../UserContext";
 import AlertMessage from "../../common/AlertMessage";
 
 export default () => {
