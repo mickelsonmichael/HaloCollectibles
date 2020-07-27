@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { UserContext } from "../UserContext";
+import { UserContext } from "../../UserContext";
 import { Progress, Tooltip } from "reactstrap";
 
 export default ({ achievement }) => {

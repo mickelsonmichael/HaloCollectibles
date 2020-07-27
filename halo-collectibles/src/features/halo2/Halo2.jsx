@@ -1,7 +1,7 @@
 import React from "react";
-import Achievements from "../../common/Achievements";
+import Achievements from "../../common/achievements/Achievements";
 import Categories from "./achievements.json";
-import AchievementCount from "../../common/AchievementCount";
+import AchievementCount from "../../common/achievements/AchievementCount";
 
 const Halo2 = () => {
   return (

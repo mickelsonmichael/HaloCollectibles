@@ -1,5 +1,4 @@
 import React from "react";
-import { clearSession } from "../utilities/storage";
 import {
   Input,
   Button,
@@ -9,7 +8,7 @@ import {
   Label,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import { UserContext } from "../UserContext";
+import { UserContext } from "../../UserContext";
 import Switch from "react-switch";
 
 export default () => {
@@ -58,14 +57,10 @@ export default () => {
       );
   };
 
-  const clearAchievements = () => {
-    clearSession();
-    setUser({ gamertag: "", achievements: [], showComplete: false });
-  };
+  const clearAchievements = () => setUser(null);
 
   const toggleShowComplete = () => {
     setUser({
-      ...user,
       showComplete: !user.showComplete,
     });
   };

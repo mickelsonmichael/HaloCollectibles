@@ -1,7 +1,7 @@
 import React from "react";
 import Categories from "../reach/achievements.json";
-import Achievements from "../../common/Achievements";
-import AchievementCount from "../../common/AchievementCount";
+import Achievements from "../../common/achievements/Achievements";
+import AchievementCount from "../../common/achievements/AchievementCount";
 
 export default () => (
   <div>

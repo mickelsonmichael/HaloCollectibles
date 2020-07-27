@@ -1,7 +1,7 @@
 import React from "react";
-import AlertMessage from "./AlertMessage";
+import AlertMessage from "../AlertMessage";
 import { Col, Row } from "reactstrap";
-import AchievementCard from "./achievements/AchievementCard";
+import AchievementCard from "./AchievementCard";
 
 const AchievementCategory = ({ achievements }) => {
   if (achievements.length === 0) {

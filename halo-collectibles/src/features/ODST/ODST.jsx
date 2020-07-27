@@ -1,7 +1,7 @@
 import React from "react";
 import Categories from "./achievements.json";
-import AchievementCount from "../../common/AchievementCount";
-import Achievements from "../../common/Achievements";
+import AchievementCount from "../../common/achievements/AchievementCount";
+import Achievements from "../../common/achievements/Achievements";
 
 export default class ODST extends React.Component {
   render() {

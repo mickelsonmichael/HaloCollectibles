@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, NavbarToggler, Collapse, Nav, NavbarText } from "reactstrap";
 import UserLogin from "./UserLogin";
-import { getGamertag } from "../utilities/storage";
 import NavLink from "./NavLink";
 
-const NavMenu = (props) => {
+export default () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const gamertag = getGamertag();
 
   return (
     <div>
@@ -24,8 +22,6 @@ const NavMenu = (props) => {
             <NavLink url="/halo3" text="Halo 3" />
             <NavLink url="/reach" text="Halo: Reach" />
             <NavLink url="/ODST" text="Halo 3: ODST" />
-
-            {gamertag && <NavLink url="/user" text={gamertag} />}
           </Nav>
           <NavbarText>
             <UserLogin />
@@ -35,5 +31,3 @@ const NavMenu = (props) => {
     </div>
   );
 };
-
-export default NavMenu;

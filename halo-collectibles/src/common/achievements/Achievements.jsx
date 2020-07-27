@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Input, Row, Col } from "reactstrap";
-import AlertMessage from "../common/AlertMessage";
+import AlertMessage from "../AlertMessage";
 import Categories from "./Categories";
-import { UserContext } from "../UserContext";
+import { UserContext } from "../../UserContext";
 import AchievementCategory from "./AchievementCategory";
 
 const filterAchievements = (achievements, filter) => {

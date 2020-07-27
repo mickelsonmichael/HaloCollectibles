@@ -1,5 +1,5 @@
 import React from "react";
-import AchievementProgress from "../AchievementProgress";
+import AchievementProgress from "./AchievementProgress";
 import { MdCheckCircle } from "react-icons/md";
 import "./achievements.css";
 

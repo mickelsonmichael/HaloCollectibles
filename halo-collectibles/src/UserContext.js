@@ -18,8 +18,6 @@ const reducer = (user, newUser) => {
     return initialState;
   }
 
-  console.log(user);
-  console.log(newUser);
   return { ...user, ...newUser };
 };
 

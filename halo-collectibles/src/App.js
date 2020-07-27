@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import { Switch, Route, HashRouter } from "react-router-dom";
 import Home from "./common/Home";
-import NavMenu from "./common/NavMenu";
+import NavMenu from "./common/layout/NavMenu";
 import Reach from "./features/reach/Reach.jsx";
 import Halo3 from "./features/halo3/Halo3";
 import Halo2 from "./features/halo2/Halo2";
