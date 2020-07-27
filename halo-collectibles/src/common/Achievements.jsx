@@ -1,9 +1,34 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Table, Input, Row, Col, Alert } from "reactstrap";
-import { getAchievements } from "../utilities/storage";
+import { Table, Input, Row, Col } from "reactstrap";
+import AlertMessage from "../common/AlertMessage";
+import Categories from "./Categories";
+import UserContext from "../UserContext";
+import AchievementCategory from "./AchievementCategory";
+
+const removeComplete = (achievements, user) => {
+  const userAchievements = user.achievements
+    .filter((a) => a.isComplete)
+    .map((a) => a.name);
+
+  if (userAchievements.length > 0) {
+    return achievements.filter((a) => !userAchievements.includes(a.name));
+  }
+
+  return achievements;
+};
+
+const filterAchievements = (achievements, filter) => {
+  if (filter) {
+    return achievements.filter(
+      (a) => a.name.includes(filter) || a.description.includes(filter)
+    );
+  }
+  return achievements;
+};
 
 const Achievements = ({ categories }) => {
+  const { user } = React.useContext(UserContext);
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
@@ -11,42 +36,36 @@ const Achievements = ({ categories }) => {
     ? categories.find((cat) => cat.title === currentCategory).achievements
     : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
 
-  if (filter) {
-    achievements = achievements.filter(
-      (ach) => ach.name.includes(filter) || ach.description.includes(filter)
-    );
+  achievements = filterAchievements(achievements, filter);
+
+  if (!user.showComplete) {
+    achievements = removeComplete(achievements, user);
   }
 
-  const userAchievements = getAchievements()
-    .filter((ach) => ach.isComplete)
-    .map((ach) => ach.name);
+  if (user.achievements.length > 0) {
+    achievements = achievements.map((ach) => {
+      let userProgress = user.achievements.find((x) => x.name === ach.name);
 
-  if (userAchievements.length > 0) {
-    achievements = achievements.filter(
-      (ach) => !userAchievements.includes(ach.name)
-    );
+      return userProgress ?? { ...ach, isComplete: false };
+    });
   }
 
   return (
     <div>
       <Row>
         <Col md="4" sm="12">
-          <Input
-            type="select"
-            onChange={(e) => setCategory(e.target.value)}
-            size="sm"
-          >
-            <option value="">- All -</option>
-            {categories.map((cat) => (
-              <option value={cat.title}>{cat.title}</option>
-            ))}
-          </Input>
+          {categories.length > 1 && (
+            <Categories
+              categories={categories}
+              onOptionChange={(val) => setCategory(val)}
+            />
+          )}
         </Col>
         <Col md={{ size: 2, offset: 6 }} sm="12">
           <Input
             type="text"
             onChange={(e) => setFilter(e.target.value)}
-            placeholder="Search"
+            placeholder={"Search " + achievements.length + " achievements"}
             size="sm"
           />
         </Col>
@@ -54,32 +73,11 @@ const Achievements = ({ categories }) => {
 
       <br />
 
-      {achievements.length === 0 && (
-        <Alert color="info">
-          You have all the achievements in this category!
-        </Alert>
-      )}
+      <AlertMessage isVisible={achievements.length === 0} color="info">
+        You have all the achievements in this category!
+      </AlertMessage>
 
-      {achievements.length > 0 && (
-        <Table striped>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Gamerscore</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            {achievements.map((ach) => (
-              <tr>
-                <td>{ach.name}</td>
-                <td>{ach.score}</td>
-                <td>{ach.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      )}
+      <AchievementCategory achievements={achievements} />
     </div>
   );
 };
