@@ -73,7 +73,7 @@ export default () => {
 
   if (user.gamertag) {
     return (
-      <div>
+      <div className="d-flex align-items-baseline">
         <Label className="mr-2">
           <Switch
             onChange={(checked) => toggleShowComplete(checked)}
