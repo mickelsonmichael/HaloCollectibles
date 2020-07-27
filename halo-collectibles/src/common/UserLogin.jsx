@@ -26,7 +26,7 @@ export default () => {
   const getProgress = (xuid) => {
     console.log(xuid);
     return fetch(
-      "https://halocollectiblesapi.azurewebsites.net/api/GetHal?xuid=" + xuid
+      "https://halocollectiblesapi.azurewebsites.net/api/GetHalo?xuid=" + xuid
     ).then((response) => {
       if (response.ok) {
         return response.json();
