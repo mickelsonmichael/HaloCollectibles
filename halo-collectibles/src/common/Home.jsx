@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Jumbotron, Alert } from "reactstrap";
+import { Jumbotron } from "reactstrap";
 import { UserContext } from "../UserContext";
 import AlertMessage from "./AlertMessage";
 
