@@ -44,7 +44,9 @@ const Achievements = ({ categories }) => {
 
   if (user.achievements.length > 0) {
     achievements = achievements.map((ach) => {
-      let userProgress = user.achievements.find((x) => x.name === ach.name);
+      let userProgress = user.achievements.find(
+        (x) => x.name.toLowerCase() === ach.name.toLowerCase()
+      );
 
       return userProgress ?? { ...ach, isComplete: false };
     });

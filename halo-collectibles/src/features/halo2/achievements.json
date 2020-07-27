@@ -119,7 +119,7 @@
       "title": "Armory",
       "achievements": [
         {
-          "name": "Skulltaker Halo 2: That's Just...Wrong",
+          "name": "Skulltaker Halo 2: That's Just…Wrong",
           "score": 5,
           "description": "Find and claim the That's Just...Wrong Skull"
         }
@@ -384,7 +384,7 @@
           "description": "Beat the par score on Regret"
         },
         {
-          "name": "Enamored",
+          "name": "Enamoured",
           "score": 5,
           "description": "Activate Terminal 7 on Regret"
         },
@@ -504,7 +504,7 @@
           "description": "Beat the par score on Gravemind"
         },
         {
-          "name": "Knowledgable",
+          "name": "Knowledgeable",
           "score": 5,
           "description": "Activate Terminal 10 on Gravemind"
         },

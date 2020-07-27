@@ -1,0 +1,35 @@
+.achievement-card {
+  margin: 0.5rem;
+  border: 1px solid #434343;
+  background-color: #242424;
+}
+
+.achievement-card__title {
+  font-weight: bold;
+  font-size: 105%;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+.achievement-card__score {
+  float: right;
+  margin: 0.25rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.achievement-card__score svg {
+  margin-right: 3px;
+  color: #62c462;
+}
+
+.achievement-card__description {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card__progress .progress {
+  border-radius: 0;
+  height: 0.5rem;
+}
