@@ -7,7 +7,7 @@ import AlertMessage from "../../common/AlertMessage";
 export default () => {
   const { gamertag, achievements } = React.useContext(UserContext);
 
-  if (!gamertag) {
+  if (gamertag === undefined || gamertag === "") {
     return (
       <AlertMessage color="info">
         You are not logged in. Use the login form in the header
