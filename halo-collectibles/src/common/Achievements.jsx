@@ -1,22 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Table, Input, Row, Col } from "reactstrap";
+import { Input, Row, Col } from "reactstrap";
 import AlertMessage from "../common/AlertMessage";
 import Categories from "./Categories";
 import UserContext from "../UserContext";
 import AchievementCategory from "./AchievementCategory";
-
-const removeComplete = (achievements, user) => {
-  const userAchievements = user.achievements
-    .filter((a) => a.isComplete)
-    .map((a) => a.name);
-
-  if (userAchievements.length > 0) {
-    return achievements.filter((a) => !userAchievements.includes(a.name));
-  }
-
-  return achievements;
-};
 
 const filterAchievements = (achievements, filter) => {
   if (filter) {
@@ -38,18 +26,17 @@ const Achievements = ({ categories }) => {
 
   achievements = filterAchievements(achievements, filter);
 
-  if (!user.showComplete) {
-    achievements = removeComplete(achievements, user);
-  }
-
   if (user.achievements.length > 0) {
     achievements = achievements.map((ach) => {
       let userProgress = user.achievements.find(
         (x) => x.name.toLowerCase() === ach.name.toLowerCase()
       );
-
       return userProgress ?? { ...ach, isComplete: false };
     });
+
+    if (!user.showComplete) {
+      achievements = achievements.filter((ach) => ach.isComplete === false);
+    }
   }
 
   return (
