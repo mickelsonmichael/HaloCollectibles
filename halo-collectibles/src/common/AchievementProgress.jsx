@@ -14,17 +14,26 @@ export default ({ achievement }) => {
 
   const userAchievement = achievements.find((a) => a.name === achievement.name);
 
-  if (userAchievement === undefined) {
+  if (
+    userAchievement === undefined ||
+    userAchievement.target === undefined ||
+    userAchievement.target === 1
+  ) {
     return null;
   }
 
   const { progress, current, target } = userAchievement;
-  const id = achievement.name.replace(/ /g, "-").replace(/[?.,:!"']/g, "");
+  const id =
+    achievement.name.replace(/ /g, "-").replace(/[?.,:!"']/g, "") + "-tooltip";
 
   return (
     <div>
-      <Progress color="info" value={progress * 100} id={id} />
-      <Tooltip placement="left" isOpen={tooltip} target={id} toggle={toggle}>
+      <Progress
+        color={progress > 1 ? "success" : "info"}
+        value={progress * 100}
+        id={id}
+      />
+      <Tooltip placement="top" isOpen={tooltip} target={id} toggle={toggle}>
         {current} / {target}
       </Tooltip>
     </div>
