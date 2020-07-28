@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Input, Row, Col } from "reactstrap";
-import AlertMessage from "../AlertMessage";
 import Categories from "./Categories";
 import { UserContext } from "../../UserContext";
 import AchievementCategory from "./AchievementCategory";
@@ -18,7 +17,7 @@ const filterAchievements = (achievements, filter) => {
   return achievements;
 };
 
-const Achievements = ({ categories }) => {
+const Achievements = ({ categories, forceShowComplete = false }) => {
   const { user } = React.useContext(UserContext);
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
@@ -37,7 +36,7 @@ const Achievements = ({ categories }) => {
       return userProgress ?? { ...ach, isComplete: false };
     });
 
-    if (!user.showComplete) {
+    if (!user.showComplete && !forceShowComplete) {
       achievements = achievements.filter((ach) => ach.isComplete === false);
     }
   }
