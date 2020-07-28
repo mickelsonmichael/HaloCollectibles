@@ -18,11 +18,11 @@ export default () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavLink url="/general" text="General" />
-            <NavLink url="/haloce" text="Halo: CE" />
-            <NavLink url="/halo2" text="Halo 2" />
-            <NavLink url="/halo3" text="Halo 3" />
-            <NavLink url="/reach" text="Halo: Reach" />
-            <NavLink url="/ODST" text="Halo 3: ODST" />
+            <NavLink url="/haloce" text="Halo:&nbsp;CE" />
+            <NavLink url="/halo2" text="Halo&nbsp;2" />
+            <NavLink url="/halo3" text="Halo&nbsp;3" />
+            <NavLink url="/reach" text="Halo:&nbsp;Reach" />
+            <NavLink url="/ODST" text="Halo&nbsp;3:&nbsp;ODST" />
           </Nav>
           <NavbarText>
             <UserLogin />

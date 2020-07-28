@@ -67,8 +67,8 @@ export default () => {
 
   if (user.gamertag) {
     return (
-      <div className="d-flex align-items-baseline">
-        <Label className="mr-2">
+      <div className="d-flex align-items-baseline ml-2">
+        <Label className="mr-2 text-right">
           <Switch
             onChange={(checked) => toggleShowComplete(checked)}
             checked={user.showComplete}
@@ -76,10 +76,13 @@ export default () => {
             width={34}
             className="mr-2 align-text-bottom"
           />
-          Show Complete for{" "}
-          <Link to="/user" className="mr-2">
-            {user.gamertag}
-          </Link>
+          <span>Show Complete </span>
+          <span>
+            for&nbsp;
+            <Link to="/user" className="mr-2">
+              {user.gamertag}
+            </Link>
+          </span>
         </Label>
 
         <Button
