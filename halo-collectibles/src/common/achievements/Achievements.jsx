@@ -8,10 +8,11 @@ import AchievementCategory from "./AchievementCategory";
 
 const filterAchievements = (achievements, filter) => {
   if (filter) {
+    const lowercaseFilter = filter.toLowerCase();
     return achievements.filter(
       (a) =>
-        a.name.toLowerCase().includes(filter) ||
-        a.description.toLowerCase().includes(filter)
+        a.name.toLowerCase().includes(lowercaseFilter) ||
+        a.description.toLowerCase().includes(lowercaseFilter)
     );
   }
   return achievements;
