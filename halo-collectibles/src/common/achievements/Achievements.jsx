@@ -65,10 +65,6 @@ const Achievements = ({ categories }) => {
 
       <br />
 
-      <AlertMessage isVisible={achievements.length === 0} color="info">
-        You have all the achievements in this category!
-      </AlertMessage>
-
       <AchievementCategory achievements={achievements} />
     </div>
   );
