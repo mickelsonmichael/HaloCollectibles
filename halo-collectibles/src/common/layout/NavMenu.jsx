@@ -17,6 +17,7 @@ export default () => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
+            <NavLink url="/general" text="General" />
             <NavLink url="/haloce" text="Halo: CE" />
             <NavLink url="/halo2" text="Halo 2" />
             <NavLink url="/halo3" text="Halo 3" />

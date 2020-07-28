@@ -1,18 +1,24 @@
 import React from "react";
 import { Container } from "reactstrap";
 import { Switch, Route, HashRouter } from "react-router-dom";
-import Home from "./common/Home";
-import NavMenu from "./common/layout/NavMenu";
-import Reach from "./features/reach/Reach.jsx";
-import Halo3 from "./features/halo3/Halo3";
-import Halo2 from "./features/halo2/Halo2";
 
-import "./bootstrap.min.css";
-import "./App.css";
-import HaloCE from "./features/haloce/HaloCE";
-import ODST from "./features/ODST/ODST";
+// App Components
 import UserAchievements from "./features/user/UserAchievements";
 import { UserProvider } from "./UserContext";
+import NavMenu from "./common/layout/NavMenu";
+
+// Assets
+import "./bootstrap.min.css";
+import "./App.css";
+
+// Routes
+import Home from "./common/Home";
+import General from "./features/general/General";
+import HaloCE from "./features/haloce/HaloCE";
+import Halo2 from "./features/halo2/Halo2";
+import Halo3 from "./features/halo3/Halo3";
+import ODST from "./features/ODST/ODST";
+import Reach from "./features/reach/Reach.jsx";
 
 export default () => (
   <HashRouter>
@@ -28,6 +34,9 @@ export default () => (
             </Route>
             <Route path="/user" exact>
               <UserAchievements />
+            </Route>
+            <Route path="/general" exact>
+              <General />
             </Route>
             <Route path="/haloce" exact>
               <HaloCE />

@@ -1,0 +1,168 @@
+[
+  {
+    "title": "General",
+    "achievements": [
+      {
+        "name": "Life Story",
+        "score": 30,
+        "description": "Complete the Master Chief Saga playlist"
+      },
+      {
+        "name": "Checkmate",
+        "score": 5,
+        "description": "Kill 100 Watchers"
+      },
+      {
+        "name": "I Was Wondering What Would Break First",
+        "score": 5,
+        "description": "Kill 100 Knights"
+      },
+      {
+        "name": "Thanks A Killion",
+        "score": 20,
+        "description": "Kill 20,000 enemies or players"
+      },
+      {
+        "name": "Medal Completionist",
+        "score": 20,
+        "description": "Collect 10,000 campaign or playlist medals"
+      },
+      {
+        "name": "Mystery Achievement",
+        "score": 5,
+        "description": "Inscrutable. Mysterious.",
+        "link": "https://www.trueachievements.com/a193113/mystery-achievement-achievement?gamerid=301386"
+      },
+      {
+        "name": "Forged in Fire",
+        "score": 10,
+        "description": "Win 100 multiplayer games"
+      },
+      {
+        "name": "Sample Plate",
+        "score": 20,
+        "description": "Complete three cross-game playlists"
+      },
+      {
+        "name": "I Dabble in Slaying",
+        "score": 10,
+        "description": "Complete one cross-game playlist"
+      },
+      {
+        "name": "War Hero",
+        "score": 40,
+        "description": "Complete all campaigns on Heroic difficulty"
+      },
+      {
+        "name": "Legend",
+        "score": 50,
+        "description": "Complete all campaigns on Legendary difficulty"
+      },
+      {
+        "name": "Lore Master",
+        "score": 30,
+        "description": "Activate all terminals"
+      },
+      {
+        "name": "LASO Master",
+        "score": 50,
+        "description": "Complete the LASO playlist for every Halo game"
+      },
+      {
+        "name": "The Good, The Bad and The Dead",
+        "score": 10,
+        "description": "Collect 9,000 campaign or playlist medals"
+      },
+      {
+        "name": "Throne of Bones",
+        "score": 30,
+        "description": "Find and claim all the campaign skulls in Halo: CE, Halo 2, and Halo 3"
+      },
+      {
+        "name": "In It To Win It",
+        "score": 10,
+        "description": "Win 200 multiplayer games"
+      },
+      {
+        "name": "Sharpshooter",
+        "score": 10,
+        "description": "Win 150 multiplayer games"
+      },
+      {
+        "name": "Battle-Hardened",
+        "score": 10,
+        "description": "Win 250 multiplayer games"
+      },
+      {
+        "name": "Up All Night",
+        "score": 10,
+        "description": "Complete 250 missions or multiplayer games"
+      },
+      {
+        "name": "Thermopylae",
+        "score": 10,
+        "description": "Win 300 multiplayer games"
+      },
+      {
+        "name": "Can't Get Enough",
+        "score": 10,
+        "description": "Complete 300 missions or multiplayer games"
+      },
+      {
+        "name": "Striking Fear in Their Hearts",
+        "score": 10,
+        "description": "Win 350 multiplayer games"
+      },
+      {
+        "name": "Committed",
+        "score": 10,
+        "description": "Complete 350 missions or multiplayer games"
+      },
+      {
+        "name": "Steady Aim",
+        "score": 10,
+        "description": "Win 400 multiplayer games"
+      },
+      {
+        "name": "Quick Trigger Finger",
+        "score": 10,
+        "description": "Win 450 multiplayer games"
+      },
+      {
+        "name": "Long-Time Fan",
+        "score": 10,
+        "description": "Complete 450 missions or multiplayer games"
+      },
+      {
+        "name": "Multiplayer Champion",
+        "score": 20,
+        "description": "Win 500 multiplayer games"
+      },
+      {
+        "name": "The Long Haul",
+        "score": 20,
+        "description": "Complete 500 missions or multiplayer games"
+      },
+      {
+        "name": "Wyrmslayer",
+        "score": 10,
+        "description": "Kill 250 Hunters"
+      },
+      {
+        "name": "Remove the Bishops from the Board",
+        "score": 10,
+        "description": "Kill 1000 Watchers"
+      },
+      {
+        "name": "Knightbane",
+        "score": 10,
+        "description": "Kill 1000 Knights"
+      },
+      {
+        "name": "Dogcatcher",
+        "score": 10,
+        "description": "Kill 100 Crawlers"
+      }
+    ]
+  }
+]
