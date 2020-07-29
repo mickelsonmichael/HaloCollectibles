@@ -3,6 +3,12 @@
   border: 1px solid #434343;
   background-color: #242424;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-card__header {
+  padding: 0.25rem 0.25rem;
 }
 
 .achievement-card__title {
@@ -27,7 +33,11 @@
 .achievement-card__description {
   display: block;
   padding: 0.25rem 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: auto;
+}
+
+.achievement-card__progress {
+  margin-top: 0.25rem;
 }
 
 .achievement-card__progress .progress {
