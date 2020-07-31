@@ -41,7 +41,7 @@ export default () => (
             <Route path="/haloce" exact>
               <HaloCE />
             </Route>
-            <Route path="/halo2" exact>
+            <Route path="/halo2">
               <Halo2 />
             </Route>
             <Route path="/halo3" exact>

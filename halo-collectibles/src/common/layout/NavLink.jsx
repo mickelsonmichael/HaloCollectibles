@@ -5,7 +5,7 @@ import { NavItem } from "reactstrap";
 export default ({ url, text }) => {
   const location = useLocation();
   const cssClass =
-    "nav-link " + (location.pathname === { url } ? "active" : "");
+    "nav-link " + (location.pathname.includes(url) ? "active" : "");
 
   return (
     <NavItem>
