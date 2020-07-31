@@ -33,7 +33,10 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
       let userProgress = user.achievements.find(
         (x) => x.name.toLowerCase() === ach.name.toLowerCase()
       );
-      return userProgress ?? { ...ach, isComplete: false };
+
+      return (
+        { ...userProgress, link: ach.link } ?? { ...ach, isComplete: false }
+      );
     });
 
     if (!user.showComplete && !forceShowComplete) {
