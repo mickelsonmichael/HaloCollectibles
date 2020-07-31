@@ -1,0 +1,57 @@
+.skull-card {
+  margin: 0.25rem;
+  border: 1px solid #434343;
+  background-color: #242424;
+  border-radius: 2px;
+}
+
+.skull-card__header {
+  display: flex;
+  border-bottom: 1px solid #434343;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.skull-card__header.legendary {
+  background-image: url("../../images/legendary.png");
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+  background-position: -20px -20px;
+}
+
+.skull-card__title {
+  margin-right: auto;
+}
+
+.skull-card__title-text {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.skull-card__title-icon {
+  margin-left: 0.5rem;
+  font-size: 85%;
+  vertical-align: baseline;
+  color: #62c462;
+}
+
+.skull-card__level {
+  font-size: 85%;
+}
+
+.skull-card__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  cursor: pointer;
+}
+
+.skull-card__link svg {
+  font-size: 150%;
+  vertical-align: top;
+}
+
+.skull-card__location {
+  padding: 0.5rem;
+}
