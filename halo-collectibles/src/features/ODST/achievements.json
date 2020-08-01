@@ -2,313 +2,547 @@
   {
     "title": "General",
     "achievements": [
-      {
-        "name": "Heal Up",
-        "score": "5",
-        "description": "Find the first Medical Kiosk and heal yourself" 
-      },
-      {
-        "name": "Tourist",
-        "score": "5",
-        "description": "Access and download the city map to your VISR" 
-      },
-      {
-        "name": "Dark Times",
-        "score": "5",
-        "description": "Kill 5 enemies whole using VISR mode" 
-      },
-      {
-        "name": "Boom, Headshot",
-        "score": "5",
-        "description": "Get 10 automag headshot kills in any level." 
-      },
-      {
-        "name": "Stunning!",
-        "score": "5",
-        "description": "Stun a vehicle with an overcharged plasma pistol and quickly kill the driver." 
-      },
-      {
-        "name": "Ewww, Sticky",
-        "score": "5",
-        "description": "Get 5 sticky grenade kills in any level." 
-      },
-      {
-        "name": "My Clothes!",
-        "score": "5",
-        "description": "Plasma Pistol Overcharge and quickly kill 10 Brutes." 
-      },
-      {
-        "name": "Pink and Deadly",
-        "score": "5",
-        "description": "Get 10 Needler supercombine kills on any covenant." 
-      },
-      {
-        "name": "Trading Down",
-        "score": "5",
-        "description": "Trade weapons with a fellow character." 
-      },
-      {
-        "name": "Headcase",
-        "score": "5",
-        "description": "Finish any level with at least one Skull activated."
-      },
-      {
-        "name": "Good Samaritan",
-        "score": "20",
-        "description": "Killing things that are new and different is bad, alone or with another ODST." 
-      },
-      {
-        "name": "Naughty Naughty",
-        "score": "5",
-        "description": "Killing things that are new and different is good, alone or with another ODST." 
-      }
+     {
+       "name": "Naughty Naughty",
+       "score": "10",
+       "description": "Kill 10 Engineers."
+     },
+     {
+      "name": "Well...Maybe One or Two",
+      "score": "20",
+      "description": "Kill 25 Engineers."
+     },
+     {
+      "name": "One-Way Ride",
+      "score": "20",
+      "description": "H3: ODST: Complete any level without using a health pack on Heroic or Legendary."
+     },
+     {
+      "name": "Just Sayin...I Ain't Dead",
+      "score": "20",
+      "description": "H3: ODST: Complete any level without dying on Heroic or Legendary."
+     },
+     {
+      "name": "Two Places, Same Time",
+      "score": "10",
+      "description": "H3: ODST: I've got my eye on you, Marine."
+     },
+     {
+      "name": "Does Whatever a Spartan Can?",
+      "score": "10",
+      "description": "H3: ODST: Destroy a Wraith…with your bare hands."
+     },
+     {
+      "name": "Deference of Darkness",
+      "score": "10",
+      "description": "H3: ODST: Complete any level without activating VISR mode."
+     },
+     {
+      "name": "Pineapple Express",
+      "score": "10",
+      "description": "H3: ODST: Kill 4 enemies with a single plasma or frag grenade."
+     },
+     {
+      "name": "Bip! Bap! BAM!",
+      "score": "10",
+      "description": "H3: ODST: Earn a Triple Kill medal with the pistol on any level."
+     },
+     {
+      "name": "Classic",
+      "score": "20",
+      "description": "H3: ODST: Finish any level solo on Legendary, with no shots fired or grenades thrown."
+     },
+     {
+      "name": "Catch 'Em Napping",
+      "score": "10",
+      "description": "H3: ODST: Kill 5 sleeping Grunts on Mombasa Streets."
+     },
+     {
+      "name": "Vandalised",
+      "score": "10",
+      "description": "H3: ODST: Face it."
+     },
+     {
+      "name": "Saturday Morning Cartoon",
+      "score": "10",
+      "description": "H3: ODST: Is there a toy inside?"
+     },
+     {
+      "name": "One Got Away",
+      "score": "10",
+      "description": "H3: ODST: View the missing link."
+     },
+     {
+      "name": "NEXT!",
+      "score": "10",
+      "description": "H3: ODST: Complete a Halo 3: ODST playlist."
+     },
+     {
+      "name": "Like a Broken Record",
+      "score": "10",
+      "description": "H3: ODST: Find a legendary hidden music cue."
+     },
+     {
+      "name": "Nagato Makes Moving Easy",
+      "score": "30",
+      "description": "H3: ODST: Complete all Halo 3: ODST Legendary campaign missions in under 3 hours."
+     },
+     {
+      "name": "Trifecta",
+      "score": "20",
+      "description": "H3: ODST: Complete three Halo 3: ODST playlists."
+     },
+     {
+      "name": "Safety Not Guaranteed",
+      "score": "30",
+      "description": "H3: ODST: Complete a Halo 3: ODST LASO Campaign playlist."
+     },
+     {
+      "name": "Do You Remember When We Met",
+      "score": "5",
+      "description": "H3: ODST: Play a game of Halo 3: ODST on the 22nd of any month."
+     },
+     {
+      "name": "Rookie",
+      "score": "10",
+      "description": "H3: ODST: Complete every level of the game on Easy difficulty."
+     },
+     {
+      "name": "Urban Warfare Badge",
+      "score": "10",
+      "description": "H3: ODST: Complete every level of the game on Normal difficulty."
+     },
+     {
+      "name": "First In, Last Out",
+      "score": "20",
+      "description": "H3: ODST: Complete every level of the game on Heroic difficulty."
+     },
+     {
+      "name": "Mean Streets of New Mombasa",
+      "score": "30",
+      "description": "H3: ODST: Complete every level of the game on Legendary difficulty."
+     },
+     {
+      "name": "Can't Stop Here, This is Brute Country",
+      "score": "20",
+      "description": "H3: ODST: Beat par time on all Halo 3: ODST levels."
+     },
+     {
+      "name": "The Marine Corps Gives Its Regards",
+      "score": "20",
+      "description": "H3: ODST: Beat the par score on all Halo 3: ODST levels."
+     }
+    ]
+  },
+  {
+    "title": "Audio Log",
+    "achievements":[
+
+     {
+      "name": "Listener",
+      "score": "5",
+      "description": "H3: ODST: Find the 1st Audio Log."
+     },
+     {
+      "name": "An Earful",
+      "score": "5",
+      "description": "H3: ODST: Find the 2nd Audio Log."
+     },
+     {
+      "name": "Tuned In",
+      "score": "5",
+      "description": "H3: ODST: Find the 3rd Audio Log."
+     },
+     {
+      "name": "Do Tell",
+      "score": "5",
+      "description": "H3: ODST: Find the 4th Audio Log."
+     },
+     {
+      "name": "Hear Me Out",
+      "score": "5",
+      "description": "H3: ODST: Find the 5th Audio Log."
+     },
+     {
+      "name": "Eavesdropping",
+      "score": "5",
+      "description": "H3: ODST: Find the 6th Audio Log."
+     },
+     {
+      "name": "Auditor",
+      "score": "5",
+      "description": "H3: ODST: Find the 7th Audio Log."
+     },
+     {
+      "name": "Overheard",
+      "score": "5",
+      "description": "H3: ODST: Find the 8th Audio Log."
+     },
+     {
+      "name": "Wiretapping",
+      "score": "5",
+      "description": "H3: ODST: Find the 9th Audio Log."
+     },
+     {
+      "name": "Monitored",
+      "score": "5",
+      "description": "H3: ODST: Find the 10th Audio Log."
+     },
+     {
+      "name": "Hang Onto My Words",
+      "score": "5",
+      "description": "H3: ODST: Find the 11th Audio Log."
+     },
+     {
+      "name": "Give Heed",
+      "score": "5",
+      "description": "H3: ODST: Find the 12th Audio Log."
+     },
+     {
+      "name": "Get A Load",
+      "score": "5",
+      "description": "H3: ODST: Find the 13th Audio Log."
+     },
+     {
+      "name": "Snoop Troop",
+      "score": "5",
+      "description": "H3: ODST: Find the 14th Audio Log."
+     },
+     {
+      "name": "All Ears",
+      "score": "5",
+      "description": "H3: ODST: Find the 15th Audio Log."
+     },
+     {
+      "name": "Ear Bender",
+      "score": "5",
+      "description": "H3: ODST: Find the 16th Audio Log."
+     },
+     {
+      "name": "Plugged In",
+      "score": "5",
+      "description": "H3: ODST: Find the 17th Audio Log."
+     },
+     {
+      "name": "Attentive",
+      "score": "5",
+      "description": "H3: ODST: Find the 18th Audio Log."
+     },
+     {
+      "name": "Watchful",
+      "score": "5",
+      "description": "H3: ODST: Find the 19th Audio Log."
+     },
+     {
+      "name": "Observant",
+      "score": "5",
+      "description": "3: ODST: Find the 20th Audio Log."
+     },
+     {
+      "name": "Scout",
+      "score": "5",
+      "description": "H3: ODST: Find the 21st Audio Log."
+     },
+     {
+      "name": "Adventurer",
+      "score": "5",
+      "description": "H3: ODST: Find the 22nd Audio Log."
+     },
+     {
+      "name": "Spotter",
+      "score": "5",
+      "description": "H3: ODST: Find the 23rd Audio Log."
+     },
+     {
+      "name": "Considerate",
+      "score": "5",
+      "description": "H3: ODST: Find the 24th Audio Log."
+     },
+     {
+      "name": "On Your Toes",
+      "score": "5",
+      "description": "H3: ODST: Find the 25th Audio Log."
+     },
+     {
+      "name": "Archivist",
+      "score": "5",
+      "description": "H3: ODST: Find the 26th Audio Log."
+     },
+     {
+      "name": "Your Attention Please",
+      "score": "5",
+      "description": "H3: ODST: Find the 27th Audio Log."
+     },
+     {
+      "name": "Catching On",
+      "score": "5",
+      "description": "H3: ODST: Find the 28th Audio Log."
+     },
+     {
+      "name": "Wisening Up",
+      "score": "5",
+      "description": "H3: ODST: Find the 29th Audio Log."
+     },
+     {
+      "name": "Audiophile",
+      "score": "10",
+      "description": "H3: ODST: Find the 30th Audio Log."
+     },
+     {
+      "name": "Record Shop Owner",
+      "score": "10",
+      "description": "H3: ODST: Find all 30 Audio Logs."
+     }
+    ]
+  },
+     {"title": "unravelling the mystery",
+      "achievements":[
+     {
+      "name": "Junior Detective",
+      "score": "10",
+      "description": "H3: ODST: Find the 1st clue to unravelling the mystery."
+     },
+     {
+      "name": "Investigator",
+      "score": "10",
+      "description": "H3: ODST: Find the 2nd clue to unravelling the mystery."
+     },
+     {
+      "name": "Gumshoe",
+      "score": "10",
+      "description": "H3: ODST: Find the 3rd clue unravelling the mystery."
+     },
+     {
+      "name": "Bloodhound",
+      "score": "10",
+      "description": "H3: ODST: Find the 4th clue unravelling the mystery."
+     },
+     {
+      "name": "Private Eye",
+      "score": "10",
+      "description": "H3: ODST: Find the 5th clue unravelling the mystery."
+     },
+     {
+      "name": "Secret Agent",
+      "score": "10",
+      "description": "H3: ODST: Find the 6th clue unravelling the mystery."
+     }
     ]
   },
   {
     "title": "Tayari Plaza",
+    "achievements": [
+      {
+        "name": "Bill Past Due",
+        "score": "10",
+        "description": "H3: ODST: Beat the par time on Tayari Plaza."
+       },
+       {
+        "name": "Those Left Behind",
+        "score": "10",
+        "description": "H3: ODST: Finish Tayari Plaza with at least one Marine still breathing."
+       },
+       {
+        "name": "Survey Says...",
+        "score": "10",
+        "description": "H3: ODST: Beat the par score on Tayari Plaza."
+       },
+      {
+      "name": "Tayari Plaza",
+      "score": "10",
+      "description": "H3: ODST: Complete Tayari Plaza."
+     }
+    ]
+  },
+  {"title": "Uplift Reserve",
+    "achievements": [
+     {
+      "name": "Uplift Reserve",
+      "score": "10",
+      "description": "H3: ODST: Complete Uplift Reserve."
+     },
+     {
+      "name": "Don't Strain Your Metaphors",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on Uplift Reserve."
+     }
+    ]
+  },
+  {"title": "Kizingo Boulevard",
+    "achievements": [
+     {
+      "name": "Kizingo Boulevard",
+      "score": "10",
+      "description": "H3: ODST: Complete Kizingo Blvd."
+     },
+     {
+      "name": "Shiny...",
+      "score": "10",
+      "description": "H3: ODST: Pilot a Banshee on Kizingo Boulevard."
+     },
+     {
+      "name": "Son of a Gun",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on Kizingo Blvd."
+     }
+    ]
+  },
+  {"title": "ONI Alpha Site.",
     "achievements":[
-
-      {
-        "name": "Tayari Plaza",
-        "score": "30",
-        "description": "Complete Tayari Plaza on Normal, Heroic, or Legendary to unlock a new Firefight character." 
-      }
+     {
+      "name": "ONI Alpha Site",
+      "score": "10",
+      "description": "H3: ODST: Complete ONI Alpha Site."
+     },
+     {
+      "name": "A Pleasant Trip",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on ONI Alpha Site."
+     },
+     {
+      "name": "What About Those Tanks?",
+      "score": "10",
+      "description": "H3: ODST: Destroy 7 Wraiths on Oni Alpha Site."
+     },
+     {
+      "name": "Fowl Hunt",
+      "score": "10",
+      "description": "H3: ODST: Kill 3 Jetpack Brutes with a shotgun on Oni Alpha Site."
+     },
+     {
+      "name": "I Love My Job",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on ONI Alpha Site."
+     }
     ]
   },
-  {
-    "title": "Uplift Reserve",
+  {"title":"NMPD HQ",
+   "achievements" : [
+     {
+      "name": "NMPD HQ",
+      "score": "10",
+      "description": "H3: ODST: Complete NMPD HQ."
+     },
+     {
+      "name": "Shoot and Scoot",
+      "score": "10",
+      "description": "H3: ODST: Complete NMPD HQ without firing the Sniper Rifle on Heroic or Legendary."
+     },
+     {
+      "name": "Bits and Pieces",
+      "score": "10",
+      "description": "H3: ODST: Destroy 5 Phantoms on NMPD HQ."
+     },
+     {
+      "name": "First Stop: Anywhere But Here!",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on NMPD HQ."
+     },
+     {
+      "name": "Pour It On",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on NMPD HQ."
+     }
+    ]
+  },
+  {"title": "Kikowani Station",
     "achievements": [
-      {
-        "name": "Uplift Reserve",
-        "score": "30",
-        "description": "Complete Uplift Reserve on Normal, Heroic, or Legendary to unlock a new Firefight character." 
-      },
-      {
-        "name": "Wraith Killer",
-        "score": "5",
-        "description": "Kill all Wraiths in Uplift Reserve." 
-      }
+     {
+      "name": "Kikowani Station",
+      "score": "10",
+      "description": "H3: ODST: Complete Kikowani Station."
+     },
+     {
+      "name": "Feet, Don't Fail Me Now",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on Kikowani Station."
+     },
+     {
+      "name": "Fast and Low",
+      "score": "10",
+      "description": "H3: ODST: Splatter 7 enemies with a Banshee on Kikowani Station."
+     },
+     {
+      "name": "Squid Jackpot!",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on Kikowani Station."
+     }
     ]
   },
-  {
-
-    "title": "Kizingo Bouldevard",
-    "achievements" : [
-      {
-        "name": "Kizingo Boulevard",
-        "score": "30",
-        "description": "Complete Kizingo Blvd. on Normal, Heroic, or Legendary to unlock a new Firefight character." 
-      },
-      {
-        "name": "Both Tubes",
-        "score": "5",
-        "description": "Get 10 Rocket kills on Kizingo Boulevard." 
-      }
+  {"title":"Data Hive",
+    "achievements":[
+     {
+      "name": "Data Hive",
+      "score": "10",
+      "description": "H3: ODST: Complete Data Hive."
+     },
+     {
+      "name": "Overtaken By Events",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on Data Hive."
+     },
+     {
+      "name": "Strong, Silent Type",
+      "score": "10",
+      "description": "H3: ODST: Assassinate 3 Brutes in a row on Data Hive."
+     },
+     {
+      "name": "Firefly",
+      "score": "10",
+      "description": "H3: ODST: Kill a Drone with a flame grenade on Data Hive."
+     },
+     {
+      "name": "Magic Touch",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on Data Hive."
+     }
     ]
   },
-  {
-
-    "title" : "ONI Alpha Site",
+  {"title":"Coastal Highway",
     "achievements": [
-      {
-        "name": "ONI Alpha Site",
-        "score": "30",
-        "description": "Complete ONI Alpha Site on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
-      },
-      {
-        "name": "Laser Blaster",
-        "score": "5",
-        "description": "Get 10 Spartan Laser kills on ONI Alpha Site." 
-      }
+     {
+      "name": "Coastal Highway",
+      "score": "10",
+      "description": "H3: ODST: Complete Coastal Highway."
+     },
+     {
+      "name": "Double Time!",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on Coastal Highway."
+     },
+     {
+      "name": "This Oliphant Has No Brakes",
+      "score": "10",
+      "description": "H3: ODST: Beat the par score on Coastal Highway."
+     },
+     {
+      "name": "BLAM Said The Lady!",
+      "score": "10",
+      "description": "H3: ODST: Swap Dare's pistol for a Rocket Launcher on Coastal Highway."
+     },
+     {
+      "name": "Déjà Vu",
+      "score": "20",
+      "description": "H3: ODST: Complete Coastal Highway on 4-player Legendary co-op, with Iron and no 'Hog or Scorpion."
+     }
     ]
   },
-  {
-
-    "title" : "NMPD HQ",
+  {"title": "Floor It!",
+    "achievements":[
+     {
+      "name": "Floor It!",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on Uplift Reserve."
+     }
+    ]
+  },
+  {"title": "An Artist's Canvas",
     "achievements": [
-      {
-        "name": "NMPD HQ",
-        "score": "30",
-        "description": "Complete NMPD HQ on Normal, Heroic, or Legendary to unlock a new Firefight character." 
-      },
-      {
-        "name": "Dome Inspector",
-        "score": "5",
-        "description": "Get 15 headshot kills on NMPD HQ. " 
-      }
+     {
+      "name": "An Artist's Canvas",
+      "score": "10",
+      "description": "H3: ODST: Beat the par time on Kizingo Blvd."
+     }
     ]
-  },
-  {
-    "title" : "Kikowani Station",
-    "achievements": [
-      {
-        "name": "Kikowani Station",
-        "score": "30",
-        "description": "Complete Kikowani Station on Normal, Heroic, or Legendary." 
-      } 
-    ]
-  },
-  {
-    "title": "Data Hive",
-    "achievements" : [
-      {
-        "name": "Data Hive",
-        "score": "50",
-        "description": "Complete Data Hive on Normal, Heroic, or Legendary to unlock a new Firefight mission. " 
-      },
-      {
-        "name": "I Like Fire",
-        "score": "5",
-        "description": "Kill 10 enemies with the Flamethrower on Data Hive." 
-      }
-    ]
-  },
-  {
-    "title":"Coastal Highway",
-    "achievements": [
-      {
-        "name": "Coastal Highway",
-        "score": "50",
-        "description": "Complete Coastal Highway on Normal, Heroic, or Legendary to unlock a new Firefight mission." 
-      }
-    ]
-  },
-  {
-    "title": "Campaign",
-    "achievements": [
-      {
-        "name": "Campaign Complete: Normal",
-        "score": "100",
-        "description": "Complete the Campaign on Normal difficulty." 
-      },
-      {
-        "name": "Campaign Complete: Heroic",
-        "score": "100",
-        "description": "Complete the Campaign on Heroic difficulty." 
-      },
-      {
-        "name": "Campaign Complete: Legendary",
-        "score": "100",
-        "description": "Complete the Campaign on Legendary to unlock a new Firefight character. " 
-      }
-    ]
-  },
-  {
-    "title": "Collectables",
-    "achievements": [
-      {
-        "name": "Junior Detective",
-        "score": "10",
-        "description": "Find the first clue unraveling the mystery." 
-      },
-      {
-        "name": "Gumshoe",
-        "score": "10",
-        "description": "Find the 3rd clue unraveling the mystery, alone or with another ODST." 
-      },
-      {
-        "name": "Super Sleuth",
-        "score": "10",
-        "description": "Find the final clue unraveling the mystery, alone or with another ODST." 
-      },
-      {
-        "name": "Listener",
-        "score": "5",
-        "description": "Find the first Audio Log." 
-      },
-      {
-        "name": "Tuned In",
-        "score": "15",
-        "description": "Find 3 Audio Logs, alone or with another ODST." 
-      },
-      {
-        "name": "All Ears",
-        "score": "30",
-        "description": "Find 15 Audio Logs, alone or with another ODST." 
-      },
-      {
-        "name": "Audiophile",
-        "score": "75",
-        "description": "Find all Audio Logs, alone or with another ODST." 
-      }
-    ]
-  },
-  {
-    "title": "Firefight",
-    "achievements": [
-      {
-        "name": "Be Like Marty",
-        "score": "10",
-        "description": "In Firefight, finish a full round without killing a single enemy." 
-      },
-      {
-        "name": "Firefight: Crater",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Crater." 
-      },
-      {
-        "name": "Firefight: Lost Platoon",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Lost Platoon." 
-      },
-      {
-        "name": "Firefight: Rally Point",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Rally Point." 
-      },
-      {
-        "name": "Firefight: Security Zone",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Security Zone." 
-      },
-      {
-        "name": "Firefight: Alpha Site",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Alpha Site." 
-      },
-      {
-        "name": "Firefight: Windward",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Windward." 
-      },
-      {
-        "name": "Firefight: Chasm Ten",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Chasm Ten." 
-      },
-      {
-        "name": "Firefight: Last Exit",
-        "score": "10",
-        "description": "Score over 200,000 points in Firefight on Last Exit." 
-      }
-    ]
-  },
-  {
-    "title": "Vidmaster",
-    "achievements": [
-      {
-        "name": "Vidmaster Challenge: Classic",
-        "score": "25",
-        "description": "Finish any level solo on Legendary, on LIVE, with no shots fired or grenades thrown." 
-      },
-      {
-        "name": "Vidmaster Challenge: Endure",
-        "score": "25",
-        "description": "In Firefight, on any mission, pass the 4th Set on 4-player Heroic LIVE co-op." 
-      },
-      {
-        "name": "Vidmaster Challenge: Déjà Vu",
-        "score": "25",
-        "description": "Complete Highway on 4-player Legendary LIVE co-op, with Iron, and no 'Hog or Scorpion." 
-      }
-    ]
-
-
   }
-
-
-
-]
-
-
-
+ ]
