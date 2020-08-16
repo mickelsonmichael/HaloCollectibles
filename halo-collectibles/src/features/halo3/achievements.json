@@ -71,6 +71,12 @@
         "name": "No Stone Unturned",
         "score": 20,
         "description": "Activate all Halo 3 Terminals"
+      },
+      {
+        "name": "Elder Signs",
+        "score": 10,
+        "description": "View 2 different sigils on Valhalla",
+        "link": "https://www.trueachievements.com/a194891/elder-signs-achievement"
       }
     ]
   },
