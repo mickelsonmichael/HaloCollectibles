@@ -5,8 +5,7 @@ import AchievementCount from "../../common/achievements/AchievementCount";
 import Skulls from "../../common/skulls/Skulls";
 import skulls from "./skulls.json";
 import { Route, useRouteMatch } from "react-router";
-import { Link } from "react-router-dom";
-import { Nav, NavItem, Navbar, NavbarBrand } from "reactstrap";
+import { Nav, Navbar, NavbarBrand } from "reactstrap";
 import NavLink from "../../common/layout/NavLink";
 
 const Halo2 = () => {

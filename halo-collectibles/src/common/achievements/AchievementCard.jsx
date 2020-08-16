@@ -4,7 +4,6 @@ import { MdCheckCircle, MdLink } from "react-icons/md";
 import "./achievements.css";
 
 export default ({ achievement }) => {
-  console.log(achievement);
   return (
     <div className="achievement-card">
       <div className="achievement-card__header">

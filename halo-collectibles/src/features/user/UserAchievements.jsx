@@ -1,11 +1,8 @@
 import React from "react";
-import AchievementCount from "../../common/achievements/AchievementCount";
-import AchievementCategory from "../../common/achievements/AchievementCategory";
 import { UserContext } from "../../UserContext";
 import AlertMessage from "../../common/AlertMessage";
-import AchievementProgress from "../../common/achievements/AchievementProgress";
-import { Progress } from "reactstrap";
 import Achievements from "../../common/achievements/Achievements";
+import PlayerCard from "./PlayerCard";
 
 export default () => {
   const { gamertag, achievements } = React.useContext(UserContext).user;
@@ -28,25 +25,13 @@ export default () => {
     );
   }
 
-  const numCompleted = userAchievements.length;
-  const total = achievements.length;
-  const percentComplete = (numCompleted / total) * 100;
-
   return (
     <div>
-      <h2>Unlocked Achievements for {gamertag}</h2>
-
-      {percentComplete === 100 ? (
-        <AlertMessage color="success">
-          You have completed all achievements! Now go outside.
-        </AlertMessage>
-      ) : (
-        <p className="text-muted">
-          You have unlocked {numCompleted} of {total} Achievements across all
-          games.
-          <Progress color="info" value={percentComplete} />
-        </p>
-      )}
+      <PlayerCard
+        gamertag={gamertag}
+        complete={userAchievements.length}
+        total={achievements.length}
+      />
 
       <Achievements
         forceShowComplete
