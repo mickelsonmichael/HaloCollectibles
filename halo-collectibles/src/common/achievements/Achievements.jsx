@@ -44,6 +44,14 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
     }
   }
 
+  if (achievements.every((a) => a.isComplete)) {
+    achievements = achievements.sort(
+      (a, b) => new Date(b.completedDate) - new Date(a.completedDate)
+    );
+  } else {
+    achievements = achievements.sort((a, b) => b.name - a.name);
+  }
+
   return (
     <div>
       <Row>

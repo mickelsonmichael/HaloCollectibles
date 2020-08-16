@@ -4,6 +4,10 @@ import { MdCheckCircle, MdLink } from "react-icons/md";
 import "./achievements.css";
 
 export default ({ achievement }) => {
+  const completedDate = achievement.completedDate
+    ? new Date(achievement.completedDate)
+    : null;
+
   return (
     <div className="achievement-card">
       <div className="achievement-card__header">
@@ -27,6 +31,13 @@ export default ({ achievement }) => {
               Link
             </a>
           </span>
+        )}
+        {completedDate && (
+          <div className="text-muted">
+            Unlocked: {completedDate.getFullYear()}-
+            {(completedDate.getMonth() + 1).toString().padStart(2, "0")}-
+            {completedDate.getDate().toString().padStart(2, "0")}
+          </div>
         )}
       </div>
       <div className="achievement-card__progress">
