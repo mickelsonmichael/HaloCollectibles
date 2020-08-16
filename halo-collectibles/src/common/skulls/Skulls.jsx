@@ -39,7 +39,7 @@ export default ({ skulls }) => {
       <h2>Skulls</h2>
       <Row noGutters>
         {filteredSkulls.map((skull) => (
-          <Col sm={12} md={6} lg={4}>
+          <Col key={skull.name} sm={12} md={6} lg={4}>
             <SkullCard skull={skull} key={skull.name} />
           </Col>
         ))}
