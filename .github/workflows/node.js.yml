@@ -18,11 +18,12 @@ jobs:
       uses: actions/setup-node@v2.1.0
       with:
         node-version: '12.x'
-    - run: cd ./halo-collectibles && npm ci && npm run build
-    - run: cd ./halo-collectibles && ls -a && rm -rf ./node_modules/.cache/gh-pages
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.7.0-8
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        keep_files: false
+    - name: Deploy via NPM
+      run: |
+        cd ./halo-collectibles
+        npm ci
+        npm run build
+        ls -a ./node_modules/.cache
+        rm -rf ./node_modules/.cache/gh-pages
+        npm run deploy -u "Github Deployment <mickelsonmichael@gmail.com>"
+        
