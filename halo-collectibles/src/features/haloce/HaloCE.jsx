@@ -1,15 +1,6 @@
 import React from "react";
+import Game from "../../common/layout/Game";
 import Categories from "./achievements.json";
-import AchievementCount from "../../common/achievements/AchievementCount";
-import Achievements from "../../common/achievements/Achievements";
+import Skulls from "./skulls.json";
 
-export default () => (
-  <div>
-    <h2>
-      Halo: Combat Evolved
-      <AchievementCount className="float-right" categories={Categories} />
-    </h2>
-
-    <Achievements categories={Categories} />
-  </div>
-);
+export default () => <Game achievements={Categories} skulls={Skulls} />;
