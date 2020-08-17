@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Iron",
+    "level": "The Pillar of Autumn",
+    "difficulty": "Any",
+    "location": "This skull is located in the very beginning of the level, at the back of the Cryo deck. If facing away from the observation platform (where Sam is killed) it is on the left side of the room, behind a stack of crates that are behind the targeting lights. ",
+    "video": "gSYsY5OqqBA"
+  },
+  {
+    "name": "Mythic",
+    "level": "Halo",
+    "difficulty": "Any",
+    "location": " After defeating the first Covenant wave, walk directly towards the waterfall from the escape pod. It is behind the large boulder on the right in the water.",
+    "video": "zG1F9lEdmD8"
+  },
+  {
+    "name": "Boom",
+    "level": "Halo",
+    "difficulty": "Any",
+    "location": "Before driving the Warthog into the underground Forerunner facility, look straight up to see a series of pipes. Walk along the cliff edge and jump to the pipe mesh. The skull is sitting on the hill above the entrance.",
+    "video": "jLkZggDCu10"
+  },
+  {
+    "name": "Foreign",
+    "level": "Truth and Reconciliation",
+    "difficulty": "Any",
+    "location": "The bottom floor of the hanger, in the hallway where the Hunters emerge from (door to the right of the exit to the upper floors)",
+    "video": "JJ5qylr_Xbg"
+  },
+  {
+    "name": "Famine",
+    "level": "The Silent Cartographer",
+    "difficulty": "Any",
+    "location": "When you land on the beach, head in the clockwise direction around the item. The skull is situated on top of a hill with a winding path up the back of it (the hill which the Pelican crashes next to). The skull is in between three bushes.",
+    "video": "hf3W9NRtS7w"
+  },
+  {
+    "name": "Bandana",
+    "level": "The Silent Cartographer",
+    "difficulty": "Any",
+    "location": "At the end of the tunnel, on the ceiling in the security console chamber. A grenade or rocket jump is usually necessary. An alternative method is for the first player to crouch on the window strip in the tunnel below the skull, then having a second player kill himself and subsequently respawn on top of the first player. The skull would then be instantly acquired.",
+    "video": "oMlJA8_E1vk"
+  },
+  {
+    "name": "Fog",
+    "level": "Assault on the Control Room",
+    "difficulty": "Any",
+    "location": "After crossing the first bridge and taking the elevator down to the ground floor, the skull will be on a raised platform in the center of this room and will be surrounded by fog. It will require a grenade jump to reach it.",
+    "video": "yLFmTcCpvlE"
+  },
+  {
+    "name": "Malfunction",
+    "level": "Assault on the Control Room",
+    "difficulty": "Any",
+    "location": "When you enter the tunnel and you come to the large room with a gorge, you will notice pipes that stick out of the gorge in the middle on both sides. The skull is on one of the pipes sticking out of the gorge's walls.",
+    "video": "GsE3ZvNKCxQ"
+  },
+  {
+    "name": "Recession",
+    "level": "343 Guilty Spark",
+    "difficulty": "Any",
+    "location": "Located to the left of the Facility in a little drop behind a shade turret. When you cross the fallen tree, you'll see a shade turret blow up and assault rifle fire coming from the structure. Instead of going inside, immediately go to the left and keep against the back wall. You'll come to a turret with a small drop behind it. Slide down the drop carefully and the skull will be waiting for you at the bottom. ",
+    "video": "1KDlZWGDYng"
+  },
+  {
+    "name": "Black Eye",
+    "level": "The Library",
+    "difficulty": "Any",
+    "location": "In the back of one of the vents before entering the Index chamber for the first time. (Warning: Grenade jump necessary.) On the first floor at the beginning of the level, you will notice squarish openings in the ceiling that the flood use to enter the level. Before entering the round, yellow room, find the vent closest to that door and do a grenade jump into it.",
+    "video": "Qpj7Umztq_c"
+  },
+  {
+    "name": "Eye Patch",
+    "level": "The Library",
+    "difficulty": "Any",
+    "location": "Behind the Index on the final platform. Instead of running onto the platform to grab the Index, go around while remaining as far from the Index as possible. The skull will be waiting on the ground right behind it. ",
+    "video": "Fi_8Yk9W0m8"
+  },
+  {
+    "name": "Pinata",
+    "level": "Two Betrayals",
+    "difficulty": "Any",
+    "location": "After the final fight with two Wraiths and capturing the last Banshee, fly it past the third generator room back to where you emerged from the chasm tunnel. The skull is sitting on the top of the underground entrance.",
+    "video": "mNI1yYpi5kU"
+  },
+  {
+    "name": "Grunt Birthday Party",
+    "level": "The Maw",
+    "difficulty": "Any",
+    "location": "On the bridge where Foehammer is shot down, use your Warthog to get up on one of the railings where Foehammer goes down at the end of the mission.",
+    "video": "-pnSmZq3GJ4"
+  }
+]

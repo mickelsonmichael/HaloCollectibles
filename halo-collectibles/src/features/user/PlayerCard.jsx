@@ -6,8 +6,8 @@ export default ({ gamertag, complete, total }) => {
   const percent = (complete / total) * 100;
 
   return (
-    <div className="d-flex border rounded mb-2">
-      <Emblem gamertag={gamertag} className="border-right" />
+    <div className="d-flex mb-2">
+      <Emblem gamertag={gamertag} />
 
       <div className="flex-grow-1 align-self-center m-2">
         <h2 className="d-flex">
