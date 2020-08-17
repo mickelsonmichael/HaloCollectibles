@@ -5,7 +5,7 @@ import "./skulls.css";
 import { Col, Row, Alert } from "reactstrap";
 
 export default ({ skulls }) => {
-  const { achievements, showComplete } = React.useContext(UserContext).user;
+  const { achievements, showComplete } = React.useContext(UserContext).player;
   let filteredSkulls = skulls;
 
   if (achievements && achievements.length > 0) {

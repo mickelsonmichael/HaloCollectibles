@@ -409,11 +409,6 @@
         "description": "Beat the par score on Halo"
       },
       {
-        "name": "Babbling Dead",
-        "score": 5,
-        "description": "Activate Terminal 6 on The Covenant"
-      },
-      {
         "name": "Sword and Shield",
         "score": 5,
         "description": "Activate Terminal 7 on Halo"
