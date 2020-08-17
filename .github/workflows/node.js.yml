@@ -20,4 +20,4 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: cd halo-collectibles && npm run deploy
+    - run: cd halo-collectibles && npm i && npm run deploy
