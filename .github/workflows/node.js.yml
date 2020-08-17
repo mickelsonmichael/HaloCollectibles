@@ -25,5 +25,7 @@ jobs:
         npm run build
         ls -a ./node_modules/.cache
         rm -rf ./node_modules/.cache/gh-pages
-        npm run deploy -u "Github Deployment <mickelsonmichael@gmail.com>"
+        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
