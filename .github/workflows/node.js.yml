@@ -34,6 +34,7 @@ jobs:
         npm run build --if-present
     - name: Deploy using gh-pages
       run: |
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/mickelsonmichael/HaloCollectibles.git
         cd ./halo-collectibles
         npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
       env:
