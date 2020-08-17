@@ -3,7 +3,7 @@ import { UserContext } from "../../UserContext";
 import { Progress, Tooltip } from "reactstrap";
 
 export default ({ achievement }) => {
-  const { achievements } = React.useContext(UserContext).user;
+  const { achievements } = React.useContext(UserContext).player;
   const [tooltip, openTooltip] = useState(false);
 
   const toggle = () => openTooltip(!tooltip);

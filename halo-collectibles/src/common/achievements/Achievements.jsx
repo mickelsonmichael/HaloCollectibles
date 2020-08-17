@@ -18,7 +18,7 @@ const filterAchievements = (achievements, filter) => {
 };
 
 const Achievements = ({ categories, forceShowComplete = false }) => {
-  const { user } = React.useContext(UserContext);
+  const { player } = React.useContext(UserContext);
   const [currentCategory, setCategory] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
@@ -28,9 +28,9 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
 
   achievements = filterAchievements(achievements, filter);
 
-  if (user.achievements.length > 0) {
+  if (player.achievements.length > 0) {
     achievements = achievements.map((ach) => {
-      let userProgress = user.achievements.find(
+      let userProgress = player.achievements.find(
         (x) => x.name.toLowerCase() === ach.name.toLowerCase()
       );
 
@@ -39,7 +39,7 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
       );
     });
 
-    if (!user.showComplete && !forceShowComplete) {
+    if (!player.showCompleted && !forceShowComplete) {
       achievements = achievements.filter((ach) => ach.isComplete === false);
     }
   }

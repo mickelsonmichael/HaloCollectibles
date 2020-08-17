@@ -4,14 +4,15 @@ import { UserContext } from "../UserContext";
 import AlertMessage from "./AlertMessage";
 
 export default () => {
-  const { gamertag } = useContext(UserContext).user;
+  const { gamertag, xuid } = useContext(UserContext).player;
 
   return (
     <div>
-      <AlertMessage isVisible={gamertag}>
-        You are logged in! Select a game from the navigation above to view the
-        remaining achievements. Or click your name in the corner to view all
-        your completed achievements.
+      <AlertMessage color="info" isVisible={gamertag}>
+        You are viewing achievements for{" "}
+        <strong>
+          {gamertag} (XUID: {xuid})
+        </strong>
       </AlertMessage>
       <Jumbotron>
         <h1 className="display-3">Halo Collectibles</h1>
@@ -21,15 +22,13 @@ export default () => {
         </p>
         <hr className="my-2" />
         <p>
-          You may view the achievements using the navigation options above. For
-          a more curated experience, use the textbox to enter your Xbox Live
-          Gamertag and filter out the achievements you already have completed.
+          You may view the achievements using the navigation options above. Use
+          the text box above to filter out achievements completed by a
+          particular user or to view all of their completed achievements.
         </p>
         <p>
-          If you see an achievement you have recently unlocked still on the
-          list, you will need to log out and log back in. Each login request
-          accesses the Xbox API, which isn't a free process, so in the interest
-          of saving money the achievements are not updated automatically.
+          Achievements will be refreshed every hour. If you notice stale
+          achievements, refresh the page.
         </p>
       </Jumbotron>
     </div>

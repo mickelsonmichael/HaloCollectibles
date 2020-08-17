@@ -5,7 +5,7 @@ import Achievements from "../../common/achievements/Achievements";
 import PlayerCard from "./PlayerCard";
 
 export default () => {
-  const { gamertag, achievements } = React.useContext(UserContext).user;
+  const { gamertag, achievements } = React.useContext(UserContext).player;
 
   if (!gamertag) {
     return (
