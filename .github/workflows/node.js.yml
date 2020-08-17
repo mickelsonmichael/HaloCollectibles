@@ -14,8 +14,14 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - run: cd halo-collectibles
+    - name: Setup Node
+      uses: actions/setup-node@v2.1.0
+      with:
+        node-version: '12.x'
+    - run: cd ./halo-collectibles && npm ci && npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        keep_files: false
