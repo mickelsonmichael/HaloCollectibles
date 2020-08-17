@@ -1,5 +1,5 @@
 import React from "react";
-import Game from "../../common/layout/Game";
+import Game from "../../common/Game";
 import Categories from "./achievements.json";
 import Skulls from "./skulls.json";
 

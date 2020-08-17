@@ -35,12 +35,28 @@ export default ({ skulls }) => {
   }
 
   return (
-    <Row noGutters>
-      {filteredSkulls.map((skull) => (
-        <Col key={skull.name} sm={12} md={6} lg={4}>
-          <SkullCard skull={skull} key={skull.name} />
-        </Col>
-      ))}
-    </Row>
+    <div>
+      {skulls.every((s) => s.difficulty === "Any") && (
+        <Alert color="info">
+          The skulls can be found on <strong>any</strong> difficulty.
+        </Alert>
+      )}
+
+      {skulls.every((s) => s.difficulty === skulls[0].difficulty) &&
+        skulls[0].difficulty !== "Any" && (
+          <Alert color="warning">
+            All skulls must be found on <strong>{skulls[0].difficulty}</strong>{" "}
+            difficulty.
+          </Alert>
+        )}
+
+      <Row noGutters>
+        {filteredSkulls.map((skull) => (
+          <Col key={skull.name} sm={12} md={6} lg={4}>
+            <SkullCard skull={skull} key={skull.name} />
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 };

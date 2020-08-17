@@ -1,6 +1,6 @@
 import React from "react";
-import Achievements from "../achievements/Achievements";
-import Skulls from "../skulls/Skulls";
+import Achievements from "./achievements/Achievements";
+import Skulls from "./skulls/Skulls";
 import { FaSkull, FaTrophy } from "react-icons/fa";
 
 export default ({ name, achievements, skulls }) => {
