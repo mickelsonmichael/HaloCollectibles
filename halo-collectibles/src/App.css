@@ -1,3 +1,53 @@
 .nav-tabs .nav-link {
   cursor: pointer;
 }
+
+.game {
+  display: flex;
+}
+
+.game__sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  font-size: 120%;
+}
+
+.game__sidebar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.game__sidebar-list-item {
+  white-space: nowrap;
+  margin: 0.5rem 0.25rem;
+}
+
+.game__sidebar-list-item > button {
+  border: 1px solid gray;
+  color: #bbb;
+  background: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.game__sidebar-list-item > button.active {
+  color: #a6cdff;
+}
+
+.game__sections {
+  width: 100%;
+  display: block;
+}
+
+.game__section {
+  display: none;
+}
+
+.game__section.active {
+  display: block;
+}

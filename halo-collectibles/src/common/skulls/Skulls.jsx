@@ -5,7 +5,7 @@ import "./skulls.css";
 import { Col, Row, Alert } from "reactstrap";
 
 export default ({ skulls }) => {
-  const { achievements, showComplete } = React.useContext(UserContext).player;
+  const { achievements, showCompleted } = React.useContext(UserContext).player;
   let filteredSkulls = skulls;
 
   if (achievements && achievements.length > 0) {
@@ -19,7 +19,7 @@ export default ({ skulls }) => {
     });
   }
 
-  if (!showComplete) {
+  if (!showCompleted) {
     filteredSkulls = filteredSkulls.filter((skull) => !skull.isFound);
   }
 
@@ -35,15 +35,12 @@ export default ({ skulls }) => {
   }
 
   return (
-    <div>
-      <h2>Skulls</h2>
-      <Row noGutters>
-        {filteredSkulls.map((skull) => (
-          <Col key={skull.name} sm={12} md={6} lg={4}>
-            <SkullCard skull={skull} key={skull.name} />
-          </Col>
-        ))}
-      </Row>
-    </div>
+    <Row noGutters>
+      {filteredSkulls.map((skull) => (
+        <Col key={skull.name} sm={12} md={6} lg={4}>
+          <SkullCard skull={skull} key={skull.name} />
+        </Col>
+      ))}
+    </Row>
   );
 };
