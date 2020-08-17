@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: '12.x'
     - run: cd ./halo-collectibles && npm ci && npm run build
-    - run: ls -a && rm -rf ./node_modules/.cache/gh-pages
+    - run: cd ./halo-collectibls && ls -a && rm -rf ./node_modules/.cache/gh-pages
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.7.0-8
       with:
