@@ -1,19 +1,10 @@
 import React from "react";
-import Achievements from "../../common/achievements/Achievements";
-import AchievementCount from "../../common/achievements/AchievementCount";
 import Categories from "./achievements.json";
+import Skulls from "./skulls.json";
+import Game from "../../common/Game";
 
-const Halo3 = () => {
-  return (
-    <div>
-      <h2>
-        Halo 3
-        <AchievementCount className="float-right" categories={Categories} />
-      </h2>
-
-      <Achievements categories={Categories} />
-    </div>
-  );
-};
+const Halo3 = () => (
+  <Game achievements={Categories} skulls={Skulls} name="Halo 3" />
+);
 
 export default Halo3;
