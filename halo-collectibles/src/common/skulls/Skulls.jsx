@@ -46,7 +46,7 @@ export default ({ skulls }) => {
         skulls[0].difficulty !== "Any" && (
           <Alert color="warning">
             All skulls must be found on <strong>{skulls[0].difficulty}</strong>{" "}
-            difficulty.
+            difficulty (or higher).
           </Alert>
         )}
 
