@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "level": "The Pillar of Autumn",
+    "location": "The terminal is one of the computer consoles located on the left side of the Autumn's bridge. All of the console's screens flash \"INCOMING MESSAGE\" in red, and a crewman is standing beside it instead of manning the console",
+    "video": "svySAukA4Lo"
+  },
+  {
+    "id": 2,
+    "level": "Halo",
+    "location": "Near the start of the tunnel, you will come across a ledge leading to the next section. If you carry on the route rather than make the jump, you will drive past a small alcove. The second terminal is located at the far end of this alcove. ",
+    "video": "ndpJfvwSwMA"
+  },
+  {
+    "id": 3,
+    "level": "The Truth and Reconciliation",
+    "location": "The third terminal is located within the vessel's bridge, in the middle of the front holographic displays. The section is indicated with a red color that stands out from the rest. ",
+    "video": "4nCEgO5RS9A"
+  },
+  {
+    "id": 4,
+    "level": "The Silent Cartographer",
+    "location": "The fourth terminal is located against the Marathon-symbol-shaped structure near the center of the island where the first Hunter pair is fought, on the circular part and beneath the \"bridge\"",
+    "video": "S27kQ2Byrlo"
+  },
+  {
+    "id": 5,
+    "level": "Assault on the Control Room",
+    "location": "The fifth terminal is located at the bottom of a pit in front of the Control Room structure at the end of the level. The terminal is on the ground, under the base of a large metal strut that runs diagonally down the front building.",
+    "video": "snJzuyc7rgw"
+  },
+  {
+    "id": 6,
+    "level": "343 Guilty Spark",
+    "location": "The sixth terminal is found while riding the third elevator that will allow you to escape the underground facility. You'll find the terminal above the doorway you came out of. It can be reached by activating the elevator, then timing it correctly and jumping off onto the platform below (there is only one possible attempt due to the lack of elevator controls on the top floor). ",
+    "video": "ITkbPlFiZ7k"
+  },
+  {
+    "id": 7,
+    "level": "The Library",
+    "location": "The seventh terminal is located on the Library's third floor. You will eventually come to the index chamber - a room with a large circular room, with the Index platform above it. Go either right or left and jump over the low barriers until you get to the opposite side. The terminal flashes yellow, and can be clearly seen across the chasm.",
+    "video": "CK9IS0u5JVI"
+  },
+  {
+    "id": 8,
+    "level": "Two Betrayals",
+    "location": "The eighth terminal is in the control room at the level's very beginning. walk around the circular platform and the terminal can be found directly across from the central console.",
+    "video": "9J-TpVmQkuo"
+  },
+  {
+    "id": 9,
+    "level": "Keyes",
+    "location": "The ninth terminal can be found after the player find Keyes absorbed into the Proto-Gravemind. Eliminate nearby Covenant and Flood forces, then search the sunken crevices to the side of the raised platform. The terminal is a red holographic panel, and will be on one the right crevice's wall.",
+    "video": "-MLN_OInslA"
+  },
+  {
+    "id": 10,
+    "level": "The Maw",
+    "location": "The tenth terminal in the game can be found in the Cryo Bay's second floor, where Sentinels are fighting a large Flood force. The terminal is a computer screen on the wall, similar to the first terminal. ",
+    "video": "1hs2NcG-sU8"
+  }
+]
