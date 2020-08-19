@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b4fd01496efdd4b6538f8604dd46413",
+    "revision": "bc4bebce8fcc620a9dd399193564562a",
     "url": "/HaloCollectibles/index.html"
   },
   {
-    "revision": "97634bf11db0ff575abe",
-    "url": "/HaloCollectibles/static/css/main.751a7f47.chunk.css"
+    "revision": "59dd17df3f9fe0166566",
+    "url": "/HaloCollectibles/static/css/main.1a424740.chunk.css"
   },
   {
     "revision": "75eda500b0e77c297c5b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HaloCollectibles/static/js/2.1e2c030c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97634bf11db0ff575abe",
-    "url": "/HaloCollectibles/static/js/main.6e3696a4.chunk.js"
+    "revision": "59dd17df3f9fe0166566",
+    "url": "/HaloCollectibles/static/js/main.922d1a5c.chunk.js"
   },
   {
     "revision": "e38ef36a149353e76347",
