@@ -31,6 +31,7 @@
   border: 1px solid slategray;
   border-bottom-color: lightgray;
   border-radius: 7px 7px 0 0;
+  padding: 0.1rem 0.24rem;
 }
 
 .game__navbar-list-item.active {
