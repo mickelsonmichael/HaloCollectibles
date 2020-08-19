@@ -3,40 +3,59 @@
 }
 
 .game {
-  display: flex;
+  display: block;
 }
 
-.game__sidebar {
-  display: flex;
-  flex-direction: column;
-  margin-right: 1rem;
-  font-size: 120%;
+.game__navbar {
+  font-size: 130%;
+  margin-bottom: 1rem;
 }
 
-.game__sidebar-list {
+.game__navbar-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.game__sidebar-list-item {
+.game__navbar-list::after {
+  content: "";
+  flex-grow: 1;
+  border-bottom: 1px solid lightgray;
+}
+
+.game__navbar-list-item {
   white-space: nowrap;
-  margin: 0.5rem 0.25rem;
+  display: inline-block;
+  border: 1px solid slategray;
+  border-bottom-color: lightgray;
+  border-radius: 7px 7px 0 0;
 }
 
-.game__sidebar-list-item > button {
-  border: 1px solid gray;
-  color: #bbb;
+.game__navbar-list-item.active {
+  border-bottom: none;
+  border-color: lightgray;
+}
+
+.game__navbar-list-item > button {
+  border: none;
+  color: #999;
   background: none;
   padding: 0.5rem;
   border-radius: 3px;
   text-decoration: none;
   display: flex;
   align-items: center;
+  outline: none !important;
 }
 
-.game__sidebar-list-item > button.active {
-  color: #a6cdff;
+.game__navbar-list-item.active > button {
+  color: #fff;
+}
+
+.game__navbar-list-item > button > svg {
+  margin-right: 0.5rem;
 }
 
 .game__sections {
@@ -50,4 +69,23 @@
 
 .game__section.active {
   display: block;
+}
+
+@media (max-width: 500px) {
+  .game__navbar-list::after {
+    content: "";
+    display: none;
+  }
+
+  .game__navbar-list-item {
+    white-space: nowrap;
+    display: inline-block;
+    border: 1px solid slategray;
+    border-radius: 3px;
+    margin: 0 0.5rem 0.5rem 0;
+  }
+
+  .game__navbar-list-item.active {
+    border: 1px solid slategray;
+  }
 }
