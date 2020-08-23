@@ -19,6 +19,7 @@ import Halo2 from "./features/halo2/Halo2";
 import Halo3 from "./features/halo3/Halo3";
 import ODST from "./features/ODST/ODST";
 import Reach from "./features/reach/Reach.jsx";
+import Halo4 from "./features/halo4/Halo4";
 
 export default () => (
   <HashRouter>
@@ -52,6 +53,9 @@ export default () => (
             </Route>
             <Route path="/ODST" exact>
               <ODST />
+            </Route>
+            <Route path="/halo4" exact>
+              <Halo4 />
             </Route>
           </Switch>
         </Container>

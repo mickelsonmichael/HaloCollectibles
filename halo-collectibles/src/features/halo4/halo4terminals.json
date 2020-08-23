@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "level": "Requiem",
+    "location": "In the level Requiem, after entering the terminus tower, one will enter a room where the structures hanging from the ceiling will retract into the walls on the side. At the far end of the room is a staircase that leads to the elevator which is the objective. The terminal is located under the staircase.",
+    "video": "v1t54Yc8tms"
+  },
+  {
+    "id": 2,
+    "level": "Forerunner",
+    "location": "In the level Forerunner, during the journey to the first pylon, the player will reach a symmetrical platform. After clearing the Prometheans in that area, John's HUD will be distorted, which prompts him to ask, \"What's that distortion?\" Under the door leading to the next area is the Terminal.",
+    "video": "Lxj1n_z2log"
+  },
+  {
+    "id": 3,
+    "level": "Infinity",
+    "location": " On the level Infinity, after meeting Lasky and Palmer and being told to find an LZ, look behind the Chief and the terminal is seen at the end of the corridor.",
+    "video": "Zmmzhcsnsaw"
+  },
+  {
+    "id": 4,
+    "level": "Reclaimer",
+    "location": "During the level Reclaimer after the Librarian cutscene. Exit the Librarian's chamber like you normally would, but instead of heading straight for the elevator, take a detour down the corridor on the right. The Terminal should be in plain view.",
+    "video": "Y_mGmqAnVEE"
+  },
+  {
+    "id": 5,
+    "level": "Shutdown",
+    "location": "In the level Shutdown in the third spire. Get to the central platform with multiple light bridges. Cross the light bridge to the left of the bridge you would normally cross to reach your objective. This leads to a platform guarded by Jackals. The Terminal is located behind the platform's central column.",
+    "video": "AD2wFtwlkgw"
+  },
+  {
+    "id": 6,
+    "level": "Composer",
+    "location": "During the level Composer, outside the station. The Terminal is located within a cluster of rocks under the Atrium.",
+    "video": "SRA7hWhChQc"
+  },
+  {
+    "id": 7,
+    "level": "Midnight",
+    "location": " During the level Midnight, shortly after boarding the Mantle's Approach. Get to the third room with enemies in it. There should be no Knights here. The Terminal is located in this room's central structure.",
+    "video": "VQ96F9snhfs"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "title": "General",
+    "achievements": [
+      {
+        "name": "Easy As One Two Three",
+        "score": 20,
+        "description": "Beat the par time on all Halo 4 levels"
+      },
+      {
+        "name": "You Had it Coming",
+        "score": 20,
+        "description": "Beat the par score on every Halo 4 level"
+      },
+      {
+        "name": "Terminus",
+        "score": 20,
+        "description": "Activate all Halo 4 Terminals"
+      },
+      {
+        "name": "Librarian's Gift",
+        "score": 10,
+        "description": "Complete every level of the game on Easy difficulty"
+      },
+      {
+        "name": "Wake Up, John",
+        "score": 10,
+        "description": "Complete every level of the game on Normal difficulty"
+      },
+      {
+        "name": "I Need a Hero",
+        "score": 20,
+        "description": "Complete every level of the game on Heroic difficulty"
+      },
+      {
+        "name": "The Legend of 117",
+        "score": 30,
+        "description": "Complete every level of the game on Legendary difficulty"
+      },
+      {
+        "name": "Lone Wolf Legend",
+        "score": 30,
+        "description": "Complete every level of the game on Legendary difficulty, by yourself"
+      },
+      {
+        "name": "You're No Chips",
+        "score": 5,
+        "description": "What do Marines know about sticks?",
+        "link": "https://www.trueachievements.com/a193426/youre-no-chips-achievement"
+      },
+      {
+        "name": "A Long Time Ago",
+        "score": 5,
+        "description": "Play a game of Halo 4 on the 6th of any month"
+      },
+      {
+        "name": "Naked Tyrant",
+        "score": 30,
+        "description": "Complete the Halo 4 LASO Campaign playlist"
+      },
+      {
+        "name": "Devotee",
+        "score": 20,
+        "description": "Complete three Halo 4 playlists"
+      },
+      {
+        "name": "Chest of Gold",
+        "score": 10,
+        "description": "Complete a Halo 4 playlist"
+      },
+      {
+        "name": "You're Joking",
+        "score": 30,
+        "description": "Complete all Halo 4 Legendary campaign missions in under 3 hours"
+      },
+      {
+        "name": "Going International",
+        "score": 10,
+        "description": "Complete a match on at least 8 different multiplayer maps",
+        "link": "https://www.trueachievements.com/a196963/going-international-achievement"
+      },
+      {
+        "name": "Taste Test",
+        "score": 10,
+        "description": "Complete a match on at least 4 different game types in multiplayer",
+        "link": "https://www.trueachievements.com/a196964/taste-test-achievement"
+      }
+    ]
+  },
+  {
+    "title": "Spartan Ops",
+    "achievements": [
+      {
+        "name": "Feet First",
+        "score": 10,
+        "description": "Complete all Spartan Ops chapters"
+      },
+      {
+        "name": "Terms of Enlistment",
+        "score": 10,
+        "description": "Complete all Spartan Ops chapters on Normal difficulty"
+      },
+      {
+        "name": "Hazard Pay",
+        "score": 20,
+        "description": "Complete all Spartan Ops chapters on Heroic difficulty"
+      },
+      {
+        "name": "Icarus",
+        "score": 30,
+        "description": "Complete all Spartan Ops chapters on Legendary difficulty"
+      },
+      {
+        "name": "Smooth Operator",
+        "score": 30,
+        "description": "Complete all Spartan Ops chapters solo on Legendary difficulty"
+      },
+      {
+        "name": "Operation Completion",
+        "score": 5,
+        "description": "Complete a Spartan Ops mission"
+      },
+      {
+        "name": "Departure",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 1"
+      },
+      {
+        "name": "Artifact",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 2"
+      },
+      {
+        "name": "Catherine",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 3"
+      },
+      {
+        "name": "Didact's Hand",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 4"
+      },
+      {
+        "name": "Memento Mori",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 5"
+      },
+      {
+        "name": "Scattered",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 6"
+      },
+      {
+        "name": "Invasion",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 7"
+      },
+      {
+        "name": "Expendable",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 8"
+      },
+      {
+        "name": "Key",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 9"
+      },
+      {
+        "name": "Exodus",
+        "score": 10,
+        "description": "Complete all chapters in Spartan Ops Episode 10"
+      },
+      {
+        "name": "No One Left Behind",
+        "score": 10,
+        "description": "Save at least one Marine on Hacksaw (Ep.2 Ch.3) of Spartan Ops on Heroic or Legendary"
+      },
+      {
+        "name": "Roses vs Violets",
+        "score": 5,
+        "description": "Why are you even here?"
+      },
+      {
+        "name": "Knight in White Assassination",
+        "score": 5,
+        "description": "Assassinate a Knight in any Spartan Ops mission"
+      },
+      {
+        "name": "What Power Outage?",
+        "score": 10,
+        "description": "Complete The Cauldron Base of Spartan Ops without losing a generator on Heroic or Legendary",
+        "link": "https://www.trueachievements.com/a196934/what-power-outage-achievement"
+      },
+      {
+        "name": "No Easy Way Out",
+        "score": 10,
+        "description": "Survive Spartan Miller (Ep.5 Ch.1) of Spartan Ops on Heroic or Legendary",
+        "link": "https://www.trueachievements.com/a196935/no-easy-way-out-achievement"
+      }
+    ]
+  },
+  {
+    "title": "Dawn",
+    "achievements": [
+      {
+        "name": "Dawn",
+        "score": 10,
+        "description": "Complete Dawn"
+      },
+      {
+        "name": "Piece of Cake",
+        "score": 10,
+        "description": "Beat the par time on Dawn"
+      },
+      {
+        "name": "Gunslinger",
+        "score": 10,
+        "description": "Beat the par score on Dawn"
+      },
+      {
+        "name": "Digging up the Past",
+        "score": 5,
+        "description": "Access the Master Chief's records on Dawn",
+        "link": "https://www.trueachievements.com/a193442/digging-up-the-past-achievement"
+      }
+    ]
+  },
+  {
+    "title": "Requiem",
+    "achievements": [
+      {
+        "name": "Requiem",
+        "score": 10,
+        "description": "Complete Requiem"
+      },
+      {
+        "name": "Interloper",
+        "score": 10,
+        "description": "Beat the par time on Requiem"
+      },
+      {
+        "name": "Dark Fortress",
+        "score": 10,
+        "description": "Beat the par score on Requiem"
+      },
+      {
+        "name": "Activate Terminal 1 on Requiem",
+        "score": 5,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "title": "Forerunner",
+    "achievements": [
+      {
+        "name": "Forerunner",
+        "score": 10,
+        "description": "Complete Forerunner"
+      },
+      {
+        "name": "Raging in the Dark",
+        "score": 10,
+        "description": "Beat the par time on Forerunner"
+      },
+      {
+        "name": "Shadow of Sundered Star",
+        "score": 10,
+        "description": "Beat the par score on Forerunner"
+      },
+      {
+        "name": "Lord of Admirals",
+        "score": 5,
+        "description": "Activate Terminal 2 on Forerunner"
+      },
+      {
+        "name": "This is my Rifle, This is my Gun",
+        "score": 10,
+        "description": "Carry a UNSC weapon all the way through Forerunner on Heroic on Legendary"
+      }
+    ]
+  },
+  {
+    "title": "Infinity",
+    "achievements": [
+      {
+        "name": "Infinity",
+        "score": 10,
+        "description": "Complete Infinity"
+      },
+      {
+        "name": "Ouroboros",
+        "score": 10,
+        "description": "Beat the par time on Infinity"
+      },
+      {
+        "name": "Jungle Warfare",
+        "score": 10,
+        "description": "Beat the par score on Infinity"
+      },
+      {
+        "name": "Charum Hakkor",
+        "score": 5,
+        "description": "Activate Terminal 3 on Infinity"
+      },
+      {
+        "name": "Bros to the Close",
+        "score": 10,
+        "description": "Complete Infinity without on preventable Marine death on Heroic on Legendary",
+        "link": "https://www.trueachievements.com/a193422/bros-to-the-close-achievement"
+      }
+    ]
+  },
+  {
+    "title": "Reclaimer",
+    "achievements": [
+      {
+        "name": "Reclaimer",
+        "score": 10,
+        "description": "Complete Reclaimer"
+      },
+      {
+        "name": "Gimme That",
+        "score": 10,
+        "description": "Beat the par time on Reclaimer"
+      },
+      {
+        "name": "Librarian's Pet",
+        "score": 10,
+        "description": "Beat the par score on Reclaimer"
+      },
+      {
+        "name": "Flood",
+        "score": 5,
+        "description": "Activate Terminal 4 on Reclaimer"
+      },
+      {
+        "name": "Mortardom",
+        "score": 10,
+        "description": "On Reclaimer, use a Wraith to kill at least four enemy Wraiths on Heroic or LEgendary"
+      }
+    ]
+  },
+  {
+    "title": "Shutdown",
+    "achievements": [
+      {
+        "name": "Shutdown",
+        "score": 10,
+        "description": "Complete Shutdown"
+      },
+      {
+        "name": "Shut. Down. Everything.",
+        "score": 10,
+        "description": "Beat the par time on Shutdown"
+      },
+      {
+        "name": "Emergency Shutdown",
+        "score": 10,
+        "description": "Beat the par score on Shutdown"
+      },
+      {
+        "name": "Knights",
+        "score": 5,
+        "description": "Activate Terminal 5 on Shutdown"
+      },
+      {
+        "name": "Explore the Floor",
+        "score": 10,
+        "description": "Trick or force a Hunter to fall to its demise on Shutdown on Heroic or Legendary",
+        "link": "https://www.trueachievements.com/a193423/explore-the-floor-achievement"
+      }
+    ]
+  },
+  {
+    "title": "Composer",
+    "achievements": [
+      {
+        "name": "Composer",
+        "score": 10,
+        "description": "Complete Composer"
+      },
+      {
+        "name": "Symphony of Pain",
+        "score": 10,
+        "description": "Beat the par time on Composer"
+      },
+      {
+        "name": "Head Banging",
+        "score": 10,
+        "description": "Beat the par score on Composer"
+      },
+      {
+        "name": "Justice",
+        "score": 5,
+        "description": "Activate Terminal 6 on Composer"
+      },
+      {
+        "name": "Give Him the Stick",
+        "score": 10,
+        "description": "Take out both Hunters using only the Sticky Detonator on Composer"
+      }
+    ]
+  },
+  {
+    "title": "Midnight",
+    "achievements": [
+      {
+        "name": "Midnight",
+        "score": 10,
+        "description": "Complete Midnight"
+      },
+      {
+        "name": "Countdown",
+        "score": 10,
+        "description": "Beat the par time on Midnight"
+      },
+      {
+        "name": "Witching Hour",
+        "score": 10,
+        "description": "Beat the par score on Midnight"
+      },
+      {
+        "name": "Cryptum",
+        "score": 5,
+        "description": "Activate Terminal 7 on Midnight"
+      },
+      {
+        "name": "Chief, Smash!",
+        "score": 10,
+        "description": "Kill 3 Crawlers in one hit with the Gravity Hammer on Midnight",
+        "link": "https://www.trueachievements.com/a193425/chief-smash-achievement"
+      }
+    ]
+  }
+]
