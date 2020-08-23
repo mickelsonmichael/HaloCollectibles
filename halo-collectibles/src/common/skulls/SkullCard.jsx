@@ -18,12 +18,12 @@ export default ({ skull }) => {
         }
       >
         <div className="skull-card__title">
-          <dvi className="skull-card__title-text">
+          <div className="skull-card__title-text">
             {skull.name}
             {skull.isFound && (
               <MdCheckCircle className="skull-card__title-icon" />
             )}
-          </dvi>
+          </div>
           <div className="skull-card__level">
             {skull.level} - {skull.difficulty}
           </div>
