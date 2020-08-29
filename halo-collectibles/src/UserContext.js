@@ -35,7 +35,7 @@ const getXuid = async (gamertag) => {
     return await response.text();
   }
 
-  throw new Error("Invalid gamertag");
+  throw new Error("Invalid gamertag or unable to fetch the XUID");
 };
 
 const getProgress = async (xuid) => {
@@ -46,6 +46,8 @@ const getProgress = async (xuid) => {
   if (response.ok) {
     return await response.json();
   }
+
+  throw new Error("Unable to fetch the achievements");
 };
 
 const isExpired = (date) => {
@@ -57,7 +59,7 @@ const isExpired = (date) => {
 const UserProvider = (props) => {
   const [player, setPlayer] = useReducer(reducer, localState || initialState);
   const [gamertag, setGamertag] = useState(player.gamertag);
-  const [isLoading, setIsLoading] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const toggleShowComplete = () => {
     setPlayer({
@@ -76,6 +78,7 @@ const UserProvider = (props) => {
 
       let xuid = await getXuid(gamertag);
       let achievements = await getProgress(xuid);
+      console.log(achievements);
 
       setPlayer({
         xuid,
