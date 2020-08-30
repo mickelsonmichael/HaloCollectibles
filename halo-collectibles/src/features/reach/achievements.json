@@ -70,27 +70,32 @@
       {
         "name": "Easy to Overlook",
         "score": 10,
-        "description": "Access hidden UNSC radio chatter"
+        "description": "Access hidden UNSC radio chatter",
+        "link": "https://www.trueachievements.com/a288696/easy-to-overlook-achievement"
       },
       {
         "name": "What About Bob?",
         "score": 10,
-        "description": "Find and eliminate one of the hidden Ranger Commander Elites"
+        "description": "Find and eliminate one of the hidden Ranger Commander Elites",
+        "link": "https://www.trueachievements.com/a288683/what-about-bob-achievement"
       },
       {
         "name": "Confused Callouts",
         "score": 5,
-        "description": "Trigger a humorous callout on your HUD's position indicator"
+        "description": "Trigger a humorous callout on your HUD's position indicator",
+        "link": "https://www.trueachievements.com/a288693/confused-callouts-achievement"
       },
       {
         "name": "I'm Sorry, Dave",
         "score": 5,
-        "description": "Find the hidden binary signature"
+        "description": "Find the hidden binary signature",
+        "link": "https://www.trueachievements.com/a288685/im-sorry-dave-achievement"
       },
       {
         "name": "Swift and Shallow",
         "score": 10,
-        "description": "Hijack a Banshee during the Reach Campaign"
+        "description": "Hijack a Banshee during the Reach Campaign",
+        "link": "https://www.trueachievements.com/a288642/swift-and-shallow-achievement"
       },
       {
         "name": "T'vaoan Terminator",
@@ -130,7 +135,8 @@
       {
         "name": "Workers' Compensation",
         "score": 10,
-        "description": "Halo: Reach: Splatter an enemy using the forklift"
+        "description": "Halo: Reach: Splatter an enemy using the forklift",
+        "link": "https://www.trueachievements.com/a288686/workers-compensation-achievement"
       }
     ]
   },
@@ -195,17 +201,13 @@
       {
         "name": "Clear and Present Danger",
         "score": 5,
-        "description": "Pad on the run"
+        "description": "Pad on the run",
+        "link": "https://www.trueachievements.com/a288680/clear-and-present-danger-achievement"
       },
       {
         "name": "The've Always Been Faster",
         "score": 10,
         "description": "Clear Winter Contingency without setting foot in a drivable vehicle"
-      },
-      {
-        "name": "",
-        "score": 0,
-        "description": ""
       }
     ]
   },
@@ -240,12 +242,14 @@
       {
         "name": "Forza in the Fall",
         "score": 5,
-        "description": "Flip the switches to become a Reach Racer!"
+        "description": "Flip the switches to become a Reach Racer!",
+        "link": "https://www.trueachievements.com/a288643/forza-in-the-fall-achievement"
       },
       {
         "name": "Two Corpses In One Grave",
         "score": 10,
-        "description": "Kill 2 vehicles at once with the Target Locator during ONI: Sword Base"
+        "description": "Kill 2 vehicles at once with the Target Locator during ONI: Sword Base",
+        "link": "https://www.trueachievements.com/a288638/two-corpses-in-one-grave-achievement"
       }
     ]
   },
@@ -270,7 +274,8 @@
       {
         "name": "Meeting of the (Artificial) Minds",
         "score": 5,
-        "description": "Halo: Reach: Find Data Pad 3 on Nightfall"
+        "description": "Halo: Reach: Find Data Pad 3 on Nightfall",
+        "link": "https://www.trueachievements.com/a288654/meeting-of-the-artificial-minds-achievement"
       },
       {
         "name": "Unsolved Mysteries",
@@ -310,12 +315,14 @@
       {
         "name": "Mind the Skill Gap",
         "score": 10,
-        "description": "Observe the logo of a buttoned-up mining company"
+        "description": "Observe the logo of a buttoned-up mining company",
+        "link": "https://www.trueachievements.com/a288695/mind-the-skill-gap-achievement"
       },
       {
         "name": "Your Heresy Will Stay Your Feet",
         "score": 10,
-        "description": "Kill the Elite Zealot before he can escape during Tip of the Spear"
+        "description": "Kill the Elite Zealot before he can escape during Tip of the Spear",
+        "link": "https://www.trueachievements.com/a288639/your-heresy-will-stay-your-feet-achievement"
       }
     ]
   },
@@ -350,12 +357,14 @@
       {
         "name": "Jorge Can't Have All the Big Guns",
         "score": 5,
-        "description": "Use a Pelican turret"
+        "description": "Use a Pelican turret",
+        "link": "https://www.trueachievements.com/a288684/jorge-cant-have-all-the-big-guns-achievement"
       },
       {
         "name": "Wake Up Buttercup",
         "score": 10,
-        "description": "Destroy the Corvette's engines &amp; escort in under 3 minutes during Long Night of Solace"
+        "description": "Destroy the Corvette's engines &amp; escort in under 3 minutes during Long Night of Solace",
+        "link": "https://www.trueachievements.com/a288637/wake-up-buttercup-achievement"
       }
     ]
   },
@@ -390,12 +399,14 @@
       {
         "name": "Did You Major in Marine Bio?",
         "score": 10,
-        "description": "Encounter the hidden marines on Exodus"
+        "description": "Encounter the hidden marines on Exodus",
+        "link": "https://www.trueachievements.com/a288649/did-you-major-in-marine-bio-achievement"
       },
       {
         "name": "The Humble Beginnings of Wiljax Brantley",
         "score": 10,
-        "description": "Now that's a value meal"
+        "description": "Now that's a value meal",
+        "link": "https://www.trueachievements.com/a288648/the-humble-beginnings-of-wiljax-brantley-achievement"
       },
       {
         "name": "Classic Completion",
@@ -435,37 +446,44 @@
       {
         "name": "New Ways to Save a Buck",
         "score": 10,
-        "description": "Hear a familiar voice on New Alexandria"
+        "description": "Hear a familiar voice on New Alexandria",
+        "link": "https://www.trueachievements.com/a288697/new-ways-to-save-a-quid-achievement"
       },
       {
         "name": "No Picnic",
         "score": 10,
-        "description": "Observe a grizzy scene on New Alexandria"
+        "description": "Observe a grizzly scene on New Alexandria",
+        "link": "https://www.trueachievements.com/a288599/no-picnic-achievement"
       },
       {
         "name": "Front Page News",
         "score": 5,
-        "description": "Find me in the club"
+        "description": "Find me in the club",
+        "link": "https://www.trueachievements.com/a288647/front-page-news-achievement"
       },
       {
         "name": "HBOrg Special",
         "score": 5,
-        "description": "Party with the DJ Brute"
+        "description": "Party with the DJ Brute",
+        "link": "https://www.trueachievements.com/a288644/hborg-special-achievement"
       },
       {
         "name": "We're Gonna Need a Bigger Ship",
         "score": 5,
-        "description": "Fly both the Pelican and Phantom on New Alexandria"
+        "description": "Fly both the Pelican and Phantom on New Alexandria",
+        "link": "https://www.trueachievements.com/a288646/were-gonna-need-a-bigger-ship-achievement"
       },
       {
         "name": "Play Us a Sad Song, Claude",
         "score": 5,
-        "description": "Listen to a hidden music cue"
+        "description": "Listen to a hidden music cue",
+        "link": "https://www.trueachievements.com/a288645/play-us-a-sad-song-claude-achievement"
       },
       {
         "name": "I Didn't Train To Be A Pilot",
         "score": 10,
-        "description": "Kill 3 of the anti-aircraft batteries during New Alexandria"
+        "description": "Kill 3 of the anti-aircraft batteries during New Alexandria",
+        "link": "https://www.trueachievements.com/a288640/i-didnt-train-to-be-a-pilot-achievement"
       }
     ]
   },
@@ -500,17 +518,20 @@
       {
         "name": "Fly, You Fools!",
         "score": 5,
-        "description": "Find the hidden Banshees on The Package"
+        "description": "Find the hidden Banshees on The Package",
+        "link": "https://www.trueachievements.com/a288650/fly-you-fools-achievement"
       },
       {
         "name": "This is Not the Greatest Lab in the World…",
         "score": 5,
-        "description": "Find your way into Halsey's Lab on The Package"
+        "description": "Find your way into Halsey's Lab on The Package",
+        "link": "https://www.trueachievements.com/a288651/this-is-not-the-greatest-lab-in-the-world-achievement"
       },
       {
         "name": "Tank Beats Everything",
         "score": 10,
-        "description": "Finish The Package on Legendary with the Scorpion intact"
+        "description": "Finish The Package on Legendary with the Scorpion intact",
+        "link": "https://www.trueachievements.com/a288641/tank-beats-everything-achievement"
       }
     ]
   },
@@ -545,7 +566,8 @@
       {
         "name": "Collection Eligibility Confirmed",
         "score": 10,
-        "description": "See, he IS in the game!"
+        "description": "See, he IS in the game!",
+        "link": "https://www.trueachievements.com/a288694/collection-eligibility-confirmed-achievement"
       }
     ]
   },
@@ -565,7 +587,8 @@
       {
         "name": "One Final Firefight",
         "score": 10,
-        "description": "Achieve a score of 150,000 points on Lone Wolf"
+        "description": "Achieve a score of 150,000 points on Lone Wolf",
+        "link": "https://www.trueachievements.com/a288682/one-final-firefight-achievement"
       }
     ]
   }
