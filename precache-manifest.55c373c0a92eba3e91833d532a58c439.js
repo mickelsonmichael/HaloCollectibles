@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce6b0814e929cb40c6d409733d541e4b",
+    "revision": "324373a48a04bc69dfd41226623ba03f",
     "url": "/HaloCollectibles/index.html"
   },
   {
-    "revision": "1c4334ab3c60345ed156",
-    "url": "/HaloCollectibles/static/css/main.4c9d07c1.chunk.css"
+    "revision": "ac99c1d8765d77a0881e",
+    "url": "/HaloCollectibles/static/css/main.d4d391e4.chunk.css"
   },
   {
-    "revision": "af06ab78a37e50e3d7bd",
-    "url": "/HaloCollectibles/static/js/2.98cf6149.chunk.js"
+    "revision": "50cf67e6fca58e9e6169",
+    "url": "/HaloCollectibles/static/js/2.7fe6a150.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/HaloCollectibles/static/js/2.98cf6149.chunk.js.LICENSE.txt"
+    "url": "/HaloCollectibles/static/js/2.7fe6a150.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c4334ab3c60345ed156",
-    "url": "/HaloCollectibles/static/js/main.50118227.chunk.js"
+    "revision": "ac99c1d8765d77a0881e",
+    "url": "/HaloCollectibles/static/js/main.65b31929.chunk.js"
   },
   {
     "revision": "e38ef36a149353e76347",
