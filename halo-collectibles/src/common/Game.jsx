@@ -3,13 +3,7 @@ import Achievements from "./achievements/Achievements";
 import Skulls from "./skulls/Skulls";
 import Terminals from "./terminals/Terminals";
 import DataPads from "../features/reach/datapads/DataPads";
-import {
-  FaSkull,
-  FaTrophy,
-  FaTerminal,
-  FaTablet,
-  FaTabletAlt,
-} from "react-icons/fa";
+import { FaSkull, FaTrophy, FaTerminal, FaTabletAlt } from "react-icons/fa";
 
 export default ({ name, achievements, skulls, terminals, datapads }) => {
   const [activeTab, setActiveTab] = React.useState("Achievements");
