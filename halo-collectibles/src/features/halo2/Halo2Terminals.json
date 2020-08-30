@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "level": "Cairo Station",
+    "location": "The terminal is one of the computer consoles located in Cairo Station's Armory A-01, on the wall to the left of the doors leading into Commons B-01. The console's screen flashes \"INCOMING MESSAGE\" in red.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 2,
+    "level": "Outskirts",
+    "location": "The terminal is a computer screen located on ground floor of the small building in the beach area before entering the highway tunnels. The console's screen flashes \"INCOMING MESSAGE\" in red.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 3,
+    "level": "Metropolis",
+    "location": "The terminal is a computer screen located near the stairs at ground floor of the Marine command post, after being greeted by Perez. The console's screen flashes \"INCOMING MESSAGE\" in red.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 4,
+    "level": "The Arbiter",
+    "location": "The terminal is a Forerunner terminal in the room bisected by two Forerunner gas canister conveyors, at the top of the ramp in the far right of the room.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 5,
+    "level": "The Oracle",
+    "location": "The terminal is a Forerunner terminal in the large room after exiting the large lift, behind the wall opposite to the exit door.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 6,
+    "level": "Delta Halo",
+    "location": "The terminal is a Covenant terminal in the room of the Forerunner structure contains the first hologram of Prophet of Regret and the switch which extends the bridge.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 7,
+    "level": "Regret",
+    "location": "The terminal is a Forerunner terminal in the large submerged room with Kig-Yar Snipers, Yanme'e, Sangheili Honor Guardsmen, and a pair of Mgalekgolo. The terminal is on the upper level, on the pillar behind Prophet of Regret's hologram.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 8,
+    "level": "Sacred Icon",
+    "location": "The terminal is a Covenant terminal in the room with the final piston of the level. The room is easily identified by the fact that it is completely devoid of combat; the only Flood in the room are dead. The terminal is behind a wall on the right side of the room.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 9,
+    "level": "Quarantine Zone",
+    "location": "The terminal is a Forerunner terminal in the first large room in the crashed Sentinel manufacturing facility. It is on the lower level, beneath the platform on the far side of the room.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 10,
+    "level": "Gravemind",
+    "location": "The terminal is a Covenant terminal in the first Valley of Tears. At the top of the cliff on the far side of the valley, near the exit door, on the wall behind where a Kig-Yar Sniper spawns, it can be found on the wall.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 11,
+    "level": "Uprising",
+    "location": "The terminal is a Forerunner terminal in the first area of the chapter \"Fight Club\" after the waterfall, before crossing the stone bridge into the armory room with both human and Covenantweapons. The terminal can be found on the wall inside the second alcove.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 12,
+    "level": "High Charity",
+    "location": "The terminal is a Covenant terminal to the left of the door after entering the Inner Sanctum.",
+    "video": "4TTKFwym_aw"
+  },
+  {
+    "id": 13,
+    "level": "The Great Journey",
+    "location": "The terminal is a Forerunner terminal in back of one of the jail cells of the Bastion of the Brutes. It is in the center right cell on the upper level.",
+    "video": "4TTKFwym_aw"
+  }
+]
