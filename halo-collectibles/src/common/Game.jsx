@@ -2,9 +2,16 @@ import React from "react";
 import Achievements from "./achievements/Achievements";
 import Skulls from "./skulls/Skulls";
 import Terminals from "./terminals/Terminals";
-import { FaSkull, FaTrophy, FaTerminal } from "react-icons/fa";
+import DataPads from "../features/reach/datapads/DataPads";
+import {
+  FaSkull,
+  FaTrophy,
+  FaTerminal,
+  FaTablet,
+  FaTabletAlt,
+} from "react-icons/fa";
 
-export default ({ name, achievements, skulls, terminals }) => {
+export default ({ name, achievements, skulls, terminals, datapads }) => {
   const [activeTab, setActiveTab] = React.useState("Achievements");
 
   return (
@@ -52,6 +59,21 @@ export default ({ name, achievements, skulls, terminals }) => {
               </button>
             </li>
           )}
+          {datapads && (
+            <li
+              className={
+                "game__navbar-list-item" +
+                (activeTab === "Datapads" ? " active" : "")
+              }
+            >
+              <button
+                onClick={() => setActiveTab("Datapads")}
+                title="Data Pads"
+              >
+                <FaTabletAlt /> Data Pads
+              </button>
+            </li>
+          )}
         </ul>
       </div>
       <div className="game__sections">
@@ -78,6 +100,15 @@ export default ({ name, achievements, skulls, terminals }) => {
             }
           >
             <Terminals terminals={terminals} />
+          </div>
+        )}
+        {datapads && (
+          <div
+            className={
+              "game__section" + (activeTab === "Datapads" ? " active" : "")
+            }
+          >
+            <DataPads datapads={datapads} />
           </div>
         )}
       </div>
