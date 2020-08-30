@@ -1,15 +1,12 @@
 import React from "react";
-import Categories from "../reach/achievements.json";
-import Achievements from "../../common/achievements/Achievements";
-import AchievementCount from "../../common/achievements/AchievementCount";
+import ReachAchievements from "./HaloReachAchievements.json";
+import ReachDatapads from "./HaloReachDataPads.json";
+import Game from "../../common/Game";
 
 export default () => (
-  <div>
-    <h2>
-      Halo: Reach
-      <AchievementCount className="float-right" categories={Categories} />
-    </h2>
-
-    <Achievements categories={Categories} />
-  </div>
+  <Game
+    name="Halo: Reach"
+    achievements={ReachAchievements}
+    datapads={ReachDatapads}
+  />
 );
