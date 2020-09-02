@@ -20,46 +20,49 @@ import Halo3 from "./features/halo3/Halo3";
 import ODST from "./features/ODST/ODST";
 import Reach from "./features/reach/Reach.jsx";
 import Halo4 from "./features/halo4/Halo4";
+import { LoginProvider } from "./common/login/LoginContext";
 
 export default () => (
   <HashRouter>
     <UserProvider>
-      <div className="App">
-        <header>
-          <NavMenu />
-        </header>
-        <Container fluid className="mt-3">
-          <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-            <Route path="/user" exact>
-              <UserAchievements />
-            </Route>
-            <Route path="/general" exact>
-              <General />
-            </Route>
-            <Route path="/haloce" exact>
-              <HaloCE />
-            </Route>
-            <Route path="/halo2">
-              <Halo2 />
-            </Route>
-            <Route path="/halo3" exact>
-              <Halo3 />
-            </Route>
-            <Route path="/reach" exact>
-              <Reach />
-            </Route>
-            <Route path="/ODST" exact>
-              <ODST />
-            </Route>
-            <Route path="/halo4" exact>
-              <Halo4 />
-            </Route>
-          </Switch>
-        </Container>
-      </div>
+      <LoginProvider>
+        <div className="App">
+          <header>
+            <NavMenu />
+          </header>
+          <Container fluid className="mt-3">
+            <Switch>
+              <Route path="/" exact>
+                <Home />
+              </Route>
+              <Route path="/user" exact>
+                <UserAchievements />
+              </Route>
+              <Route path="/general" exact>
+                <General />
+              </Route>
+              <Route path="/haloce" exact>
+                <HaloCE />
+              </Route>
+              <Route path="/halo2">
+                <Halo2 />
+              </Route>
+              <Route path="/halo3" exact>
+                <Halo3 />
+              </Route>
+              <Route path="/reach" exact>
+                <Reach />
+              </Route>
+              <Route path="/ODST" exact>
+                <ODST />
+              </Route>
+              <Route path="/halo4" exact>
+                <Halo4 />
+              </Route>
+            </Switch>
+          </Container>
+        </div>
+      </LoginProvider>
     </UserProvider>
   </HashRouter>
 );

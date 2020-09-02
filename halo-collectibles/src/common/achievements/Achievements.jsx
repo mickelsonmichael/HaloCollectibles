@@ -1,47 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Input, Row, Col } from "reactstrap";
+import { Input, Row, Col, Spinner } from "reactstrap";
 import Categories from "./Categories";
-import { UserContext } from "../../UserContext";
 import AchievementCategory from "./AchievementCategory";
+import { LoginContext } from "../login/LoginContext";
 
-const filterAchievements = (achievements, filter) => {
-  if (filter) {
-    const lowercaseFilter = filter.toLowerCase();
-    return achievements.filter(
-      (a) =>
-        a.name.toLowerCase().includes(lowercaseFilter) ||
-        a.description.toLowerCase().includes(lowercaseFilter)
-    );
-  }
-  return achievements;
-};
-
-const Achievements = ({ categories, forceShowComplete = false }) => {
-  const { player } = React.useContext(UserContext);
-  const [currentCategory, setCategory] = React.useState("");
-  const [filter, setFilter] = React.useState("");
-
+const getFilteredAchievements = (categories, currentCategory, filter) => {
   let achievements = currentCategory
     ? categories.find((cat) => cat.title === currentCategory).achievements
     : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
 
-  achievements = filterAchievements(achievements, filter);
-
-  if (player.achievements.length > 0) {
-    achievements = achievements.map((ach) => {
-      let userProgress = player.achievements.find(
-        (x) => x.name.toLowerCase() === ach.name.toLowerCase()
-      );
-
-      return (
-        { ...userProgress, link: ach.link } ?? { ...ach, isComplete: false }
-      );
-    });
-
-    if (!player.showCompleted && !forceShowComplete) {
-      achievements = achievements.filter((ach) => ach.isComplete === false);
-    }
+  if (filter) {
+    const lowercaseFilter = filter.toLowerCase();
+    achievements = achievements.filter(
+      (a) =>
+        a.name.toLowerCase().includes(lowercaseFilter) ||
+        a.description.toLowerCase().includes(lowercaseFilter)
+    );
   }
 
   if (achievements.every((a) => a.isComplete)) {
@@ -50,6 +25,58 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
     );
   } else {
     achievements = achievements.sort((a, b) => b.name - a.name);
+  }
+
+  return achievements;
+};
+
+const Achievements = ({ categories, forceShowComplete = false }) => {
+  const [currentCategory, setCategory] = React.useState("");
+  const [filter, setFilter] = React.useState("");
+  const [isLoading, setIsLoading] = React.useState(false);
+
+  const { getAchievementsAsync, currentGamertag } = React.useContext(
+    LoginContext
+  );
+
+  const [achievements, setAchievements] = React.useState(
+    getFilteredAchievements(categories, currentCategory, filter)
+  );
+
+  React.useEffect(() => {
+    const filterAccountAchievements = async () => {
+      setIsLoading(true);
+      const accountAchievements = await getAchievementsAsync();
+
+      if (accountAchievements.length > 0) {
+        setAchievements((stateAch) =>
+          stateAch.map((ach) => {
+            const accountProgress = accountAchievements.find(
+              (a) => a.name.toLowerCase() === ach.name.toLowerCase()
+            );
+
+            return (
+              { ...accountProgress, link: ach.link } ?? {
+                ...ach,
+                isComplete: false,
+              }
+            );
+          })
+        );
+      }
+
+      setIsLoading(false);
+    };
+
+    filterAccountAchievements();
+  }, [getAchievementsAsync, currentGamertag]);
+
+  if (isLoading) {
+    return (
+      <div>
+        <Spinner size="sm" /> Loading Achievement Progress
+      </div>
+    );
   }
 
   return (

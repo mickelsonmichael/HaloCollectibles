@@ -1,0 +1,57 @@
+.account__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  border-collapse: collapse;
+}
+
+.account__list-item {
+  margin: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.account__list-item .account__list-item__name {
+  border-bottom: 1px solid gray;
+}
+
+.account__list-item:first-child .account__list-item__name,
+.account__list-item:first-child .account__list-item__remove,
+.account__list-item:first-child .account__list-item__set,
+.account__list-item:first-child .account__list-item__current {
+  border-top: 1px solid gray;
+}
+
+.account__list-item:nth-child(even) {
+  background-color: #424a53;
+}
+
+.account__list-item__name {
+  flex-grow: 1;
+  padding: 0.25rem;
+}
+
+.account__list-item__remove,
+.account__list-item__set,
+.account__list-item__current {
+  padding: 0.25rem 0.5rem;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+
+.account__list-item__remove {
+  background-color: darkred;
+}
+
+.account__list-item__set {
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+}
+
+.account__list-item__current {
+  background-color: darkgreen;
+  color: white;
+  cursor: default;
+}

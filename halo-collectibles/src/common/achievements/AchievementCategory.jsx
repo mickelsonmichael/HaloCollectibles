@@ -2,12 +2,19 @@ import React from "react";
 import AlertMessage from "../AlertMessage";
 import { Col, Row } from "reactstrap";
 import AchievementCard from "./AchievementCard";
+import { LoginContext } from "../login/LoginContext";
 
 const AchievementCategory = ({ achievements }) => {
+  const { showCompleted } = React.useContext(LoginContext);
+
+  if (!showCompleted) {
+    achievements = achievements.filter((a) => !a.isComplete);
+  }
+
   if (achievements.length === 0) {
     return (
       <AlertMessage color="info" isVisible>
-        No Achievements found!
+        No Achievements
       </AlertMessage>
     );
   }

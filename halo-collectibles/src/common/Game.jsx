@@ -4,6 +4,7 @@ import Skulls from "./skulls/Skulls";
 import Terminals from "./terminals/Terminals";
 import DataPads from "../features/reach/datapads/DataPads";
 import { FaSkull, FaTrophy, FaTerminal, FaTabletAlt } from "react-icons/fa";
+import { LoginProvider } from "./login/LoginContext";
 
 export default ({ name, achievements, skulls, terminals, datapads }) => {
   const [activeTab, setActiveTab] = React.useState("Achievements");
