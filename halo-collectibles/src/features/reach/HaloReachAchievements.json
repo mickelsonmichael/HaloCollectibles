@@ -13,7 +13,7 @@
         "description": "Complete every level of the game on Normal difficulty"
       },
       {
-        "name": "Folks Need Heroes...",
+        "name": "Folks Need Heroes…",
         "score": 20,
         "description": "Complete every level of the game on Heroic difficulty"
       },
@@ -205,7 +205,7 @@
         "link": "https://www.trueachievements.com/a288680/clear-and-present-danger-achievement"
       },
       {
-        "name": "The've Always Been Faster",
+        "name": "They've Always Been Faster",
         "score": 10,
         "description": "Clear Winter Contingency without setting foot in a drivable vehicle"
       }
@@ -262,7 +262,7 @@
         "description": "Complete Nightfall"
       },
       {
-        "name": "Now Just You Gueta Minute",
+        "name": "Now Just You Gúta Minute",
         "score": 10,
         "description": "Beat the par time on Nightfall"
       },
@@ -412,6 +412,12 @@
         "name": "Classic Completion",
         "score": 10,
         "description": "Complete Exodus without using any armor abilities"
+      },
+      {
+        "name": "No Picnic",
+        "score": 10,
+        "description": "Observe a grizzly scene on New Alexandria",
+        "link": "https://www.trueachievements.com/a288599/no-picnic-achievement"
       }
     ]
   },
@@ -450,14 +456,8 @@
         "link": "https://www.trueachievements.com/a288697/new-ways-to-save-a-quid-achievement"
       },
       {
-        "name": "No Picnic",
-        "score": 10,
-        "description": "Observe a grizzly scene on New Alexandria",
-        "link": "https://www.trueachievements.com/a288599/no-picnic-achievement"
-      },
-      {
         "name": "Front Page News",
-        "score": 5,
+        "score": 10,
         "description": "Find me in the club",
         "link": "https://www.trueachievements.com/a288647/front-page-news-achievement"
       },
@@ -484,6 +484,11 @@
         "score": 10,
         "description": "Kill 3 of the anti-aircraft batteries during New Alexandria",
         "link": "https://www.trueachievements.com/a288640/i-didnt-train-to-be-a-pilot-achievement"
+      },
+      {
+        "name": "New Ways to Save a Quid",
+        "score": 10,
+        "description": "Hear a familiar voice on New Alexandria"
       }
     ]
   },
@@ -539,7 +544,7 @@
     "title": "Pillar of Autumn",
     "achievements": [
       {
-        "name": "Send Me Out..With a Bang",
+        "name": "Send Me Out... With a Bang",
         "score": 10,
         "description": "Complete The Pillar of Autumn"
       },
@@ -586,7 +591,7 @@
       },
       {
         "name": "One Final Firefight",
-        "score": 10,
+        "score": 20,
         "description": "Achieve a score of 150,000 points on Lone Wolf",
         "link": "https://www.trueachievements.com/a288682/one-final-firefight-achievement"
       }

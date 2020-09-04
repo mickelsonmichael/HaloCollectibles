@@ -212,6 +212,221 @@
         "name": "The True King",
         "score": 10,
         "description": "Earn a total of 250 KOTH Mode specific medals in matchmade games"
+      },
+      {
+        "name": "Just Getting Started",
+        "score": 5,
+        "description": "Kill 100 enemies or players"
+      },
+      {
+        "name": "Balaho's Most Wanted",
+        "score": 5,
+        "description": "Kill 100 Grunts"
+      },
+      {
+        "name": "The One Percent",
+        "score": 5,
+        "description": "Kill 100 Elites"
+      },
+      {
+        "name": "Spoilsport",
+        "score": 5,
+        "description": "Kill 100 Jackals"
+      },
+      {
+        "name": "Going Bananas",
+        "score": 5,
+        "description": "Kill 1200 Brutes"
+      },
+      {
+        "name": "Hunters Hunted",
+        "score": 5,
+        "description": "Kill 50 Hunters"
+      },
+      {
+        "name": "Pest Control",
+        "score": 5,
+        "description": "Kill 100 Crawlers"
+      },
+      {
+        "name": "The Guardians Are Coming",
+        "score": 5,
+        "description": "Get killed by the Guardians"
+      },
+      {
+        "name": "Where Am I?",
+        "score": 5,
+        "description": "Complete 10 missions or multiplayer games"
+      },
+      {
+        "name": "I Got This",
+        "score": 10,
+        "description": "Complete ;100 missions or multiplayer games"
+      },
+      {
+        "name": "Tempered Blade",
+        "score": 5,
+        "description": "Win 10 multiplayer games"
+      },
+      {
+        "name": "Stick With It...A Little Longer",
+        "score": 5,
+        "description": "Play a multiplayer or co-op game at least 3 months after your first game"
+      },
+      {
+        "name": "Veteran",
+        "score": 30,
+        "description": "Complete all campaigns on Normal difficulty"
+      },
+      {
+        "name": "Your Journey Begins",
+        "score": 5,
+        "description": "Complete a campaign mission or a match of multiplayer"
+      },
+      {
+        "name": "Standard Operating Brocedure",
+        "score": 10,
+        "description": "Complete any co-op level on Normal difficulty"
+      },
+      {
+        "name": "Bite The Hand",
+        "score": 10,
+        "description": "Kill a 343 developer in matchmaking or someone who has this achievement."
+      },
+      {
+        "name": "Brovershield",
+        "score": 10,
+        "description": "Complete any co-op level on Heroic difficulty"
+      },
+      {
+        "name": "Delicious Brains",
+        "score": 5,
+        "description": "Kill 100 Flood"
+      },
+      {
+        "name": "Zombie Repeller",
+        "score": 10,
+        "description": "Kill 1000 Flood"
+      },
+      {
+        "name": "Bro Hammer",
+        "score": 10,
+        "description": "Complete any co-op level on Legendary difficulty"
+      },
+      {
+        "name": "Game Master",
+        "score": 5,
+        "description": "Created and saved 5 Custom Game types"
+      },
+      {
+        "name": "Master Forger",
+        "score": 5,
+        "description": "Created and saved 5 Custom Maps in Forge"
+      },
+      {
+        "name": "A Pile of Medals",
+        "score": 10,
+        "description": "Collect 2,000 campaign or playlist medals"
+      },
+      {
+        "name": "A Crate of Medals",
+        "score": 10,
+        "description": "Collect 3,000 campaign or playlist medals"
+      },
+      {
+        "name": "A Heap of Medals",
+        "score": 10,
+        "description": "Collect 4,000 campaign or playlist medals"
+      },
+      {
+        "name": "A Few Trinkets",
+        "score": 10,
+        "description": "Collect 5,000 campaign or playlist medals"
+      },
+      {
+        "name": "Oh, These Baubles?",
+        "score": 10,
+        "description": "Collect 6,000 campaign or playlist medals"
+      },
+      {
+        "name": "Chesty Puller Starter Kit",
+        "score": 10,
+        "description": "Collect 7,000 campaign or playlist medals"
+      },
+      {
+        "name": "Medal Master Chief",
+        "score": 10,
+        "description": "Collect 8,000 campaign or playlist medals"
+      },
+      {
+        "name": "Contender",
+        "score": 10,
+        "description": "Win 50 multiplayer games"
+      },
+      {
+        "name": "Game On",
+        "score": 10,
+        "description": "Complete 50 missions or multiplayer games"
+      },
+      {
+        "name": "Bonus Level",
+        "score": 10,
+        "description": "Complete 200 missions or multiplayer games"
+      },
+      {
+        "name": "Can't Put It Down",
+        "score": 10,
+        "description": "Complete 150 missions or multiplayer games"
+      },
+      {
+        "name": "Big Time Gamer",
+        "score": 10,
+        "description": "Complete 400 missions or multiplayer games"
+      },
+      {
+        "name": "Just A Taste",
+        "score": 5,
+        "description": "Collect 500 campaign or playlist medals"
+      },
+      {
+        "name": "All Out of Bubblegum",
+        "score": 10,
+        "description": "Collect 1,000 campaign or playlist medals"
+      },
+      {
+        "name": "Foe Hammer",
+        "score": 10,
+        "description": "Kill 5,000 enemies or players"
+      },
+      {
+        "name": "Gruntageddon",
+        "score": 10,
+        "description": "Kill 1000 Grunts"
+      },
+      {
+        "name": "Were It So Easy",
+        "score": 10,
+        "description": "Kill 1000 Elites"
+      },
+      {
+        "name": "Scavenger Hunt",
+        "score": 10,
+        "description": "Kill 1000 Jackals"
+      },
+      {
+        "name": "Dankey Kang",
+        "score": 10,
+        "description": "Kill 1000 Brutes"
+      },
+      {
+        "name": "Herald of the Reclamation",
+        "score": 20,
+        "description": "Complete all campaigns on Easy difficulty"
+      },
+      {
+        "name": "No Pain, No Gain",
+        "score": 10,
+        "description": "Complete 1 mission with the LASO playlist skulls enabled."
       }
     ]
   }
