@@ -20,6 +20,8 @@ import Halo3 from "./features/halo3/Halo3";
 import ODST from "./features/ODST/ODST";
 import Reach from "./features/reach/Reach.jsx";
 import Halo4 from "./features/halo4/Halo4";
+import Footer from "./common/layout/Footer";
+import Status from "./features/general/Status";
 
 export default () => (
   <HashRouter>
@@ -28,7 +30,7 @@ export default () => (
         <header>
           <NavMenu />
         </header>
-        <Container fluid className="mt-3">
+        <Container fluid className="mt-3 app__body">
           <Switch>
             <Route path="/" exact>
               <Home />
@@ -57,8 +59,14 @@ export default () => (
             <Route path="/halo4" exact>
               <Halo4 />
             </Route>
+            <Route path="/status" exact>
+              <Status />
+            </Route>
           </Switch>
         </Container>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </UserProvider>
   </HashRouter>

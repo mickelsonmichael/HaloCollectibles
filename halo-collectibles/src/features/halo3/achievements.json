@@ -77,6 +77,11 @@
         "score": 10,
         "description": "View 2 different sigils on Valhalla",
         "link": "https://www.trueachievements.com/a194891/elder-signs-achievement"
+      },
+      {
+        "name": "Devastating",
+        "score": 30,
+        "description": "Complete all Halo 3 Legendary campaign missions in under 3 hours."
       }
     ]
   },
@@ -87,6 +92,61 @@
         "name": "Sounds Familiar",
         "score": 5,
         "description": "This stuff is your history!"
+      },
+      {
+        "name": "Hippo Hero",
+        "score": 5,
+        "description": "Who DARED to discard this brave animal?"
+      },
+      {
+        "name": "Man on the Moon",
+        "score": 5,
+        "description": "He's watching you"
+      },
+      {
+        "name": "Assembly Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Assembly multiplayer map"
+      },
+      {
+        "name": "Orbital Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Orbital multiplayer map"
+      },
+      {
+        "name": "Sandbox Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Sandbox multiplayer map"
+      },
+      {
+        "name": "Citadel Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Citadel multiplayer map"
+      },
+      {
+        "name": "Heretic Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Heretic multiplayer map"
+      },
+      {
+        "name": "Longshore Skull",
+        "score": 5,
+        "description": "Find the hidden Skull on the Longshore multiplayer map"
+      },
+      {
+        "name": "Brainpan",
+        "score": 10,
+        "description": "Find all the hidden multiplayer Skulls"
+      },
+      {
+        "name": "World Traveller",
+        "score": 10,
+        "description": "Complete a match on at least 8 different multiplayer maps"
+      },
+      {
+        "name": "Just Browsing",
+        "score": 10,
+        "description": "Complete a match on at least 4 different game types in multiplayer"
       }
     ]
   },

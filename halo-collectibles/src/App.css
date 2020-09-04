@@ -1,3 +1,19 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__body {
+  margin-bottom: auto;
+}
+
 .nav-tabs .nav-link {
   cursor: pointer;
 }

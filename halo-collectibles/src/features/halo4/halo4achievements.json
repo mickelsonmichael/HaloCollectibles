@@ -96,7 +96,7 @@
         "description": "Complete all Spartan Ops chapters"
       },
       {
-        "name": "Terms of Enlistment",
+        "name": "Term of Enlistment",
         "score": 10,
         "description": "Complete all Spartan Ops chapters on Normal difficulty"
       },
@@ -244,9 +244,9 @@
         "description": "Beat the par score on Requiem"
       },
       {
-        "name": "Activate Terminal 1 on Requiem",
+        "name": "War",
         "score": 5,
-        "description": ""
+        "description": "Activate Terminal 1 on Requiem"
       }
     ]
   },

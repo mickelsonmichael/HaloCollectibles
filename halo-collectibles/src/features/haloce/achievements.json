@@ -106,6 +106,21 @@
         "score": 30,
         "description": "Complete all Halo: CE Legendary campaign missions in under 3 hours",
         "link": "https://www.trueachievements.com/a194874/goat-roped-achievement"
+      },
+      {
+        "name": "Sightseeing",
+        "score": 10,
+        "description": "Complete a match on at least 8 different classic multiplayer maps"
+      },
+      {
+        "name": "Airborne",
+        "score": 10,
+        "description": "Launch a Warthog for at least 5 seconds and have it splatter an enemy"
+      },
+      {
+        "name": "Checking Out Your Options",
+        "score": 10,
+        "description": "Complete a match on at least 4 unique game types"
       }
     ]
   },

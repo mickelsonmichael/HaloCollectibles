@@ -113,6 +113,11 @@
         "score": 10,
         "description": "Complete a match on at least 8 different classic multiplayer maps",
         "link": "https://www.trueachievements.com/a196959/tourist-achievement"
+      },
+      {
+        "name": "Monopolised",
+        "score": 30,
+        "description": "Complete all Halo 2 Legendary campaign missions in under 3 hours"
       }
     ]
   },
@@ -123,6 +128,229 @@
         "name": "Siege of Ivory Tower",
         "score": 5,
         "description": "Listen to a hidden music cue in Halo 2"
+      },
+      {
+        "name": "Red vs. Blue",
+        "score": 10,
+        "description": "Win 10 matches on Bloodline in multiplayer"
+      },
+      {
+        "name": "Shields Up!",
+        "score": 10,
+        "description": "On Zenith, personally activate the centre energy shield 3 times in one matchmade game."
+      },
+      {
+        "name": "Zealot",
+        "score": 10,
+        "description": "In Anniversary matchmaking, win 10 games as an Elite."
+      },
+      {
+        "name": "Roadkill Rampage",
+        "score": 10,
+        "description": "In Anniversary matchmaking, earn a total of 100 Splatter medals"
+      },
+      {
+        "name": "Rock and Coil Hit Back",
+        "score": 10,
+        "description": "In Anniversary matchmaking, earn a total of 100 Environmentalist medals"
+      },
+      {
+        "name": "Monumental Thirst!",
+        "score": 10,
+        "description": "Found and destroyed the BLAST fizzy drink can on Remnant",
+        "link": "https://www.trueachievements.com/a201807/monumental-thirst-achievement"
+      },
+      {
+        "name": "Gate Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Stonetown",
+        "link": "https://www.trueachievements.com/a194897/gate-your-thirst-achievement"
+      },
+      {
+        "name": "High Altitude Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Zenith",
+        "link": "https://www.trueachievements.com/a194898/high-altitude-thirst-achievement"
+      },
+      {
+        "name": "Rule Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Warlord",
+        "link": "https://www.trueachievements.com/a194904/rule-your-thirst-achievement"
+      },
+      {
+        "name": "Thirst Locked Down!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Lockdown",
+        "link": "https://www.trueachievements.com/a194910/thirst-locked-down-achievement"
+      },
+      {
+        "name": "Bloody Thirsty!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Bloodline",
+        "link": "https://www.trueachievements.com/a194913/bloody-thirsty-achievement"
+      },
+      {
+        "name": "BLASTacular!",
+        "score": 10,
+        "description": "Destroyed all the Halo 2 Anniversary Multiplayer BLAST fizzy drink cans",
+        "link": "https://www.trueachievements.com/a194912/blastacular-achievement"
+      },
+      {
+        "name": "Worship Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Shrine",
+        "link": "https://www.trueachievements.com/a194920/worship-your-thirst-achievement"
+      },
+      {
+        "name": "Animal Habitat",
+        "score": 5,
+        "description": "Spot the hippo on the walls of Headlong in classic multiplayer"
+      },
+      {
+        "name": "Sid Graffiti",
+        "score": 5,
+        "description": "Spot the Sid graffiti on the walls of Coagulation in classic multiplayer"
+      },
+      {
+        "name": "Why So Serious",
+        "score": 5,
+        "description": "View the smiling face in the classic multiplayer map Coagulation"
+      },
+      {
+        "name": "Why Am I Here?",
+        "score": 5,
+        "description": "View this hidden message on the classic Beaver Creek map"
+      },
+      {
+        "name": "Grand Theft Halo",
+        "score": 10,
+        "description": "In one match, steal a total of 5 occupied vehicles from opponents"
+      },
+      {
+        "name": "Tour of Duty",
+        "score": 10,
+        "description": "Complete a game in every one of the 6 updated Anniversary MP maps"
+      },
+      {
+        "name": "Double Down",
+        "score": 10,
+        "description": "In Anniversary multiplayer, receive 2 or more Double Kill medals"
+      },
+      {
+        "name": "Warden",
+        "score": 10,
+        "description": "In Classic or Anniversary matchmaking, stop the killing spree of another player"
+      },
+      {
+        "name": "Blown Out of the Sky",
+        "score": 10,
+        "description": "Blow up the Banshee or Hornet in flight while piloted, with the Rocket Launcher"
+      },
+      {
+        "name": "Decorated Warrior",
+        "score": 10,
+        "description": "Get awarded at least 10 different medals in one multiplayer game"
+      },
+      {
+        "name": "Ninja Redux",
+        "score": 10,
+        "description": "Kill 5 people with melee from behind in Anniversary matchmaking"
+      },
+      {
+        "name": "Flaming Ninja Anniversary",
+        "score": 10,
+        "description": "Kill an opponent that has the Ninja Redux achievement in Anniversary matchmaking"
+      },
+      {
+        "name": "Legend Slayer",
+        "score": 10,
+        "description": "Kill an opponent that has the Legendary Anniversary achievement"
+      },
+      {
+        "name": "Eminent Domain",
+        "score": 10,
+        "description": "In Territories, control any 3 Territories simultaneously for 30 seconds"
+      },
+      {
+        "name": "Invaders Repelled",
+        "score": 10,
+        "description": "In King of the Hill, kill 5 opponents within your controlled hill"
+      },
+      {
+        "name": "Put Up Your Dukes",
+        "score": 10,
+        "description": "Get 25 melee kills in multiplayer"
+      },
+      {
+        "name": "Shook the Hornet's Nest",
+        "score": 10,
+        "description": "Get 30 kills with the Hornet in multiplayer"
+      },
+      {
+        "name": "Skeet Shooter",
+        "score": 10,
+        "description": "Killed 15 opponents that were airborne from a Man Cannon"
+      },
+      {
+        "name": "Stayin' Alive",
+        "score": 10,
+        "description": "In Juggernaut, survive as the Juggernaut for 30 seconds"
+      },
+      {
+        "name": "The Goose is Loose",
+        "score": 10,
+        "description": "Get 25 kills with the Gungoose in multiplayer"
+      },
+      {
+        "name": "Top Gungoose",
+        "score": 10,
+        "description": "Get a kill with the Gungoose while airborne"
+      },
+      {
+        "name": "Bombing Run",
+        "score": 10,
+        "description": "In Assault, take, plant and score from the bomb spawn without dying or dropping it"
+      },
+      {
+        "name": "Cold as Ice",
+        "score": 10,
+        "description": "On Lockdown, kill an opponent with the hanging ice"
+      },
+      {
+        "name": "Cold Fusion",
+        "score": 5,
+        "description": "Kill an opponent by detonating a Fusion Coil"
+      },
+      {
+        "name": "Counter-Sniped",
+        "score": 10,
+        "description": "With a Sniper Rifle or Beam Rifle, kill an enemy that was zoomed in"
+      },
+      {
+        "name": "Triple Threat",
+        "score": 10,
+        "description": "In Ricochet, pass once, score once and kill at least one enemy in the same match"
+      },
+      {
+        "name": "Wetwork",
+        "score": 5,
+        "description": "On Shrine in CTF, activate the enemy base waterfall and, before it stops, grab the flag"
+      },
+      {
+        "name": "Power Play",
+        "score": 10,
+        "description": "On Warlord, get 5 active camouflage power ups in a single game"
+      },
+      {
+        "name": "MVP",
+        "score": 10,
+        "description": "Finished ast the top player on the winning team in a matchmade game"
+      },
+      {
+        "name": "Window Shopping",
+        "score": 10,
+        "description": "Complete a match on at least 4 different game types in classic multiplayer"
       }
     ]
   },
