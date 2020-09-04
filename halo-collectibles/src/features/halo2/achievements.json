@@ -123,6 +123,36 @@
         "name": "Siege of Ivory Tower",
         "score": 5,
         "description": "Listen to a hidden music cue in Halo 2"
+      },
+      {
+        "name": "Red vs. Blue",
+        "score": 10,
+        "description": "Win 10 matches on Bloodline in multiplayer"
+      },
+      {
+        "name": "Shields Up!",
+        "score": 10,
+        "description": "On Zenith, personally activate the centre energy shield 3 times in one matchmade game."
+      },
+      {
+        "name": "Zealot",
+        "score": 10,
+        "description": "In Anniversary matchmaking, win 10 games as an Elite."
+      },
+      {
+        "name": "Roadkill Rampage",
+        "score": 10,
+        "description": "In Anniversary matchmaking, earn a total of 100 Splatter medals"
+      },
+      {
+        "name": "Rock and Coil Hit Back",
+        "score": 10,
+        "description": "In Anniversary matchmaking, earn a total of 100 Environmentalist medals"
+      },
+      {
+        "name": "Monumental Thirst!",
+        "score": 10,
+        "description": "Found and destroyed the BLAST fizzy drink can on Remnant"
       }
     ]
   },

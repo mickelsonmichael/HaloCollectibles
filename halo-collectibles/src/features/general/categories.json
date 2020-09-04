@@ -162,6 +162,56 @@
         "name": "Dogcatcher",
         "score": 10,
         "description": "Kill 100 Crawlers"
+      },
+      {
+        "name": "Nice Work Dawg!",
+        "score": 5,
+        "description": "Earn a total of 2,500 Assist medals in multiplayer"
+      },
+      {
+        "name": "Aim for the Head",
+        "score": 10,
+        "description": "Earn a total of 2,500 Headshot medals in multiplayer."
+      },
+      {
+        "name": "Dim Mak",
+        "score": 10,
+        "description": "Earn a total of 250 Beat Down medals in multiplayer."
+      },
+      {
+        "name": "Domination",
+        "score": 10,
+        "description": "Earn a total of 100 Legendary medals in matchmade games."
+      },
+      {
+        "name": "Double Trouble",
+        "score": 10,
+        "description": "Earn a total of 250 Double Kill medals in matchmade games."
+      },
+      {
+        "name": "Spree Master",
+        "score": 10,
+        "description": "Earn a total of 100 Killing Spree medals in matchmade games"
+      },
+      {
+        "name": "Catch This",
+        "score": 10,
+        "description": "Earn a total of 500 Grenade Kill or Plasma Kill medals in matchmade games"
+      },
+      {
+        "name": "Party Pooper",
+        "score": 10,
+        "description": "Earn a total of 250 Killjoy medals in matchmade games"
+      },
+      {
+        "name": "Planting A Flag",
+        "score": 10,
+        "description": "Earn a total of 250 CTF Mode Specific medals in matchmade games"
+      },
+      {
+        "name": "The True King",
+        "score": 10,
+        "description": "Earn a total of 250 KOTH Mode specific medals in matchmade games"
       }
     ]
   }
