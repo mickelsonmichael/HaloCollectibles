@@ -33,6 +33,16 @@ const getIssues = (siteAchievements, actualAchievements) => {
     }
   }
 
+  for (const bch of siteAchievements) {
+    const batch = actualAchievements.find(
+      (b) => b.name.toLowerCase() === bch.name.toLowerCase()
+    );
+
+    if (!batch) {
+      issues.push(`Extra achievement: ${bch.name}`);
+    }
+  }
+
   return issues;
 };
 
@@ -100,6 +110,7 @@ const Status = () => {
   return (
     <div>
       <strong>Total Tracked by Site: {allAchievements.length}</strong>
+      <br />
       <strong>Total Returned by API: {actual.length}</strong>
       {issues.length > 0 && (
         <ul>
@@ -108,6 +119,7 @@ const Status = () => {
           ))}
         </ul>
       )}
+      {issues.length === 0 && <Alert color="success">No issues found!</Alert>}
     </div>
   );
 };
