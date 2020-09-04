@@ -151,8 +151,69 @@
       },
       {
         "name": "Monumental Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Remnant",
+        "link": "https://www.trueachievements.com/a201807/monumental-thirst-achievement"
+      },
+      {
+        "name": "Gate Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Stonetown",
+        "link": "https://www.trueachievements.com/a194897/gate-your-thirst-achievement"
+      },
+      {
+        "name": "High Altitude Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Zenith",
+        "link": "https://www.trueachievements.com/a194898/high-altitude-thirst-achievement"
+      },
+      {
+        "name": "Rule Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Warlord",
+        "link": "https://www.trueachievements.com/a194904/rule-your-thirst-achievement"
+      },
+      {
+        "name": "Thirst Locked Down!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Lockdown",
+        "link": "https://www.trueachievements.com/a194910/thirst-locked-down-achievement"
+      },
+      {
+        "name": "Bloody Thirsty!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Bloodline",
+        "link": "https://www.trueachievements.com/a194913/bloody-thirsty-achievement"
+      },
+      {
+        "name": "BLASTacular!",
         "score": 10,
-        "description": "Found and destroyed the BLAST fizzy drink can on Remnant"
+        "description": "Destroyed all the Halo 2 Anniversary Multiplayer BLAST fizzy drink cans",
+        "link": "https://www.trueachievements.com/a194912/blastacular-achievement"
+      },
+      {
+        "name": "Worship Your Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on Shrine",
+        "link": "https://www.trueachievements.com/a194920/worship-your-thirst-achievement"
+      },
+      {
+        "name": "Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on",
+        "link": ""
+      },
+      {
+        "name": "Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on",
+        "link": ""
+      },
+      {
+        "name": "Thirst!",
+        "score": 5,
+        "description": "Found and destroyed the BLAST fizzy drink can on",
+        "link": ""
       }
     ]
   },
