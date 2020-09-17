@@ -19,12 +19,18 @@ const filterAchievements = (achievements, filter) => {
 
 const Achievements = ({ categories, forceShowComplete = false }) => {
   const { player } = React.useContext(UserContext);
-  const [currentCategory, setCategory] = React.useState("");
+  const [currentCategories, setCategories] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
-  let achievements = currentCategory
-    ? categories.find((cat) => cat.title === currentCategory).achievements
-    : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
+  console.log(currentCategories);
+
+  let achievements =
+    currentCategories.length > 0
+      ? categories
+          .filter((cat) => currentCategories.includes(cat.title))
+          .map((cat) => cat.achievements)
+          .flat()
+      : categories.reduce((acc, cur) => acc.concat(cur.achievements), []);
 
   achievements = filterAchievements(achievements, filter);
 
@@ -59,7 +65,7 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
           {categories.length > 1 && (
             <Categories
               categories={categories}
-              onOptionChange={(val) => setCategory(val)}
+              onOptionChange={(val) => setCategories(val)}
             />
           )}
         </Col>

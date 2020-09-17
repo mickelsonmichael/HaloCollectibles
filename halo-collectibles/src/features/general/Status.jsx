@@ -87,8 +87,6 @@ const Status = () => {
     .map((category) => category.achievements)
     .reduce((a, v) => a.concat(v));
 
-  console.debug(allAchievements);
-
   if (isLoading) {
     return (
       <div>
