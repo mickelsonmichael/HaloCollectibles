@@ -22,8 +22,6 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
   const [currentCategories, setCategories] = React.useState("");
   const [filter, setFilter] = React.useState("");
 
-  console.log(currentCategories);
-
   let achievements =
     currentCategories.length > 0
       ? categories
