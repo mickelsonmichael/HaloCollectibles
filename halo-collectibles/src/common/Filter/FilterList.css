@@ -4,15 +4,11 @@
 }
 
 .filter-button {
-  color: cadetblue;
+  color: teal;
   font-size: large;
   cursor: pointer;
   padding: 0.25rem 1rem;
   user-select: none;
-}
-
-.filter.open .filter-button {
-  color: teal;
 }
 
 .filter-button__icon {

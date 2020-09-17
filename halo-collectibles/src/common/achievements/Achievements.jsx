@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Input, Row, Col } from "reactstrap";
 import Categories from "./Categories";
 import { UserContext } from "../../UserContext";
 import AchievementCategory from "./AchievementCategory";
+import FilterSearch from "../Filter/Search";
 
 const filterAchievements = (achievements, filter) => {
   if (filter) {
@@ -58,24 +58,14 @@ const Achievements = ({ categories, forceShowComplete = false }) => {
 
   return (
     <div>
-      <Row>
-        <Col md="4" sm="12">
-          {categories.length > 1 && (
-            <Categories
-              categories={categories}
-              onOptionChange={(val) => setCategories(val)}
-            />
-          )}
-        </Col>
-        <Col md={{ size: 3, offset: 5 }} sm="12">
-          <Input
-            type="text"
-            onChange={(e) => setFilter(e.target.value)}
-            placeholder={"Search " + achievements.length + " achievements"}
-            bsSize="sm"
-          />
-        </Col>
-      </Row>
+      {categories.length > 1 && (
+        <Categories
+          categories={categories}
+          onOptionChange={(val) => setCategories(val)}
+        />
+      )}
+
+      <FilterSearch onChange={setFilter} />
 
       <br />
 

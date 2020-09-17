@@ -1,0 +1,15 @@
+.filter-search {
+  color: teal;
+  font-size: large;
+  display: inline-block;
+}
+
+.filter-search__icon {
+  margin-right: 0.5rem;
+}
+
+.filter-search__input {
+  background: none;
+  border: none;
+  color: teal;
+}
