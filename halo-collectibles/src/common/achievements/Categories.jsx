@@ -1,17 +1,9 @@
 import React from "react";
-import { Input } from "reactstrap";
+import FilterList from "../Filter/FilterList";
+import "react-dropdown/style.css";
 
-export default ({ onOptionChange, categories }) => (
-  <Input
-    type="select"
-    onChange={(e) => onOptionChange(e.target.value)}
-    bsSize="sm"
-  >
-    <option value="">- All -</option>
-    {categories.map((cat) => (
-      <option key={cat.title} value={cat.title}>
-        {cat.title}
-      </option>
-    ))}
-  </Input>
-);
+export default ({ onOptionChange, categories }) => {
+  const options = categories.map((c) => ({ value: c.title, text: c.title }));
+
+  return <FilterList options={options} onChange={onOptionChange} />;
+};

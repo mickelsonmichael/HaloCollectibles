@@ -11,7 +11,6 @@ const Terminals = ({ terminals }) => {
   let filteredTerminals = terminals;
 
   if (achievements && achievements.length > 0) {
-    console.log("mapping");
     filteredTerminals = filteredTerminals.map((terminal) => {
       const achievement = achievements.find((a) =>
         a.description.includes(
