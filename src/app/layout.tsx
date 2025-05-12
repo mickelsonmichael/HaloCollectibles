@@ -31,7 +31,7 @@ const RootLayout = ({ children }: LayoutProps) => (
             </ul>
           </nav>
         </div>
-        <main className="pt-4 px-8">{children}</main>
+        <main className="py-4 px-8">{children}</main>
       </div>
     </body>
   </html>

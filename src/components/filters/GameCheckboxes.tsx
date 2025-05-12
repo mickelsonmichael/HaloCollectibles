@@ -1,29 +1,54 @@
-import { Game } from "@/app/achievements/useAchievements";
+import { useAchievements } from "@/hooks/AchievementsContext";
+import Game from "@/models/Game";
+import ToggleButton from "../ToggleButton";
 
-interface GameCheckboxesProps {
-  enabledGames: Game[];
-  onToggle: (game: Game) => unknown;
-}
+const GameCheckboxes = () => {
+  const { games, toggleGame, focusGame, enableAllGames, disableAllGames } =
+    useAchievements();
 
-const GameCheckboxes = ({ enabledGames, onToggle }: GameCheckboxesProps) =>
-  Object.values(Game).map((g) => {
-    const enabled = enabledGames.includes(g);
+  return (
+    <>
+      {Object.values(Game).map((g) => {
+        const enabled = games.includes(g);
+        const key = `filter-game-${g}`;
+        const actions = [{ icon: "crosshair", onClick: () => focusGame(g) }];
 
-      return (
-          <label
-              key={`filter-game-${g}`}
-              htmlFor={`filter-game-${g}`}
-              className={"cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center" + (enabled ? " bg-blue-500/10" : "")}
+        return (
+          <ToggleButton
+            key={key}
+            name={key}
+            enabled={enabled}
+            onToggle={() => toggleGame(g)}
+            actions={actions}
           >
-              <input
-                  id={`filter-game-${g}`}
-                  type="checkbox"
-                  checked={enabled}
-                  onChange={() => onToggle(g)}
-                  className="hidden cursor-pointer" />
-              {g}
-          </label>
-      );
-  });
+            {g}
+          </ToggleButton>
+        );
+      })}
+      <div className="grid grid-cols-2">
+        <div
+          onClick={enableAllGames}
+          className={
+            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
+            (games.length === Object.values(Game).length
+              ? "bg-blue-500/10"
+              : "")
+          }
+        >
+          All
+        </div>
+        <div
+          onClick={disableAllGames}
+          className={
+            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
+            (games.length === 0 ? "bg-blue-500/10" : "")
+          }
+        >
+          None
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default GameCheckboxes;
