@@ -36,10 +36,11 @@ export const GET = async (request: NextRequest) => {
 
         const redirectUrl = new URL(request.url).host + "/achievements";
 
-        response = NextResponse.redirect(redirectUrl);
+        console.log(redirectUrl);
+
+        response = NextResponse.redirect("http://localhost:3000" + "/achievements");
 
         response.cookies.set("STEAM_USER_ID", steamId, {
-            httpOnly: true,
             secure: process.env.NODE_ENV === "production",
             sameSite: true
         });

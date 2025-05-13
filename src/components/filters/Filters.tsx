@@ -7,14 +7,14 @@ import useCachedToggle from "@/hooks/useCachedToggle";
 const Filters = () => {
   const { isOn: showFilters, toggle: toggleFilters } =
     useCachedToggle("FILTERS_ON");
-  const { user, achievements, collections, lockedOnly, toggleLockedOnly } =
+  const { achievements, collections, lockedOnly, toggleLockedOnly } =
     useAchievements();
 
   return (
     <>
       <div className="flex flex-col gap-1 md:flex-row">
         <div className="mr-auto">
-          {achievements.length} total achievement(s){user && ` for ${user}`}
+          {achievements.length} total achievement(s)
         </div>
         <div className="flex gap-1">
           <div className="mr-auto md:mx-3">
