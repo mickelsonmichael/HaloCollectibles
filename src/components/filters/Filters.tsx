@@ -5,14 +5,31 @@ import GameCheckboxes from "@/components/filters/GameCheckboxes";
 import useCachedToggle from "@/hooks/useCachedToggle";
 
 const Filters = () => {
-  const { isOn: showFilters, toggle: toggleFilters } = useCachedToggle("FILTERS_ON");
-  const { achievements, collections } = useAchievements();
+  const { isOn: showFilters, toggle: toggleFilters } =
+    useCachedToggle("FILTERS_ON");
+  const { user, achievements, collections, lockedOnly, toggleLockedOnly } =
+    useAchievements();
 
   return (
     <>
       <div className="flex">
         <div className="mr-auto">
-          {achievements.length} total achievement(s)
+          {achievements.length} total achievement(s){user && ` for ${user}`}
+        </div>
+        <div className="mx-3">
+          <label
+            htmlFor="lockedOnlyToggle"
+            className="cursor-pointer select-none"
+          >
+            <input
+              type="checkbox"
+              id="lockedOnlyToggle"
+              onChange={toggleLockedOnly}
+              checked={!lockedOnly}
+              className="mr-1"
+            />
+            Show unlocked
+          </label>
         </div>
         <div
           className={`flex flex-col align-middle p-1 cursor-pointer rounded-sm ${
