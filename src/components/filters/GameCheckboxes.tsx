@@ -11,7 +11,6 @@ const GameCheckboxes = () => {
       {Object.values(Game).map((g) => {
         const enabled = games.includes(g);
         const key = `filter-game-${g}`;
-        const actions = [{ icon: "crosshair", onClick: () => focusGame(g) }];
 
         return (
           <ToggleButton
@@ -19,7 +18,7 @@ const GameCheckboxes = () => {
             name={key}
             enabled={enabled}
             onToggle={() => toggleGame(g)}
-            actions={actions}
+            actions={[{ icon: "crosshair", onClick: () => focusGame(g) }]}
           >
             {g}
           </ToggleButton>

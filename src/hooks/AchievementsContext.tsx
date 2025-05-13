@@ -1,7 +1,7 @@
 "use client";
 
 import Achievements from "@data/achievements.json";
-import Achievement from "@/models/Achievement";
+import type Achievement from "@/models/Achievement";
 import {
   useState,
   useContext,
@@ -11,6 +11,7 @@ import {
 } from "react";
 import Game from "@/models/Game";
 import useCache from "@/hooks/useCached";
+import type UserAchievement from "@/models/UserAchievement";
 
 interface CollectionState {
   name: string;
@@ -24,10 +25,11 @@ interface FiltersState {
 }
 
 type AchievementsContextState = FiltersState & {
+  unfilteredAchievements: Achievement[];
   achievements: Achievement[];
   search: string;
   user: string;
-  userAchievements: Achievement[],
+  userAchievements: UserAchievement[];
   lockedOnly: boolean;
   setSearch: (search: string) => unknown;
   toggleGame: (game: Game) => unknown;
@@ -43,6 +45,7 @@ type AchievementsContextState = FiltersState & {
 
 const AchievementsContext = createContext<AchievementsContextState>({
   achievements: Achievements as Achievement[],
+  unfilteredAchievements: Achievements as Achievement[],
   user: "",
   userAchievements: [],
   collections: [],
@@ -58,7 +61,7 @@ const AchievementsContext = createContext<AchievementsContextState>({
   enableAllCollections: console.debug,
   disableAllCollections: console.debug,
   focusCollection: console.debug,
-  toggleLockedOnly: console.debug
+  toggleLockedOnly: console.debug,
 });
 
 const getUniqueCollections = (
@@ -75,13 +78,15 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
   const [getCached, setCached] = useCache<FiltersState>("ACHIEVEMENT_FILTERS");
 
   const [user] = useState("RENSON");
-  const [userAchievements, setUserAchievements] = useState<Achievement[]>([]);
+  const [userAchievements, setUserAchievements] = useState<UserAchievement[]>(
+    []
+  );
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState(
     getCached() ?? {
       games: Object.values(Game),
       collections: [] as CollectionState[],
-      lockedOnly: true
+      lockedOnly: true,
     }
   );
 
@@ -95,10 +100,11 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
       .then((res) => res.json())
       .then((data) => {
         setUserAchievements(data.achievements);
-      })
+      });
   }, [user]);
 
-  const toggleLockedOnly = () => setFilters((f) => ({ ...f, lockedOnly: !f.lockedOnly}))
+  const toggleLockedOnly = () =>
+    setFilters((f) => ({ ...f, lockedOnly: !f.lockedOnly }));
 
   const toggleGame = (game: Game) =>
     setFilters(({ games: g, ...s }) => {
@@ -173,12 +179,20 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
         ? filters.collections.find((c) => c.name === a.collection)?.enabled
         : true
     ) // Remove collections not included
-    .filter((a) => !filters.lockedOnly || userAchievements.find((b) => b.name === a.name) == null) // Remove unlocked achievements
-    .filter((a) => JSON.stringify(a).toLowerCase().includes(search.toLowerCase())); // Filter by search string
+    .filter(
+      (a) =>
+        !filters.lockedOnly ||
+        userAchievements.find((b) => b.name.toLowerCase() === a.name.toLowerCase())?.unlockedTimestamp ==
+          null
+    ) // Remove unlocked achievements
+    .filter((a) =>
+      JSON.stringify(a).toLowerCase().includes(search.toLowerCase())
+    ); // Filter by search string
 
   const value = {
     ...filters,
     achievements: filteredAchievements,
+    unfilteredAchievements: allAchievements,
     search,
     user,
     userAchievements,
@@ -191,7 +205,7 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     enableAllCollections,
     disableAllCollections,
     focusCollection,
-    toggleLockedOnly
+    toggleLockedOnly,
   };
 
   useEffect(() => {

@@ -4,9 +4,9 @@ const AchievementsTable = () => {
   const { achievements } = useAchievements();
 
   return (
-    <table className="table-auto mt-2 border-1 w-full">
+    <table className="flex flex-col md:table table-auto mt-2 border-1 w-full">
       <thead>
-        <tr className="*:p-2 bg-blue-500/50 border-1">
+        <tr className="flex flex-col md:table-row *:p-2 bg-blue-500/50 border-1">
           <td>Title</td>
           <td>Description</td>
           <td>Score</td>
@@ -18,7 +18,7 @@ const AchievementsTable = () => {
         {achievements.map((achievement) => (
           <tr
             key={`${achievement.game}-${achievement.name}`}
-            className="*:p-2 even:bg-blue-500/25"
+            className="flex flex-col md:table-row *:p-2 even:bg-blue-500/25"
           >
             <td>{achievement.name}</td>
             <td>{achievement.description}</td>

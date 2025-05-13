@@ -8,7 +8,7 @@
         "description": "Complete every level of the game on Easy difficulty"
       },
       {
-        "name": "The Soldier We Need You to Be",
+        "name": "The Soldier We Need You To Be",
         "score": 10,
         "description": "Complete every level of the game on Normal difficulty"
       },
@@ -23,7 +23,7 @@
         "description": "Complete every level of the game on Legendary difficulty"
       },
       {
-        "name": "A Monument to All Your Sins",
+        "name": "A Monument To All Your Sins",
         "score": 30,
         "description": "Complete every level of the game on Legendary difficulty, by yourself"
       },
@@ -257,7 +257,7 @@
     "title": "Nightfall",
     "achievements": [
       {
-        "name": "I Need a Weapon",
+        "name": "I Need A Weapon",
         "score": 10,
         "description": "Complete Nightfall"
       },
@@ -372,12 +372,12 @@
     "title": "Exodus",
     "achievements": [
       {
-        "name": "Into the Howling Dark",
+        "name": "Into The Howling Dark",
         "score": 10,
         "description": "Complete Exodus"
       },
       {
-        "name": "Quicker than Reading the Book",
+        "name": "Quicker Than Reading the Book",
         "score": 10,
         "description": "Beat the par time on Exodus"
       },
@@ -425,12 +425,12 @@
     "title": "New Alexandria",
     "achievements": [
       {
-        "name": "Dust and Echoes",
+        "name": "Dust And Echoes",
         "score": 10,
         "description": "Complete New Alexandria"
       },
       {
-        "name": "One for the Record Books",
+        "name": "One For the Record Books",
         "score": 10,
         "description": "Beat the par time on New Alexandria"
       },
@@ -480,7 +480,7 @@
         "link": "https://www.trueachievements.com/a288640/i-didnt-train-to-be-a-pilot-achievement"
       },
       {
-        "name": "New Ways to Save a Quid",
+        "name": "New Ways to Save a Buck",
         "score": 10,
         "description": "Hear a familiar voice on New Alexandria"
       }
@@ -490,7 +490,7 @@
     "title": "The Package",
     "achievements": [
       {
-        "name": "This is Not Your Grave",
+        "name": "This Is Not Your Grave",
         "score": 10,
         "description": "Complete The Package"
       },
@@ -538,7 +538,7 @@
     "title": "Pillar of Autumn",
     "achievements": [
       {
-        "name": "Send Me Out... With a Bang",
+        "name": "Send Me Out... With A Bang",
         "score": 10,
         "description": "Complete The Pillar of Autumn"
       },

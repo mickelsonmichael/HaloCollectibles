@@ -14,9 +14,6 @@ const CollectionCheckboxes = () => {
     <>
       {collections.map(({ name, enabled }) => {
         const key = `filter-collection-${name}`;
-        const actions = [
-          { icon: "crosshair", onClick: () => focusCollection(name) },
-        ];
 
         return (
           <ToggleButton
@@ -24,7 +21,9 @@ const CollectionCheckboxes = () => {
             name={key}
             enabled={enabled}
             onToggle={() => toggleCollection(name)}
-            actions={actions}
+            actions={[
+              { icon: "crosshair", onClick: () => focusCollection(name) },
+            ]}
           >
             {name}
           </ToggleButton>
