@@ -13,7 +13,7 @@
         "description": "Kill 25 Engineers."
       },
       {
-        "name": "One-Way Ride",
+        "name": "One Way Ride",
         "score": 20,
         "description": "Complete any level without using a health pack on Heroic or Legendary."
       },
@@ -58,7 +58,7 @@
         "description": "Kill 5 sleeping Grunts on Mombasa Streets."
       },
       {
-        "name": "Vandalised",
+        "name": "Vandalized",
         "score": 10,
         "description": "Face it."
       },
@@ -148,7 +148,7 @@
         "description": "Find the 1st Audio Log."
       },
       {
-        "name": "An Earful",
+        "name": "An Ear Full",
         "score": 5,
         "description": "Find the 2nd Audio Log."
       },
@@ -293,7 +293,7 @@
         "description": "Find the 30th Audio Log."
       },
       {
-        "name": "Record Shop Owner",
+        "name": "Record Store Owner",
         "score": 10,
         "description": "Find all 30 Audio Logs."
       }
@@ -463,7 +463,7 @@
         "description": "Complete Kikowani Station."
       },
       {
-        "name": "Feet, Don't Fail Me Now",
+        "name": "Feet Don't Fail Me Now",
         "score": 10,
         "description": "Beat the par time on Kikowani Station."
       },

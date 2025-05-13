@@ -12,32 +12,34 @@ const Filters = () => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex flex-col gap-1 md:flex-row">
         <div className="mr-auto">
           {achievements.length} total achievement(s){user && ` for ${user}`}
         </div>
-        <div className="mx-3">
-          <label
-            htmlFor="lockedOnlyToggle"
-            className="cursor-pointer select-none"
+        <div className="flex gap-1">
+          <div className="mr-auto md:mx-3">
+            <label
+              htmlFor="lockedOnlyToggle"
+              className="cursor-pointer select-none"
+            >
+              <input
+                type="checkbox"
+                id="lockedOnlyToggle"
+                onChange={toggleLockedOnly}
+                checked={!lockedOnly}
+                className="mr-1"
+              />
+              Show unlocked
+            </label>
+          </div>
+          <div
+            className={`inline-flex flex-col align-middle p-1 cursor-pointer rounded-sm max-w-auto ${
+              showFilters && "bg-white/10"
+            }`}
+            onClick={toggleFilters}
           >
-            <input
-              type="checkbox"
-              id="lockedOnlyToggle"
-              onChange={toggleLockedOnly}
-              checked={!lockedOnly}
-              className="mr-1"
-            />
-            Show unlocked
-          </label>
-        </div>
-        <div
-          className={`flex flex-col align-middle p-1 cursor-pointer rounded-sm ${
-            showFilters && "bg-white/10"
-          }`}
-          onClick={toggleFilters}
-        >
-          <Icon name="filter" />
+            <Icon name="filter" />
+          </div>
         </div>
       </div>
 
@@ -50,14 +52,14 @@ const Filters = () => {
         <div className="">
           <div>
             <p className="text-lg my-2">Games</p>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-2 md:grid-cols-4">
               <GameCheckboxes />
             </div>
           </div>
           <div>
             <p className="text-lg my-2">Collections</p>
             {collections.length > 0 ? (
-              <div className="grid grid-cols-4">
+              <div className="grid md:grid-cols-4">
                 <CollectionCheckboxes />
               </div>
             ) : (

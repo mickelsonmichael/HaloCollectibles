@@ -16,6 +16,13 @@ const nextConfig: NextConfig = {
     )
 
     return config;
+  },
+  async redirects() {
+    return [{
+      source: "/",
+      destination: "/achievements",
+      permanent: true
+    }]
   }
 };
 

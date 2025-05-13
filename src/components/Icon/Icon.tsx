@@ -1,9 +1,10 @@
 import { SVGProps } from "react";
 
 import "./icon.css";
+import IconName from "./IconName";
 
 type IconProps = SVGProps<SVGSVGElement> & {
-  name: string;
+  name: IconName;
   size?: number;
 };
 

@@ -69,7 +69,7 @@
         "description": "Complete the LASO playlist for every Halo game"
       },
       {
-        "name": "The Good, The Bad and The Dead",
+        "name": "The Good, The Bad, and The Dead",
         "score": 10,
         "description": "Collect 9,000 campaign or playlist medals"
       },
@@ -89,7 +89,7 @@
         "description": "Win 150 multiplayer games"
       },
       {
-        "name": "Battle-Hardened",
+        "name": "Battle Hardened",
         "score": 10,
         "description": "Win 250 multiplayer games"
       },
@@ -129,7 +129,7 @@
         "description": "Win 450 multiplayer games"
       },
       {
-        "name": "Long-Time Fan",
+        "name": "Long Time Fan",
         "score": 10,
         "description": "Complete 450 missions or multiplayer games"
       },
@@ -149,7 +149,7 @@
         "description": "Kill 250 Hunters"
       },
       {
-        "name": "Remove the Bishops from the Board",
+        "name": "Remove the Bishops From the Board",
         "score": 10,
         "description": "Kill 1000 Watchers"
       },
