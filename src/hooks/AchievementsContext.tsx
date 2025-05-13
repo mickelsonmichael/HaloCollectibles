@@ -8,10 +8,12 @@ import {
   createContext,
   ReactNode,
   useEffect,
+  useMemo,
 } from "react";
 import Game from "@/models/Game";
 import useCache from "@/hooks/useCached";
 import type UserAchievement from "@/models/UserAchievement";
+import { useCookies } from "react-cookie";
 
 interface CollectionState {
   name: string;
@@ -28,7 +30,6 @@ type AchievementsContextState = FiltersState & {
   unfilteredAchievements: Achievement[];
   achievements: Achievement[];
   search: string;
-  user: string;
   userAchievements: UserAchievement[];
   lockedOnly: boolean;
   setSearch: (search: string) => unknown;
@@ -46,7 +47,6 @@ type AchievementsContextState = FiltersState & {
 const AchievementsContext = createContext<AchievementsContextState>({
   achievements: Achievements as Achievement[],
   unfilteredAchievements: Achievements as Achievement[],
-  user: "",
   userAchievements: [],
   collections: [],
   games: Object.values(Game),
@@ -74,10 +74,11 @@ const getUniqueCollections = (
   }));
 
 const AchievementsProvider = ({ children }: { children: ReactNode }) => {
+  const [cookies] = useCookies(["STEAM_USER_ID"]);
+  const isLoggedIn = useMemo(() => cookies.STEAM_USER_ID != null, [cookies]);
   const allAchievements = Achievements as Achievement[];
   const [getCached, setCached] = useCache<FiltersState>("ACHIEVEMENT_FILTERS");
 
-  const [user] = useState("RENSON");
   const [userAchievements, setUserAchievements] = useState<UserAchievement[]>(
     []
   );
@@ -91,7 +92,7 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
   );
 
   useEffect(() => {
-    if (user == null || user == "") {
+    if (!isLoggedIn) {
       setUserAchievements([]);
       return;
     }
@@ -101,7 +102,7 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
       .then((data) => {
         setUserAchievements(data.achievements);
       });
-  }, [user]);
+  }, [isLoggedIn]);
 
   const toggleLockedOnly = () =>
     setFilters((f) => ({ ...f, lockedOnly: !f.lockedOnly }));
@@ -182,8 +183,9 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     .filter(
       (a) =>
         !filters.lockedOnly ||
-        userAchievements.find((b) => b.name.toLowerCase() === a.name.toLowerCase())?.unlockedTimestamp ==
-          null
+        userAchievements.find(
+          (b) => b.name.toLowerCase() === a.name.toLowerCase()
+        )?.unlockedTimestamp == null
     ) // Remove unlocked achievements
     .filter((a) =>
       JSON.stringify(a).toLowerCase().includes(search.toLowerCase())
@@ -194,7 +196,6 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     achievements: filteredAchievements,
     unfilteredAchievements: allAchievements,
     search,
-    user,
     userAchievements,
     setSearch,
     toggleGame,
