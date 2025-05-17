@@ -48,6 +48,7 @@ const Navigation = () => {
         <ul className="flex gap-1 flex-col md:flex-row">
           <NavLink icon="award" to="/achievements">Achievements</NavLink>
           <NavLink icon="dribbble" to="/skulls">Skulls</NavLink>
+          <NavLink icon="monitor" to="/terminals">Terminals</NavLink>
         </ul>
         <ul className="flex flex-col gap-1 md:flex-row md:ml-auto">
           <LoginButton />
