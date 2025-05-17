@@ -8,12 +8,19 @@ import {
   createContext,
   ReactNode,
   useEffect,
+<<<<<<< HEAD
   useMemo,
 } from "react";
 import Game from "@/models/Game";
 import useCache from "@/hooks/useCached";
 import type UserAchievement from "@/models/UserAchievement";
 import { useCookies } from "react-cookie";
+=======
+} from "react";
+import Game from "@/models/Game";
+import type UserAchievement from "@/models/UserAchievement";
+import { useLogin } from "@/hooks/LoginContext";
+>>>>>>> feature/nextjs
 
 interface CollectionState {
   name: string;
@@ -74,15 +81,14 @@ const getUniqueCollections = (
   }));
 
 const AchievementsProvider = ({ children }: { children: ReactNode }) => {
-  const [cookies] = useCookies(["STEAM_USER_ID"]);
-  const isLoggedIn = useMemo(() => cookies.STEAM_USER_ID != null, [cookies]);
+  const { isLoggedIn } = useLogin();
   const allAchievements = Achievements as Achievement[];
-  const [getCached, setCached] = useCache<FiltersState>("ACHIEVEMENT_FILTERS");
 
   const [userAchievements, setUserAchievements] = useState<UserAchievement[]>(
     []
   );
   const [search, setSearch] = useState("");
+<<<<<<< HEAD
   const [filters, setFilters] = useState(
     getCached() ?? {
       games: Object.values(Game),
@@ -90,6 +96,25 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
       lockedOnly: true,
     }
   );
+=======
+  const [filters, setFilters] = useState({
+    games: Object.values(Game),
+    collections: [] as CollectionState[],
+    lockedOnly: true,
+  });
+
+  useEffect(() => {
+    const cachedValue = localStorage.getItem("ACHIEVEMENT_FILTERS");
+
+    if (cachedValue) {
+      setFilters(JSON.parse(cachedValue));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("ACHIEVEMENT_FILTERS", JSON.stringify(filters));
+  }, [filters]);
+>>>>>>> feature/nextjs
 
   useEffect(() => {
     if (!isLoggedIn) {
@@ -209,10 +234,13 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     toggleLockedOnly,
   };
 
+<<<<<<< HEAD
   useEffect(() => {
     setCached(filters);
   }, [filters, setCached]);
 
+=======
+>>>>>>> feature/nextjs
   return (
     <AchievementsContext.Provider value={value}>
       {children}

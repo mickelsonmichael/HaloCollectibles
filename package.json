@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/openid": "^2.0.5",
     "feather-icons": "^4.29.2",
+    "js-cookie": "^3.0.5",
     "next": "15.3.1",
     "openid": "^2.0.13",
     "react": "^19.0.0",
-    "react-cookie": "^8.0.1",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {

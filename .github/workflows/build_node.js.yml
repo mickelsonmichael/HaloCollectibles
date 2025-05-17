@@ -1,9 +1,9 @@
 
-name: Build Node.js
+name: Build
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ master, main ]
 
 jobs:
   build:
@@ -12,11 +12,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Use Node.js
       uses: actions/setup-node@v4
     - name: Build 
       run: |
-        cd ./halo-collectibles
         npm ci
-        npm run build --if-present
+        npm run build

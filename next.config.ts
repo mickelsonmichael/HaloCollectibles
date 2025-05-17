@@ -3,6 +3,7 @@ import CopyPlugin from "copy-webpack-plugin";
 import path from "path";
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   webpack: (config) => {
     config.plugins.push(
       new CopyPlugin({
