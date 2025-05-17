@@ -62,7 +62,7 @@ export const GET = async () => {
 
     const success = await waitFor(() => response != null);
 
-    if (!success) {
+    if (!success || response == null) {
         return NextResponse.json({ message: "OpenID authorization failed. Timeout exceeded" }, { status: 500 });
     }
 

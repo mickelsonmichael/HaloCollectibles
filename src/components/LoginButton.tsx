@@ -1,25 +1,21 @@
 "use client";
 
-import { useCookies } from "react-cookie";
 import Image from "next/image";
 
 import Modal from "@/components/Modal";
 import useToggle from "@/hooks/useToggle";
 import Link from "next/link";
+import { useLogin } from "@/hooks/LoginContext";
 
 const LoginButton = () => {
-  const [cookies, , removeCookie] = useCookies(["STEAM_USER_ID"]);
-  const isLoggedIn = cookies.STEAM_USER_ID != null;
+  const { isLoggedIn, logout } = useLogin();
   const { isOn: isLoginOpen, toggle: toggleLogin } = useToggle(false);
 
   return (
     <>
       <li className="px-3">
         {isLoggedIn ? (
-          <button
-            className="cursor-pointer"
-            onClick={() => removeCookie("STEAM_USER_ID")}
-          >
+          <button className="cursor-pointer" onClick={logout}>
             Logout
           </button>
         ) : (
@@ -30,9 +26,11 @@ const LoginButton = () => {
         <Modal isOpen={isLoginOpen} onToggle={toggleLogin} title="Login">
           <div className="flex flex-col">
             <p className="text-sm text-white/60">
-              You can login using your SteamID to filter out completed achievements.
+              You can login using your SteamID to filter out completed
+              achievements.
               <br />
-              Or you can click the &quot;Sign in through Steam&quot; button below to login.
+              Or you can click the &quot;Sign in through Steam&quot; button
+              below to login.
             </p>
             <form
               action="/api/auth"

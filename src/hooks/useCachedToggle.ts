@@ -1,17 +1,24 @@
+"use client";
+
 import { useEffect } from "react";
-import useCache from "./useCached"
-import useToggle from "./useToggle";
+import useToggle from "@/hooks/useToggle";
 
 const useCachedToggle = (name: string, defaultState = false) => {
-    const [get, set] = useCache<boolean>(name);
-
-    const { isOn, ...rest } = useToggle(get() ?? defaultState);
+    const { isOn, setIsOn, ...rest } = useToggle(defaultState);
 
     useEffect(() => {
-        set(isOn);
-    }, [isOn, set]);
+        const cachedValue = localStorage.getItem(name);
 
-    return { isOn, ...rest };
+        if (cachedValue) {
+            setIsOn(JSON.parse(cachedValue));
+        }
+    }, [name, setIsOn])
+
+    useEffect(() => {
+        localStorage.setItem(name, JSON.stringify(isOn));
+    }, [name, isOn]);
+
+    return { isOn, setIsOn, ...rest };
 }
 
 export default useCachedToggle;

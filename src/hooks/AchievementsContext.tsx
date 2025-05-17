@@ -8,12 +8,10 @@ import {
   createContext,
   ReactNode,
   useEffect,
-  useMemo,
 } from "react";
 import Game from "@/models/Game";
-import useCache from "@/hooks/useCached";
 import type UserAchievement from "@/models/UserAchievement";
-import { useCookies } from "react-cookie";
+import { useLogin } from "@/hooks/LoginContext";
 
 interface CollectionState {
   name: string;
@@ -74,22 +72,30 @@ const getUniqueCollections = (
   }));
 
 const AchievementsProvider = ({ children }: { children: ReactNode }) => {
-  const [cookies] = useCookies(["STEAM_USER_ID"]);
-  const isLoggedIn = useMemo(() => cookies.STEAM_USER_ID != null, [cookies]);
+  const { isLoggedIn } = useLogin();
   const allAchievements = Achievements as Achievement[];
-  const [getCached, setCached] = useCache<FiltersState>("ACHIEVEMENT_FILTERS");
 
   const [userAchievements, setUserAchievements] = useState<UserAchievement[]>(
     []
   );
   const [search, setSearch] = useState("");
-  const [filters, setFilters] = useState(
-    getCached() ?? {
-      games: Object.values(Game),
-      collections: [] as CollectionState[],
-      lockedOnly: true,
+  const [filters, setFilters] = useState({
+    games: Object.values(Game),
+    collections: [] as CollectionState[],
+    lockedOnly: true,
+  });
+
+  useEffect(() => {
+    const cachedValue = localStorage.getItem("ACHIEVEMENT_FILTERS");
+
+    if (cachedValue) {
+      setFilters(JSON.parse(cachedValue));
     }
-  );
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("ACHIEVEMENT_FILTERS", JSON.stringify(filters));
+  }, [filters]);
 
   useEffect(() => {
     if (!isLoggedIn) {
@@ -208,10 +214,6 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     focusCollection,
     toggleLockedOnly,
   };
-
-  useEffect(() => {
-    setCached(filters);
-  }, [filters, setCached]);
 
   return (
     <AchievementsContext.Provider value={value}>
