@@ -72,12 +72,9 @@ const getUniqueCollections = (
   }));
 
 const AchievementsProvider = ({ children }: { children: ReactNode }) => {
-  const { isLoggedIn } = useLogin();
+  const { achievements: userAchievements } = useLogin();
   const allAchievements = Achievements as Achievement[];
 
-  const [userAchievements, setUserAchievements] = useState<UserAchievement[]>(
-    []
-  );
   const [search, setSearch] = useState("");
   const [filters, setFilters] = useState({
     games: Object.values(Game),
@@ -96,19 +93,6 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     localStorage.setItem("ACHIEVEMENT_FILTERS", JSON.stringify(filters));
   }, [filters]);
-
-  useEffect(() => {
-    if (!isLoggedIn) {
-      setUserAchievements([]);
-      return;
-    }
-
-    fetch("/api/achievements")
-      .then((res) => res.json())
-      .then((data) => {
-        setUserAchievements(data.achievements);
-      });
-  }, [isLoggedIn]);
 
   const toggleLockedOnly = () =>
     setFilters((f) => ({ ...f, lockedOnly: !f.lockedOnly }));
