@@ -1,4 +1,4 @@
-import { useAchievements } from "@/hooks/AchievementsContext";
+import { useAchievements } from "@/components/achievements/AchievementsContext";
 import Game from "@/models/Game";
 import ToggleButton from "../ToggleButton";
 

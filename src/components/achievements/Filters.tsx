@@ -1,7 +1,7 @@
-import { useAchievements } from "@/hooks/AchievementsContext";
-import CollectionCheckboxes from "@/components/filters/CollectionCheckboxes";
+import { useAchievements } from "@/components/achievements/AchievementsContext";
+import CollectionCheckboxes from "@/components/achievements/CollectionCheckboxes";
 import Icon from "@/components/Icon";
-import GameCheckboxes from "@/components/filters/GameCheckboxes";
+import GameCheckboxes from "@/components/achievements/GameCheckboxes";
 import useCachedToggle from "@/hooks/useCachedToggle";
 
 const Filters = () => {

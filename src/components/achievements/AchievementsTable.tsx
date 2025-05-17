@@ -1,4 +1,4 @@
-import { useAchievements } from "@/hooks/AchievementsContext";
+import { useAchievements } from "@/components/achievements/AchievementsContext";
 
 const AchievementsTable = () => {
   const { achievements } = useAchievements();
