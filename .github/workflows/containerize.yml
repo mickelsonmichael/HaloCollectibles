@@ -4,15 +4,18 @@ on:
   push:
     branches: [master, main]
 
+env:
+  IMAGE_NAME: ghcr.io/$${{ github.repository_owner }}/halo-collectibles:latest
+
 jobs:
-  build:
+  containerize:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build image
-        run: docker build . --tag halo-collectibles:latest --label "runnumber=${GITHUB_RUN_ID}"
+        run: docker build . --tag ${IMAGE_NAME} --label "runnumber=${GITHUB_RUN_ID}"
       - name: Login to the GHCR
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       - name: Push image
-        run: docker push halo-collectibles:latest
+        run: docker push ${IMAGE_NAME}
