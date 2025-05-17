@@ -2,7 +2,7 @@
 
 import { createContext, ReactNode, useContext, useState } from "react";
 
-import Terminals from "@data/Terminals.json";
+import Terminals from "@data/terminals.json";
 import Terminal from "@/models/Terminal";
 import { useLogin } from "@/hooks/LoginContext";
 import UserAchievement from "@/models/UserAchievement";
