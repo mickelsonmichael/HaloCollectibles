@@ -9,10 +9,10 @@ const getTestUrl = (steamId: string) =>
         &steamid=${steamId}
         &l=en-US`.replaceAll(/\s/g, "");
 
+const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000";
+
 export const POST = async (request: NextRequest) => {
-    const sourceUrl = new URL(request.url);
-    const hostUrl = `${sourceUrl.protocol}//${sourceUrl.host}`
-    const errorUrl = `${hostUrl}/error`;
+    const errorUrl = `${PUBLIC_URL}/error`;
 
     const form = await request.formData();
     const steamId = form.get("steamId")?.toString().trim();
@@ -33,7 +33,7 @@ export const POST = async (request: NextRequest) => {
         return NextResponse.redirect(`${errorUrl}?message=You entered an invalid SteamID or your steam profile is private. Please double-check and try again`);
     }
 
-    const redirectUrl = `${hostUrl}/achievements`;
+    const redirectUrl = `${PUBLIC_URL}/achievements`;
 
     const response = NextResponse.redirect(redirectUrl);
 

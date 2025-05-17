@@ -1,7 +1,9 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
-export const GET = async (request: NextRequest) => {
-    const redirectUrl = new URL(request.url).host + "/achievements";
+const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000"
+
+export const GET = async () => {
+    const redirectUrl = `${PUBLIC_URL}/achievements`;
 
     const response = NextResponse.redirect(redirectUrl);
 

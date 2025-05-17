@@ -2,6 +2,7 @@ import { authClient } from "@/utilities/auth";
 import { waitFor } from "@/utilities/delay";
 import { NextRequest, NextResponse } from "next/server";
 
+const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000"
 
 export const GET = async (request: NextRequest) => {
     let response: NextResponse | null = null;
@@ -34,11 +35,9 @@ export const GET = async (request: NextRequest) => {
 
         console.debug("User authenticated: ", steamId);
 
-        const redirectUrl = new URL(request.url).host + "/achievements";
+        const redirectUrl = `${PUBLIC_URL}/achievements`;
 
-        console.log(redirectUrl);
-
-        response = NextResponse.redirect("http://localhost:3000" + "/achievements");
+        response = NextResponse.redirect(redirectUrl);
 
         response.cookies.set("STEAM_USER_ID", steamId, {
             secure: process.env.NODE_ENV === "production",
