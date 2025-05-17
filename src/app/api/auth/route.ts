@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
+
 import { authClient, steamOpenIdProvider } from "@/utilities/auth";
 import { waitFor } from "@/utilities/delay";
+import { PUBLIC_URL } from "@/utilities/variables";
 
 const getTestUrl = (steamId: string) =>
     `http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/
@@ -8,8 +10,6 @@ const getTestUrl = (steamId: string) =>
         &key=${process.env.STEAM_API_KEY}
         &steamid=${steamId}
         &l=en-US`.replaceAll(/\s/g, "");
-
-const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000";
 
 export const POST = async (request: NextRequest) => {
     const errorUrl = `${PUBLIC_URL}/error`;
@@ -51,7 +51,10 @@ export const GET = async () => {
 
     authClient.authenticate(steamOpenIdProvider, false, (error, authUrl) => {
         if (error || !authUrl) {
+            console.warn(`User was unable to authenticate: ${error}`);
+
             response = NextResponse.json({ message: "OpenID authorization failed" }, { status: 500 });
+
             return;
         }
 
@@ -63,6 +66,8 @@ export const GET = async () => {
     const success = await waitFor(() => response != null);
 
     if (!success || response == null) {
+        console.warn("Authentication request timed out for user");
+
         return NextResponse.json({ message: "OpenID authorization failed. Timeout exceeded" }, { status: 500 });
     }
 

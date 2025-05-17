@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000"
+import { PUBLIC_URL } from "@/utilities/variables";
 
 export const GET = async () => {
     const redirectUrl = `${PUBLIC_URL}/achievements`;

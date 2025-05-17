@@ -1,8 +1,8 @@
-import { authClient } from "@/utilities/auth";
-import { waitFor } from "@/utilities/delay";
 import { NextRequest, NextResponse } from "next/server";
 
-const PUBLIC_URL = process.env.PUBLIC_URL ?? "http://localhost:3000"
+import { authClient } from "@/utilities/auth";
+import { waitFor } from "@/utilities/delay";
+import { PUBLIC_URL } from "@/utilities/variables";
 
 export const GET = async (request: NextRequest) => {
     let response: NextResponse | null = null;
