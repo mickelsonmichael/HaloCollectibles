@@ -2,7 +2,7 @@
 
 import { createContext, ReactNode, useContext, useState } from "react";
 
-import DataPads from "@data/DataPads.json";
+import DataPads from "@data/datapads.json";
 import DataPad from "@/models/DataPad";
 import { useLogin } from "@/hooks/LoginContext";
 import UserAchievement from "@/models/UserAchievement";
