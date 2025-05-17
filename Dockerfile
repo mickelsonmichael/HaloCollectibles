@@ -1,6 +1,6 @@
-FROM node:20-slim as base
+FROM node:20-slim AS base
 
-FROM base as dependencies
+FROM base AS dependencies
 
 WORKDIR /app
 
