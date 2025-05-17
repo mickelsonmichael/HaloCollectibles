@@ -6,6 +6,7 @@ import Modal from "@/components/Modal";
 import useToggle from "@/hooks/useToggle";
 import Link from "next/link";
 import { useLogin } from "@/hooks/LoginContext";
+import Icon from "./Icon";
 
 const LoginButton = () => {
   const { isLoggedIn, logout } = useLogin();
@@ -16,10 +17,12 @@ const LoginButton = () => {
       <li className="px-3">
         {isLoggedIn ? (
           <button className="cursor-pointer" onClick={logout}>
+            <Icon name="log-out" className="mr-2" />
             Logout
           </button>
         ) : (
           <button className="cursor-pointer" onClick={toggleLogin}>
+            <Icon name="log-in" className="mr-2" />
             Login
           </button>
         )}

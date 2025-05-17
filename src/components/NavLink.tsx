@@ -1,6 +1,9 @@
-import { LiHTMLAttributes, ReactNode } from "react";
+"use client";
+
+import { LiHTMLAttributes, ReactNode, useMemo } from "react";
 import Link from "next/link";
 import Icon, { IconName } from "@/components/Icon";
+import { usePathname } from "next/navigation";
 
 type NavLinkProps = {
   to: string;
@@ -16,15 +19,25 @@ const NavLink = ({
   icon = undefined,
   newWindow = false,
   ...props
-}: NavLinkProps) => (
-  <li {...props} className={className ?? "flex items-center px-3"}>
-    <Link href={to} target={newWindow ? "_blank" : undefined}>
-      {icon && (
-        <Icon name={icon} className="mr-2" />
-      )}
-      {children}
-    </Link>
-  </li>
-);
+}: NavLinkProps) => {
+  const pathName = usePathname();
+  const isActive = useMemo(() => pathName.startsWith(to), [pathName, to]);
+
+  const calculatedClassName = className ?? `
+    flex
+    items-center
+    px-3
+    ${isActive ? "bg-slate-400/20 rounded-sm" : ""}
+  `
+
+  return (
+    <li {...props} className={calculatedClassName}>
+      <Link href={to} target={newWindow ? "_blank" : undefined}>
+        {icon && <Icon name={icon} className="mr-2" />}
+        {children}
+      </Link>
+    </li>
+  );
+};
 
 export default NavLink;
