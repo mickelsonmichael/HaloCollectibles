@@ -66,7 +66,7 @@ const Navigation = () => {
             <LoginButton />
 
             <NavLink
-              to="https://github.com/mickelsonmichael/HaloCollectibles"
+              to="https://github.com/mickelsonmichael/halo-collectibles"
               title="GitHub"
               newWindow
             >
