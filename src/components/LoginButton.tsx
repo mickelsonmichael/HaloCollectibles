@@ -8,7 +8,7 @@ import Icon from "./Icon";
 
 const LoginButton = () => {
   const { isLoggedIn, logout } = useLogin();
-  const { isOn: isLoginOpen, toggle: toggleLogin } = useToggle(true);
+  const { isOn: isLoginOpen, toggle: toggleLogin } = useToggle(false);
 
   return (
     <>
