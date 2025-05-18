@@ -84,7 +84,7 @@ const LoginButton = () => {
                 className="flex flex-row items-center bg-slate-950 rounded-sm py-2 px-2 justify-center"
               >
                 <Icon name="steam" className="mr-2" size={2} />
-                Sign in with Xbox
+                Sign in with Steam
               </Link>
             </div>
           </div>
