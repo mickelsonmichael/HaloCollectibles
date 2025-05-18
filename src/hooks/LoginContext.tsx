@@ -21,17 +21,24 @@ interface LoginProviderProps {
   children: ReactNode;
 }
 
-const COOKIE_NAME = "STEAM_USER_ID";
+const STEAM_COOKIE_NAME = "STEAM_USER_ID";
+const XBOX_COOKIE_NAME = "XUID";
 
 const LoginProvider = ({ children }: LoginProviderProps) => {
   const [steamId, setSteamId] = useState<string | null>(null);
+  const [xuid, setXuid] = useState<string | null>(null);
   const [achievements, setAchievements] = useState<UserAchievement[]>([]);
-  const isLoggedIn = useMemo(() => steamId != null, [steamId]);
+  const isLoggedIn = useMemo(
+    () => steamId != null || xuid != null,
+    [steamId, xuid]
+  );
 
   useEffect(() => {
-    const storedValue = Cookies.get(COOKIE_NAME);
+    const storedSteamId = Cookies.get(STEAM_COOKIE_NAME);
+    const storedXuid = Cookies.get(XBOX_COOKIE_NAME);
 
-    setSteamId(storedValue ?? null);
+    setSteamId(storedSteamId ?? null);
+    setXuid(storedXuid ?? null);
   }, []);
 
   useEffect(() => {
@@ -48,8 +55,10 @@ const LoginProvider = ({ children }: LoginProviderProps) => {
   }, [isLoggedIn]);
 
   const logout = () => {
-    Cookies.remove(COOKIE_NAME);
+    Cookies.remove(STEAM_COOKIE_NAME);
+    Cookies.remove(XBOX_COOKIE_NAME);
     setSteamId(null);
+    setXuid(null);
   };
 
   return (

@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 import Modal from "@/components/Modal";
 import useToggle from "@/hooks/useToggle";
 import Link from "next/link";
@@ -10,7 +8,7 @@ import Icon from "./Icon";
 
 const LoginButton = () => {
   const { isLoggedIn, logout } = useLogin();
-  const { isOn: isLoginOpen, toggle: toggleLogin } = useToggle(false);
+  const { isOn: isLoginOpen, toggle: toggleLogin } = useToggle(true);
 
   return (
     <>
@@ -73,14 +71,20 @@ const LoginButton = () => {
               </a>
             </form>
 
-            <div className="flex justify-center border-t-1 pt-4 mt-2">
-              <Link href="api/auth">
-                <Image
-                  src="/img/steam-sign-in.png"
-                  alt="Sign in through STEAM"
-                  width={180}
-                  height={35}
-                />
+            <div className="grid grid-cols-1 gap-2 border-t-1 pt-4 mt-2 md:grid-cols-2">
+              <Link
+                href="api/auth/xbox"
+                className="flex flex-row items-center bg-green-800 rounded-sm py-2 px-2 justify-center"
+              >
+                <Icon name="xbox" className="mr-2" size={2} />
+                Sign in with Xbox
+              </Link>
+              <Link
+                href="api/auth"
+                className="flex flex-row items-center bg-slate-950 rounded-sm py-2 px-2 justify-center"
+              >
+                <Icon name="steam" className="mr-2" size={2} />
+                Sign in with Xbox
               </Link>
             </div>
           </div>
