@@ -4,7 +4,7 @@ import type { SteamAchievement } from "@/models/SteamAchievementsResponse";
 import type UserAchievement from "@/models/UserAchievement";
 import type SteamAchievementsResponse from "@/models/SteamAchievementsResponse";
 import XboxAchievementsResponse from "@/models/XboxAchievementsResponse";
-import XboxAchievement from "@/models/XboxAchievement";
+import XboxAchievement, { getAchievementProgress } from "@/models/XboxAchievement";
 
 const HALO_TITLE_ID = "1144039928";
 
@@ -14,7 +14,8 @@ type GetAchievementsResponse = {
 
 const toUserAchievement = (achievement: SteamAchievement): UserAchievement => ({
     name: achievement.name ?? achievement.apiname,
-    unlockedTimestamp: achievement.unlocktime !== 0 ? achievement.unlocktime : null
+    unlockedTimestamp: achievement.unlocktime !== 0 ? achievement.unlocktime : null,
+    progress: null
 });
 
 const fromXboxAchievement = (achievement: XboxAchievement): UserAchievement => {
@@ -22,9 +23,16 @@ const fromXboxAchievement = (achievement: XboxAchievement): UserAchievement => {
         ? new Date(achievement.progression.timeUnlocked).getTime()
         : null;
 
+    const achievementProgress = getAchievementProgress(achievement);
+
+    const progressValue = typeof achievementProgress === "boolean"
+        ? achievementProgress
+        : { target: achievementProgress[1], current: achievementProgress[0] }
+
     return ({
         name: achievement.name,
-        unlockedTimestamp: unlockedDate
+        unlockedTimestamp: unlockedDate,
+        progress: progressValue
     });
 };
 

@@ -23,3 +23,8 @@ body {
   -moz-user-drag: none;
   -o-user-drag: none;
 }
+
+.col-sm {
+  width: "0.1%";
+  white-space: nowrap;
+}

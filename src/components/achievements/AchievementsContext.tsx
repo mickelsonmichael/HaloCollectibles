@@ -12,6 +12,7 @@ import {
 import Game from "@/models/Game";
 import type UserAchievement from "@/models/UserAchievement";
 import { useLogin } from "@/hooks/LoginContext";
+import AchievementWithProgress from "@/models/AchievementWithProgress";
 
 interface CollectionState {
   name: string;
@@ -26,7 +27,7 @@ interface FiltersState {
 
 type AchievementsContextState = FiltersState & {
   unfilteredAchievements: Achievement[];
-  achievements: Achievement[];
+  achievements: AchievementWithProgress[];
   search: string;
   userAchievements: UserAchievement[];
   lockedOnly: boolean;
@@ -43,7 +44,7 @@ type AchievementsContextState = FiltersState & {
 };
 
 const AchievementsContext = createContext<AchievementsContextState>({
-  achievements: Achievements as Achievement[],
+  achievements: Achievements as AchievementWithProgress[],
   unfilteredAchievements: Achievements as Achievement[],
   userAchievements: [],
   collections: [],
@@ -179,7 +180,14 @@ const AchievementsProvider = ({ children }: { children: ReactNode }) => {
     ) // Remove unlocked achievements
     .filter((a) =>
       JSON.stringify(a).toLowerCase().includes(search.toLowerCase())
-    ); // Filter by search string
+    ) // Filter by search string
+    .map((a) => ({
+      ...a,
+      progress:
+        userAchievements.find(
+          (b) => b.name.toLowerCase() === a.name.toLowerCase()
+        )?.progress ?? null,
+    }));
 
   const value = {
     ...filters,

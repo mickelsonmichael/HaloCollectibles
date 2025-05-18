@@ -12,7 +12,9 @@ import Cookies from "js-cookie";
 import UserAchievement from "@/models/UserAchievement";
 
 const LoginContext = createContext({
+  isLoading: false,
   isLoggedIn: false,
+  isLoggedInWithXbox: false,
   achievements: [] as UserAchievement[],
   logout: () => {},
 });
@@ -28,9 +30,13 @@ const LoginProvider = ({ children }: LoginProviderProps) => {
   const [steamId, setSteamId] = useState<string | null>(null);
   const [xuid, setXuid] = useState<string | null>(null);
   const [achievements, setAchievements] = useState<UserAchievement[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const isLoggedInWithXbox = useMemo(() => xuid != null, [xuid]);
+
   const isLoggedIn = useMemo(
-    () => steamId != null || xuid != null,
-    [steamId, xuid]
+    () => steamId != null || isLoggedInWithXbox,
+    [steamId, isLoggedInWithXbox]
   );
 
   useEffect(() => {
@@ -47,10 +53,12 @@ const LoginProvider = ({ children }: LoginProviderProps) => {
       return;
     }
 
+    setIsLoading(true);
     fetch("/api/achievements")
       .then((res) => res.json())
       .then((data) => {
         setAchievements(data.achievements);
+        setIsLoading(false);
       });
   }, [isLoggedIn]);
 
@@ -62,7 +70,7 @@ const LoginProvider = ({ children }: LoginProviderProps) => {
   };
 
   return (
-    <LoginContext.Provider value={{ isLoggedIn, logout, achievements }}>
+    <LoginContext.Provider value={{ isLoggedIn, isLoggedInWithXbox, isLoading, logout, achievements }}>
       {children}
     </LoginContext.Provider>
   );
