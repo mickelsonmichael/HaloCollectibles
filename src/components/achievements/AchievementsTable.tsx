@@ -25,16 +25,16 @@ const AchievementsTable = () => {
           >
             <td className="col-sm">{achievement.name}</td>
             <td className="w-100">{achievement.description}</td>
-            {isLoggedInWithXbox &&
-            achievement.progress != null &&
-            typeof achievement.progress !== "boolean" &&
-            achievement.progress.target > 1 ? (
-              <td className="w-100">
-                <ProgressBar {...achievement.progress} />
-              </td>
-            ) : (
-              <td />
-            )}
+            {
+              isLoggedInWithXbox &&
+                achievement.progress != null &&
+                typeof achievement.progress !== "boolean" &&
+                achievement.progress.target > 1 ? (
+                  <td className="w-100">
+                    <ProgressBar {...achievement.progress} />
+                  </td>
+                ) : null
+            }
             <td className="col-sm">{achievement.game}</td>
             <td className="col-sm">{achievement.collection}</td>
           </tr>
