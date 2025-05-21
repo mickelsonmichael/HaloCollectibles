@@ -23,7 +23,7 @@ const TerminalsTableRow = ({ terminal }: { terminal: Terminal }) => {
         <td>{terminal.level}</td>
         <td className="text-right">
           <button onClick={toggle} className="cursor-pointer underline">
-            View
+            { isOpen ? "Hide": "View" }
           </button>
         </td>
       </tr>

@@ -23,7 +23,7 @@ const DataPadsTableRow = ({ dataPad }: { dataPad: DataPad }) => {
         <td>{dataPad.level}</td>
         <td className="text-right">
           <button onClick={toggle} className="cursor-pointer underline">
-            View
+            { isOpen ? "Hide": "View" }
           </button>
         </td>
       </tr>

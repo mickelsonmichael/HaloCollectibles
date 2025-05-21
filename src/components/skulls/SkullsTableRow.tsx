@@ -23,7 +23,7 @@ const SkullsTableRow = ({ skull }: { skull: Skull }) => {
         <td>{skull.difficulty}</td>
         <td className="text-right">
           <button onClick={toggle} className="cursor-pointer underline">
-            View
+            { isOpen ? "Hide": "View" }
           </button>
         </td>
       </tr>
