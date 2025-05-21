@@ -3,12 +3,14 @@ import CollectionCheckboxes from "@/components/achievements/CollectionCheckboxes
 import Icon from "@/components/Icon";
 import GameCheckboxes from "@/components/achievements/GameCheckboxes";
 import useCachedToggle from "@/hooks/useCachedToggle";
+import { useLogin } from "@/hooks/LoginContext";
 
 const Filters = () => {
   const { isOn: showFilters, toggle: toggleFilters } =
     useCachedToggle("FILTERS_ON");
   const { achievements, collections, lockedOnly, toggleLockedOnly } =
     useAchievements();
+  const { isLoggedIn } = useLogin();
 
   return (
     <>
@@ -17,21 +19,23 @@ const Filters = () => {
           {achievements.length} total achievement(s)
         </div>
         <div className="flex gap-1">
-          <div className="mr-auto md:mx-3">
-            <label
-              htmlFor="lockedOnlyToggle"
-              className="cursor-pointer select-none"
-            >
-              <input
-                type="checkbox"
-                id="lockedOnlyToggle"
-                onChange={toggleLockedOnly}
-                checked={!lockedOnly}
-                className="mr-1"
-              />
-              Show unlocked
-            </label>
-          </div>
+          {isLoggedIn && (
+            <div className="mr-auto md:mx-3">
+              <label
+                htmlFor="lockedOnlyToggle"
+                className="cursor-pointer select-none"
+              >
+                <input
+                  type="checkbox"
+                  id="lockedOnlyToggle"
+                  onChange={toggleLockedOnly}
+                  checked={!lockedOnly}
+                  className="mr-1"
+                />
+                Show unlocked
+              </label>
+            </div>
+          )}
           <div
             className={`inline-flex flex-col align-middle p-1 cursor-pointer rounded-sm max-w-auto ${
               showFilters && "bg-white/10"
