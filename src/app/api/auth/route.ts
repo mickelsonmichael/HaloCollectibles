@@ -37,9 +37,14 @@ export const POST = async (request: NextRequest) => {
 
     const response = NextResponse.redirect(redirectUrl);
 
+    // Cookie expires in 3 months
+    const cookieExpiration = new Date();
+    cookieExpiration.setMonth(cookieExpiration.getMonth() + 3);
+
     response.cookies.set("STEAM_USER_ID", steamId, {
         secure: process.env.NODE_ENV === "production",
-        sameSite: true
+        sameSite: true,
+        expires: cookieExpiration
     });
 
     return response;

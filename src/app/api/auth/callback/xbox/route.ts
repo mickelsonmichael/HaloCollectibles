@@ -32,10 +32,18 @@ export const GET = async (request: NextRequest) => {
 
     const response = NextResponse.redirect(`${PUBLIC_URL}/achievements`);
 
-    response.cookies.set("XUID", xblResponseBody["xuid"]);
+    // Cookie expires in 3 months
+    const cookieExpiration = new Date();
+    cookieExpiration.setMonth(cookieExpiration.getMonth() + 3);
+
+    response.cookies.set("XUID", xblResponseBody["xuid"], {
+        expires: cookieExpiration
+    });
+    
     response.cookies.set("APP_KEY", xblResponseBody["app_key"], {
         sameSite: true,
-        httpOnly: true
+        httpOnly: true,
+        expires: cookieExpiration
     });
 
     return response;
