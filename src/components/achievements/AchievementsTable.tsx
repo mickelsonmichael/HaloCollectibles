@@ -1,6 +1,6 @@
 import { useAchievements } from "@/components/achievements/AchievementsContext";
 import { useLogin } from "@/hooks/LoginContext";
-import ProgressBar from "../ProgressBar";
+import AchievementsTableRow from "./AchievementsTableRow";
 
 const AchievementsTable = () => {
   const { achievements } = useAchievements();
@@ -19,25 +19,10 @@ const AchievementsTable = () => {
       </thead>
       <tbody>
         {achievements.map((achievement) => (
-          <tr
+          <AchievementsTableRow
             key={`${achievement.game}-${achievement.name}`}
-            className="flex flex-col md:table-row *:p-2 even:bg-blue-500/25"
-          >
-            <td className="col-sm">{achievement.name}</td>
-            <td className="w-100">{achievement.description}</td>
-            {
-              isLoggedInWithXbox &&
-                achievement.progress != null &&
-                typeof achievement.progress !== "boolean" &&
-                achievement.progress.target > 1 ? (
-                  <td className="w-100">
-                    <ProgressBar {...achievement.progress} />
-                  </td>
-                ) : null
-            }
-            <td className="col-sm">{achievement.game}</td>
-            <td className="col-sm">{achievement.collection}</td>
-          </tr>
+            achievement={achievement}
+          />
         ))}
       </tbody>
     </table>
