@@ -1,6 +1,7 @@
 import { useLogin } from "@/hooks/LoginContext";
 import AchievementWithProgress from "@/models/AchievementWithProgress";
 import ProgressBar from "../ProgressBar";
+import Icon from "../Icon";
 
 const AchievementsTableRow = ({
   achievement,
@@ -27,6 +28,11 @@ const AchievementsTableRow = ({
       {isLoggedInWithXbox && <AchievementProgress />}
       <td className="col-sm">{achievement.game}</td>
       <td className="col-sm">{achievement.collection}</td>
+      <td className="col-sm">
+        <a href={achievement.url} target="_blank">
+          <Icon name="file-text" aria-label="Guide" />
+        </a>
+      </td>
     </tr>
   );
 };

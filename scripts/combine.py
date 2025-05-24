@@ -1,3 +1,11 @@
+"""
+Utility script for converting the multiple achievement, terminal,
+skull, and data pad files into single files for each category.
+
+This should only need to be done once when converting from the
+legacy version of the site before it was changed to use Next.JS
+"""
+
 import os
 from pathlib import Path
 import json

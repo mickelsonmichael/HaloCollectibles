@@ -15,6 +15,7 @@ const AchievementsTable = () => {
           {isLoggedInWithXbox && <td>Progress</td>}
           <td>Game</td>
           <td>Collection</td>
+          <td />
         </tr>
       </thead>
       <tbody>
