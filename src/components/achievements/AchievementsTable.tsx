@@ -12,9 +12,9 @@ const AchievementsTable = () => {
         <tr className="flex flex-col md:table-row *:p-2 bg-blue-500/50 border-1">
           <td>Title</td>
           <td>Description</td>
-          {isLoggedInWithXbox && <td>Progress</td>}
           <td>Game</td>
           <td>Collection</td>
+          {isLoggedInWithXbox && <td>Progress</td>}
           <td />
         </tr>
       </thead>
