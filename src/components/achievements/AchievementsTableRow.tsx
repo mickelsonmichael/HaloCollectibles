@@ -14,7 +14,7 @@ const AchievementsTableRow = ({
     achievement.progress !== null &&
     typeof achievement.progress !== "boolean" &&
     achievement.progress.target > 1 ? (
-      <td className="w-100">
+      <td className="md:w-100">
         <ProgressBar {...achievement.progress} />
       </td>
     ) : (
@@ -24,7 +24,7 @@ const AchievementsTableRow = ({
   return (
     <tr className="flex flex-col md:table-row *:p-3 even:bg-blue-500/25">
       <td className="col-sm">{achievement.name}</td>
-      <td className="w-100">{achievement.description}</td>
+      <td className="md:w-100">{achievement.description}</td>
       <td className="col-sm">{achievement.game}</td>
       <td className="col-sm">{achievement.collection}</td>
       {isLoggedInWithXbox && <AchievementProgress />}
