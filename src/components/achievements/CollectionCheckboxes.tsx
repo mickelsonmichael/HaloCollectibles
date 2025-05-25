@@ -33,7 +33,8 @@ const CollectionCheckboxes = () => {
         <div
           onClick={enableAllCollections}
           className={
-            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center"
+            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
+            (collections.every((x) => x.enabled) ? "bg-blue-950" : "")
           }
         >
           All
@@ -41,7 +42,8 @@ const CollectionCheckboxes = () => {
         <div
           onClick={disableAllCollections}
           className={
-            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center"
+            "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
+            (collections.some((x) => x.enabled) ? "" : "bg-blue-950")
           }
         >
           None

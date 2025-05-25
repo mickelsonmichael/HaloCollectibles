@@ -30,7 +30,7 @@ const GameCheckboxes = () => {
           className={
             "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
             (games.length === Object.values(Game).length
-              ? "bg-blue-500/10"
+              ? "bg-blue-950"
               : "")
           }
         >
@@ -40,7 +40,7 @@ const GameCheckboxes = () => {
           onClick={disableAllGames}
           className={
             "cursor-pointer border-1 rounded-sm p-2 m-1 select-none text-center " +
-            (games.length === 0 ? "bg-blue-500/10" : "")
+            (games.length === 0 ? "bg-blue-950" : "")
           }
         >
           None

@@ -23,9 +23,8 @@ const labelClass = (enabled: boolean) => `
   select-none
   text-center
   flex-grow-1
-  group-hover:border-r-0
   group-hover:rounded-r-none
-  ${enabled ? "bg-blue-500/10" : ""}
+  ${enabled ? "bg-blue-950" : ""}
 `;
 
 const actionClass = `
@@ -40,7 +39,7 @@ ml-0
 select-none
 text-center
 border-l-0
-group-hover:bg-indigo-400/30
+group-hover:bg-indigo-900
 `;
 
 const ToggleButton = ({
